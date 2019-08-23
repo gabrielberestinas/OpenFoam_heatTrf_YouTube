@@ -24,6 +24,7 @@ gradSchemes
 {
     default         Gauss linear;
     grad(p)         Gauss linear;
+    grad(T)	    Gauss linear;
 }
 
 divSchemes
@@ -42,6 +43,7 @@ divSchemes
 laplacianSchemes
 {
     default         Gauss linear orthogonal;
+    laplacian(DT,T) Gauss linear corrected;
 }
 
 interpolationSchemes
@@ -51,7 +53,7 @@ interpolationSchemes
 
 snGradSchemes
 {
-    default         orthogonal;
+    default         corrected;
 }
 
 
