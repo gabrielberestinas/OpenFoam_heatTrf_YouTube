@@ -33,14 +33,24 @@ boundaryField
 
     hot
     {
-        type            fixedValue;
-        value           uniform 307.75; // 34.6 degC
+	type		uniformFixedValue;
+	uniformValue
+	{
+            type            csvFile;
+            nHeaderLine     1;
+            refColumn       0;
+            componentColumns ( 1 );
+            separator       ",";
+            mergeSeparators no;
+            file            "<constant>/temp_profile.csv";
+        }
+
     }
 
     cold
     {
         type            fixedValue;
-        value           uniform 288.15; // 15 degC
+        value           uniform 300.0; 
     }
 }
 
