@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : buoyantPimpleFoam
-Date   : Oct 15 2019
-Time   : 15:34:23
-Host   : DESKTOP-9S60IA4
-PID    : 2587
+Date   : Oct 20 2019
+Time   : 17:50:41
+Host   : LAPTOP-FK3MEHTI
+PID    : 1335
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/buoyantPimpleFoam_timevaryingBC/fine_timevaryingCavityFoam
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/buoyantPimpleFoam_timevaryingBC/fine_timevaryingCavityFoam
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -105,7 +105,7 @@ time step continuity errors : sum local = 2.19424e-05, global = 5.40231e-13, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0818665, Final residual = 9.65299e-08, No Iterations 263
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.78657e-05, global = 5.45105e-13, cumulative = 1.08534e-12
-ExecutionTime = 3.66 s  ClockTime = 8 s
+ExecutionTime = 1.6 s  ClockTime = 3 s
 
 Courant Number mean: 0.00418252 max: 1.24345
 deltaT = 0.0048429
@@ -119,7 +119,7 @@ time step continuity errors : sum local = 4.30068e-05, global = -3.15311e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.114355, Final residual = 9.33854e-08, No Iterations 280
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.74008e-05, global = -1.61876e-14, cumulative = 1.066e-12
-ExecutionTime = 6.26 s  ClockTime = 11 s
+ExecutionTime = 2.41 s  ClockTime = 4 s
 
 Courant Number mean: 0.00252792 max: 1.29479
 deltaT = 0.00186903
@@ -133,7 +133,7 @@ time step continuity errors : sum local = 1.50252e-05, global = 1.93785e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.698377, Final residual = 9.98606e-08, No Iterations 252
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.29926e-05, global = 1.04854e-14, cumulative = 1.09586e-12
-ExecutionTime = 8.24 s  ClockTime = 13 s
+ExecutionTime = 3.13 s  ClockTime = 5 s
 
 Courant Number mean: 0.000926882 max: 0.4563
 deltaT = 0.00204852
@@ -147,7 +147,7 @@ time step continuity errors : sum local = 1.21129e-05, global = 5.9899e-15, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.234915, Final residual = 9.70317e-08, No Iterations 246
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.00121e-05, global = -3.27967e-15, cumulative = 1.09857e-12
-ExecutionTime = 10.4 s  ClockTime = 15 s
+ExecutionTime = 3.83 s  ClockTime = 5 s
 
 Courant Number mean: 0.000772491 max: 0.355605
 deltaT = 0.00233697
@@ -161,7 +161,7 @@ time step continuity errors : sum local = 6.91637e-06, global = 8.07884e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0677186, Final residual = 9.27785e-08, No Iterations 237
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.13244e-06, global = 8.3538e-15, cumulative = 1.115e-12
-ExecutionTime = 12.43 s  ClockTime = 17 s
+ExecutionTime = 4.54 s  ClockTime = 6 s
 
 Courant Number mean: 0.000455742 max: 0.186766
 deltaT = 0.00280705
@@ -175,7 +175,7 @@ time step continuity errors : sum local = 5.94647e-07, global = 1.0766e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0362123, Final residual = 9.54103e-08, No Iterations 249
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.80504e-06, global = -8.24281e-15, cumulative = 1.11753e-12
-ExecutionTime = 14.1 s  ClockTime = 19 s
+ExecutionTime = 5.27 s  ClockTime = 7 s
 
 Courant Number mean: 0.000315361 max: 0.0549115
 deltaT = 0.00337041
@@ -189,7 +189,7 @@ time step continuity errors : sum local = 1.02652e-05, global = -1.03705e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0592266, Final residual = 8.83582e-08, No Iterations 261
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.01316e-05, global = 4.80206e-15, cumulative = 1.11196e-12
-ExecutionTime = 15.85 s  ClockTime = 21 s
+ExecutionTime = 6 s  ClockTime = 7 s
 
 Courant Number mean: 0.000739159 max: 0.343427
 deltaT = 0.00386724
@@ -203,7 +203,7 @@ time step continuity errors : sum local = 1.98244e-05, global = 1.21377e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0813535, Final residual = 9.76478e-08, No Iterations 269
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.73852e-05, global = 1.49672e-14, cumulative = 1.12814e-12
-ExecutionTime = 18.04 s  ClockTime = 23 s
+ExecutionTime = 6.79 s  ClockTime = 8 s
 
 Courant Number mean: 0.00116098 max: 0.552704
 deltaT = 0.00350293
@@ -217,7 +217,7 @@ time step continuity errors : sum local = 1.76835e-05, global = -1.55853e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.612261, Final residual = 9.16386e-08, No Iterations 269
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.50182e-05, global = -1.54217e-14, cumulative = 1.09713e-12
-ExecutionTime = 20.18 s  ClockTime = 25 s
+ExecutionTime = 7.56 s  ClockTime = 9 s
 
 Courant Number mean: 0.000962827 max: 0.423405
 deltaT = 0.00391588
@@ -231,7 +231,7 @@ time step continuity errors : sum local = 1.43775e-05, global = 1.56169e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0767368, Final residual = 9.01593e-08, No Iterations 262
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.15953e-05, global = 3.00477e-15, cumulative = 1.11575e-12
-ExecutionTime = 22.27 s  ClockTime = 27 s
+ExecutionTime = 8.34 s  ClockTime = 10 s
 
 Courant Number mean: 0.000749582 max: 0.257093
 deltaT = 0.00467996
@@ -245,7 +245,7 @@ time step continuity errors : sum local = 6.31725e-06, global = -1.17021e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0261524, Final residual = 9.17062e-08, No Iterations 263
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.96321e-06, global = 2.83554e-15, cumulative = 1.10689e-12
-ExecutionTime = 24.61 s  ClockTime = 29 s
+ExecutionTime = 9.08 s  ClockTime = 11 s
 
 Courant Number mean: 0.000710516 max: 0.603023
 deltaT = 0.00388094
@@ -259,7 +259,7 @@ time step continuity errors : sum local = 3.58502e-06, global = -4.7505e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0595124, Final residual = 9.64395e-08, No Iterations 270
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.00739e-06, global = 9.13901e-15, cumulative = 1.11127e-12
-ExecutionTime = 26.85 s  ClockTime = 32 s
+ExecutionTime = 9.85 s  ClockTime = 11 s
 
 Courant Number mean: 0.000621016 max: 0.746227
 deltaT = 0.0025979
@@ -273,7 +273,7 @@ time step continuity errors : sum local = 5.42158e-06, global = -1.00042e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.139587, Final residual = 9.66113e-08, No Iterations 254
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.06773e-06, global = -1.73248e-14, cumulative = 1.08395e-12
-ExecutionTime = 28.72 s  ClockTime = 34 s
+ExecutionTime = 10.58 s  ClockTime = 12 s
 
 Courant Number mean: 0.000472235 max: 0.534385
 deltaT = 0.00243136
@@ -287,7 +287,7 @@ time step continuity errors : sum local = 5.91394e-06, global = 1.2629e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.261188, Final residual = 9.48396e-08, No Iterations 257
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.26175e-06, global = 2.85881e-15, cumulative = 1.09943e-12
-ExecutionTime = 30.49 s  ClockTime = 35 s
+ExecutionTime = 11.31 s  ClockTime = 13 s
 
 Courant Number mean: 0.000463443 max: 0.464276
 deltaT = 0.00261995
@@ -301,7 +301,7 @@ time step continuity errors : sum local = 5.48838e-06, global = -4.08123e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.235421, Final residual = 9.57175e-08, No Iterations 260
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.62697e-06, global = 5.86381e-15, cumulative = 1.10122e-12
-ExecutionTime = 32.39 s  ClockTime = 37 s
+ExecutionTime = 12.02 s  ClockTime = 13 s
 
 Courant Number mean: 0.000468382 max: 0.417756
 deltaT = 0.00292913
@@ -315,7 +315,7 @@ time step continuity errors : sum local = 3.6202e-06, global = -5.69335e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0850552, Final residual = 9.9521e-08, No Iterations 242
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.77812e-06, global = 1.69939e-16, cumulative = 1.09569e-12
-ExecutionTime = 34.31 s  ClockTime = 39 s
+ExecutionTime = 12.74 s  ClockTime = 14 s
 
 Courant Number mean: 0.000455965 max: 0.349035
 deltaT = 0.00334609
@@ -329,7 +329,7 @@ time step continuity errors : sum local = 7.36238e-07, global = -2.92868e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0411652, Final residual = 9.60076e-08, No Iterations 259
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.19888e-07, global = -5.74242e-15, cumulative = 1.08702e-12
-ExecutionTime = 36.36 s  ClockTime = 41 s
+ExecutionTime = 13.45 s  ClockTime = 15 s
 
 Courant Number mean: 0.000479126 max: 0.260716
 deltaT = 0.00398683
@@ -343,7 +343,7 @@ time step continuity errors : sum local = 2.65083e-06, global = -1.68583e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0607447, Final residual = 9.50023e-08, No Iterations 262
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.72777e-06, global = 8.68193e-15, cumulative = 1.07884e-12
-ExecutionTime = 38.57 s  ClockTime = 44 s
+ExecutionTime = 14.2 s  ClockTime = 16 s
 
 Courant Number mean: 0.000566873 max: 0.259866
 deltaT = 0.00475979
@@ -357,7 +357,7 @@ time step continuity errors : sum local = 5.21233e-06, global = -2.76452e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0781134, Final residual = 9.40876e-08, No Iterations 281
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.44517e-06, global = -5.95834e-15, cumulative = 1.07012e-12
-ExecutionTime = 40.71 s  ClockTime = 46 s
+ExecutionTime = 15 s  ClockTime = 16 s
 
 Courant Number mean: 0.000674225 max: 0.28965
 deltaT = 0.00559132
@@ -371,7 +371,7 @@ time step continuity errors : sum local = 5.28303e-06, global = 3.99273e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.152592, Final residual = 9.79758e-08, No Iterations 283
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.83184e-06, global = -1.04482e-15, cumulative = 1.07307e-12
-ExecutionTime = 42.54 s  ClockTime = 48 s
+ExecutionTime = 15.84 s  ClockTime = 17 s
 
 Courant Number mean: 0.000764209 max: 0.308508
 deltaT = 0.00649696
@@ -385,7 +385,7 @@ time step continuity errors : sum local = 2.35138e-06, global = 2.25495e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0454861, Final residual = 9.18987e-08, No Iterations 281
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.09303e-06, global = -1.25457e-14, cumulative = 1.06278e-12
-ExecutionTime = 44.51 s  ClockTime = 50 s
+ExecutionTime = 16.64 s  ClockTime = 18 s
 
 Courant Number mean: 0.000857401 max: 0.318363
 deltaT = 0.00750878
@@ -399,7 +399,7 @@ time step continuity errors : sum local = 1.43537e-06, global = 2.04327e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0488291, Final residual = 8.75739e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.4881e-06, global = 2.70579e-14, cumulative = 1.11027e-12
-ExecutionTime = 46.3 s  ClockTime = 52 s
+ExecutionTime = 17.39 s  ClockTime = 19 s
 
 Courant Number mean: 0.000973682 max: 0.313058
 deltaT = 0.00873617
@@ -413,7 +413,7 @@ time step continuity errors : sum local = 2.72218e-06, global = -1.78005e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0912362, Final residual = 8.95258e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.76154e-06, global = 1.54352e-15, cumulative = 1.09401e-12
-ExecutionTime = 48.33 s  ClockTime = 54 s
+ExecutionTime = 18.25 s  ClockTime = 20 s
 
 Courant Number mean: 0.00111652 max: 0.328653
 deltaT = 0.0101104
@@ -427,7 +427,7 @@ time step continuity errors : sum local = 1.13972e-06, global = -1.8661e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0318482, Final residual = 8.79819e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.61783e-07, global = -6.47887e-15, cumulative = 1.06887e-12
-ExecutionTime = 50.11 s  ClockTime = 56 s
+ExecutionTime = 19.05 s  ClockTime = 20 s
 
 Courant Number mean: 0.00127272 max: 0.340083
 deltaT = 0.0115547
@@ -441,7 +441,7 @@ time step continuity errors : sum local = 6.20977e-07, global = -1.36747e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0346452, Final residual = 9.36768e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.73174e-07, global = -1.4183e-14, cumulative = 1.04102e-12
-ExecutionTime = 51.96 s  ClockTime = 57 s
+ExecutionTime = 19.88 s  ClockTime = 21 s
 
 Courant Number mean: 0.00143094 max: 0.339997
 deltaT = 0.0133055
@@ -455,7 +455,7 @@ time step continuity errors : sum local = 8.03731e-07, global = 7.40579e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0423524, Final residual = 9.25842e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.12689e-07, global = -1.25595e-14, cumulative = 1.03586e-12
-ExecutionTime = 54.05 s  ClockTime = 60 s
+ExecutionTime = 20.74 s  ClockTime = 22 s
 
 Courant Number mean: 0.00161201 max: 0.344178
 deltaT = 0.0151729
@@ -469,7 +469,7 @@ time step continuity errors : sum local = 1.64782e-07, global = 3.01098e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0464659, Final residual = 9.53948e-08, No Iterations 310
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.29076e-08, global = 3.42112e-14, cumulative = 1.10018e-12
-ExecutionTime = 56.19 s  ClockTime = 62 s
+ExecutionTime = 21.58 s  ClockTime = 23 s
 
 Courant Number mean: 0.00179324 max: 0.382174
 deltaT = 0.0169936
@@ -483,7 +483,7 @@ time step continuity errors : sum local = 1.5833e-07, global = -5.81834e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.037884, Final residual = 9.30145e-08, No Iterations 311
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.90406e-08, global = -1.54673e-14, cumulative = 1.0789e-12
-ExecutionTime = 58.04 s  ClockTime = 64 s
+ExecutionTime = 22.44 s  ClockTime = 24 s
 
 Courant Number mean: 0.00195821 max: 0.396418
 deltaT = 0.0189247
@@ -497,7 +497,7 @@ time step continuity errors : sum local = 6.97193e-08, global = 1.32312e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0320836, Final residual = 9.69117e-08, No Iterations 306
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.54642e-08, global = -1.09255e-14, cumulative = 1.0812e-12
-ExecutionTime = 59.96 s  ClockTime = 65 s
+ExecutionTime = 23.29 s  ClockTime = 25 s
 
 Courant Number mean: 0.00213013 max: 0.395853
 deltaT = 0.0214148
@@ -511,7 +511,7 @@ time step continuity errors : sum local = 8.44388e-08, global = 8.32695e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0333755, Final residual = 9.85482e-08, No Iterations 308
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.50096e-08, global = -6.04748e-16, cumulative = 1.08892e-12
-ExecutionTime = 61.86 s  ClockTime = 67 s
+ExecutionTime = 24.1 s  ClockTime = 26 s
 
 Courant Number mean: 0.0023554 max: 0.416197
 deltaT = 0.0240106
@@ -525,7 +525,7 @@ time step continuity errors : sum local = 6.74746e-08, global = 1.52552e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0332886, Final residual = 8.84612e-08, No Iterations 312
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.11842e-08, global = 2.10826e-14, cumulative = 1.12526e-12
-ExecutionTime = 63.8 s  ClockTime = 69 s
+ExecutionTime = 24.91 s  ClockTime = 26 s
 
 Courant Number mean: 0.00257801 max: 0.427918
 deltaT = 0.0264944
@@ -539,7 +539,7 @@ time step continuity errors : sum local = 6.37783e-08, global = -8.37184e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0318189, Final residual = 9.64233e-08, No Iterations 312
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.9597e-08, global = -2.26787e-15, cumulative = 1.11462e-12
-ExecutionTime = 65.6 s  ClockTime = 71 s
+ExecutionTime = 25.65 s  ClockTime = 27 s
 
 Courant Number mean: 0.00278091 max: 0.428951
 deltaT = 0.0296738
@@ -553,7 +553,7 @@ time step continuity errors : sum local = 6.98621e-08, global = -9.34524e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0321478, Final residual = 8.48812e-08, No Iterations 313
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.42542e-08, global = -3.25522e-15, cumulative = 1.10202e-12
-ExecutionTime = 67.29 s  ClockTime = 73 s
+ExecutionTime = 26.41 s  ClockTime = 28 s
 
 Courant Number mean: 0.00304448 max: 0.434777
 deltaT = 0.0323714
@@ -567,7 +567,7 @@ time step continuity errors : sum local = 5.46563e-08, global = -8.66411e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0305165, Final residual = 9.25027e-08, No Iterations 313
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 9.14803e-09, global = -1.71514e-14, cumulative = 1.07621e-12
-ExecutionTime = 68.91 s  ClockTime = 74 s
+ExecutionTime = 27.11 s  ClockTime = 29 s
 
 Courant Number mean: 0.00324529 max: 0.424195
 deltaT = 0.0357789
@@ -581,7 +581,7 @@ time step continuity errors : sum local = 5.01962e-08, global = -2.60564e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0280851, Final residual = 8.13331e-08, No Iterations 314
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.65802e-09, global = 1.27284e-14, cumulative = 1.06288e-12
-ExecutionTime = 70.63 s  ClockTime = 76 s
+ExecutionTime = 27.87 s  ClockTime = 29 s
 
 Courant Number mean: 0.00350428 max: 0.415842
 deltaT = 0.0402512
@@ -595,7 +595,7 @@ time step continuity errors : sum local = 5.12288e-08, global = 1.29149e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0260684, Final residual = 9.38292e-08, No Iterations 314
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 7.86262e-09, global = -4.80974e-15, cumulative = 1.07098e-12
-ExecutionTime = 72.39 s  ClockTime = 78 s
+ExecutionTime = 28.58 s  ClockTime = 30 s
 
 Courant Number mean: 0.00385062 max: 0.448484
 deltaT = 0.0464437
@@ -609,7 +609,7 @@ time step continuity errors : sum local = 5.70655e-08, global = 4.64243e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0237862, Final residual = 9.98593e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.47961e-09, global = -6.64325e-16, cumulative = 1.07496e-12
-ExecutionTime = 74.13 s  ClockTime = 80 s
+ExecutionTime = 29.3 s  ClockTime = 31 s
 
 Courant Number mean: 0.00434161 max: 0.488757
 deltaT = 0.0464437
@@ -623,7 +623,7 @@ time step continuity errors : sum local = 4.10831e-08, global = -4.30849e-16, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0213051, Final residual = 8.14763e-08, No Iterations 314
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 7.67397e-09, global = 1.21454e-14, cumulative = 1.08668e-12
-ExecutionTime = 75.96 s  ClockTime = 82 s
+ExecutionTime = 30.07 s  ClockTime = 31 s
 
 Courant Number mean: 0.00424898 max: 0.459059
 deltaT = 0.0510881
@@ -637,7 +637,7 @@ time step continuity errors : sum local = 3.99747e-08, global = -1.68046e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0198166, Final residual = 7.9681e-08, No Iterations 314
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.78531e-09, global = -1.39662e-14, cumulative = 1.05591e-12
-ExecutionTime = 77.87 s  ClockTime = 83 s
+ExecutionTime = 30.84 s  ClockTime = 32 s
 
 Courant Number mean: 0.00457539 max: 0.478573
 deltaT = 0.0510881
@@ -651,7 +651,7 @@ time step continuity errors : sum local = 3.10059e-08, global = 2.74518e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0177383, Final residual = 9.18105e-08, No Iterations 313
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.29377e-09, global = -6.60444e-15, cumulative = 1.05205e-12
-ExecutionTime = 79.71 s  ClockTime = 85 s
+ExecutionTime = 31.59 s  ClockTime = 33 s
 
 Courant Number mean: 0.004483 max: 0.451304
 deltaT = 0.0583864
@@ -665,7 +665,7 @@ time step continuity errors : sum local = 3.26422e-08, global = 2.08109e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0162539, Final residual = 9.51522e-08, No Iterations 313
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 7.01711e-09, global = 7.44141e-15, cumulative = 1.06157e-12
-ExecutionTime = 81.63 s  ClockTime = 87 s
+ExecutionTime = 32.36 s  ClockTime = 34 s
 
 Courant Number mean: 0.00501983 max: 0.481784
 deltaT = 0.0583864
@@ -679,7 +679,7 @@ time step continuity errors : sum local = 3.25007e-08, global = 1.84042e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0148562, Final residual = 9.38722e-08, No Iterations 312
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 7.08452e-09, global = 1.02506e-15, cumulative = 1.081e-12
-ExecutionTime = 83.79 s  ClockTime = 89 s
+ExecutionTime = 33.1 s  ClockTime = 35 s
 
 Courant Number mean: 0.00492233 max: 0.448934
 deltaT = 0.072983
@@ -693,7 +693,7 @@ time step continuity errors : sum local = 4.05651e-08, global = 1.87928e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0139158, Final residual = 9.7191e-08, No Iterations 312
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.66031e-09, global = 3.54568e-14, cumulative = 1.11833e-12
-ExecutionTime = 85.85 s  ClockTime = 91 s
+ExecutionTime = 33.87 s  ClockTime = 35 s
 
 Courant Number mean: 0.00603154 max: 0.517786
 deltaT = 0.072983
@@ -707,7 +707,7 @@ time step continuity errors : sum local = 3.43167e-08, global = -2.94273e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0122948, Final residual = 9.90784e-08, No Iterations 309
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.84588e-09, global = -3.82043e-14, cumulative = 1.0507e-12
-ExecutionTime = 87.95 s  ClockTime = 94 s
+ExecutionTime = 34.61 s  ClockTime = 36 s
 
 Courant Number mean: 0.00591669 max: 0.477371
 deltaT = 0.072983
@@ -721,7 +721,7 @@ time step continuity errors : sum local = 3.02486e-08, global = 2.46706e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0110563, Final residual = 9.1829e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.66742e-09, global = -2.18589e-16, cumulative = 1.07516e-12
-ExecutionTime = 90.01 s  ClockTime = 96 s
+ExecutionTime = 35.36 s  ClockTime = 37 s
 
 Courant Number mean: 0.00580803 max: 0.440033
 deltaT = 0.072983
@@ -735,7 +735,7 @@ time step continuity errors : sum local = 2.55782e-08, global = -1.23971e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0100269, Final residual = 9.73608e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 8.50593e-09, global = 3.77358e-16, cumulative = 1.06314e-12
-ExecutionTime = 92.91 s  ClockTime = 99 s
+ExecutionTime = 36.39 s  ClockTime = 38 s
 
 Courant Number mean: 0.00570442 max: 0.409783
 deltaT = 0.0833333
@@ -749,7 +749,7 @@ time step continuity errors : sum local = 3.00566e-08, global = -5.44471e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00914267, Final residual = 9.25197e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 9.7986e-09, global = 1.23878e-14, cumulative = 1.07008e-12
-ExecutionTime = 95.02 s  ClockTime = 101 s
+ExecutionTime = 37.11 s  ClockTime = 39 s
 
 Courant Number mean: 0.00639768 max: 0.434458
 deltaT = 0.0916667
@@ -763,7 +763,7 @@ time step continuity errors : sum local = 2.93964e-08, global = -1.45168e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00842824, Final residual = 9.85097e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.0921e-08, global = 1.89592e-15, cumulative = 1.05746e-12
-ExecutionTime = 97.25 s  ClockTime = 103 s
+ExecutionTime = 37.88 s  ClockTime = 39 s
 
 Courant Number mean: 0.00691392 max: 0.44338
 deltaT = 0.103125
@@ -777,7 +777,7 @@ time step continuity errors : sum local = 3.30583e-08, global = -1.00051e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00782317, Final residual = 9.56067e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.24231e-08, global = 2.30889e-15, cumulative = 1.04976e-12
-ExecutionTime = 99.22 s  ClockTime = 105 s
+ExecutionTime = 38.62 s  ClockTime = 40 s
 
 Courant Number mean: 0.00764275 max: 0.462801
 deltaT = 0.120313
@@ -791,7 +791,7 @@ time step continuity errors : sum local = 3.48324e-08, global = 2.84856e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00711195, Final residual = 8.77628e-08, No Iterations 305
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.51832e-08, global = -2.71228e-14, cumulative = 1.02549e-12
-ExecutionTime = 101.07 s  ClockTime = 107 s
+ExecutionTime = 39.35 s  ClockTime = 41 s
 
 Courant Number mean: 0.00876238 max: 0.500099
 deltaT = 0.120313
@@ -805,7 +805,7 @@ time step continuity errors : sum local = 3.2514e-08, global = 5.67619e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00659531, Final residual = 9.5447e-08, No Iterations 304
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.51906e-08, global = 1.65931e-14, cumulative = 1.09884e-12
-ExecutionTime = 103.29 s  ClockTime = 109 s
+ExecutionTime = 40.08 s  ClockTime = 42 s
 
 Courant Number mean: 0.00861403 max: 0.464207
 deltaT = 0.120313
@@ -819,7 +819,7 @@ time step continuity errors : sum local = 2.94365e-08, global = -1.77654e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00615779, Final residual = 8.7533e-08, No Iterations 304
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.49304e-08, global = -1.63147e-16, cumulative = 1.08091e-12
-ExecutionTime = 105.15 s  ClockTime = 111 s
+ExecutionTime = 40.85 s  ClockTime = 42 s
 
 Courant Number mean: 0.00847094 max: 0.431771
 deltaT = 0.120313
@@ -833,7 +833,7 @@ time step continuity errors : sum local = 2.72816e-08, global = 1.90401e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00574191, Final residual = 9.61873e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.49706e-08, global = 1.42004e-15, cumulative = 1.10137e-12
-ExecutionTime = 106.79 s  ClockTime = 113 s
+ExecutionTime = 41.58 s  ClockTime = 43 s
 
 Courant Number mean: 0.008333 max: 0.402315
 deltaT = 0.120313
@@ -847,7 +847,7 @@ time step continuity errors : sum local = 2.60066e-08, global = -1.12577e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00539379, Final residual = 9.96514e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.51203e-08, global = -6.99844e-15, cumulative = 1.08312e-12
-ExecutionTime = 108.61 s  ClockTime = 114 s
+ExecutionTime = 42.36 s  ClockTime = 44 s
 
 Courant Number mean: 0.00819945 max: 0.376026
 deltaT = 0.120313
@@ -861,7 +861,7 @@ time step continuity errors : sum local = 2.3749e-08, global = 6.50372e-15, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00506815, Final residual = 8.49136e-08, No Iterations 304
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.47331e-08, global = -9.1243e-15, cumulative = 1.0805e-12
-ExecutionTime = 111.43 s  ClockTime = 117 s
+ExecutionTime = 43.41 s  ClockTime = 45 s
 
 Courant Number mean: 0.00806992 max: 0.353479
 deltaT = 0.142857
@@ -875,7 +875,7 @@ time step continuity errors : sum local = 2.7955e-08, global = 4.62079e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00462318, Final residual = 8.62593e-08, No Iterations 304
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 1.81676e-08, global = 1.83302e-14, cumulative = 1.14504e-12
-ExecutionTime = 113.6 s  ClockTime = 120 s
+ExecutionTime = 44.16 s  ClockTime = 46 s
 
 Courant Number mean: 0.00943116 max: 0.394165
 deltaT = 0.171429
@@ -889,7 +889,7 @@ time step continuity errors : sum local = 3.40773e-08, global = -1.11467e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00432266, Final residual = 9.6476e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.22951e-08, global = -8.49723e-15, cumulative = 1.12539e-12
-ExecutionTime = 115.61 s  ClockTime = 122 s
+ExecutionTime = 44.94 s  ClockTime = 46 s
 
 Courant Number mean: 0.0111394 max: 0.444104
 deltaT = 0.171429
@@ -903,7 +903,7 @@ time step continuity errors : sum local = 3.08809e-08, global = 4.08973e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00420266, Final residual = 9.73561e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.20196e-08, global = 3.24864e-14, cumulative = 1.16197e-12
-ExecutionTime = 117.77 s  ClockTime = 124 s
+ExecutionTime = 45.68 s  ClockTime = 47 s
 
 Courant Number mean: 0.0109662 max: 0.417694
 deltaT = 0.171429
@@ -917,7 +917,7 @@ time step continuity errors : sum local = 3.0681e-08, global = -3.3082e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00405527, Final residual = 9.8897e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.24504e-08, global = -5.31677e-14, cumulative = 1.07572e-12
-ExecutionTime = 119.66 s  ClockTime = 126 s
+ExecutionTime = 46.45 s  ClockTime = 48 s
 
 Courant Number mean: 0.0107973 max: 0.393446
 deltaT = 0.171429
@@ -931,7 +931,7 @@ time step continuity errors : sum local = 2.85403e-08, global = 3.81177e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00392793, Final residual = 9.30217e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.23622e-08, global = 1.78196e-14, cumulative = 1.13165e-12
-ExecutionTime = 121.45 s  ClockTime = 128 s
+ExecutionTime = 47.2 s  ClockTime = 49 s
 
 Courant Number mean: 0.0106327 max: 0.371134
 deltaT = 0.171429
@@ -945,7 +945,7 @@ time step continuity errors : sum local = 2.78277e-08, global = -6.57851e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00379257, Final residual = 9.7093e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.23906e-08, global = 2.57183e-15, cumulative = 1.12765e-12
-ExecutionTime = 124.21 s  ClockTime = 131 s
+ExecutionTime = 48.24 s  ClockTime = 50 s
 
 Courant Number mean: 0.0104721 max: 0.35052
 deltaT = 0.2
@@ -959,7 +959,7 @@ time step continuity errors : sum local = 3.23152e-08, global = 2.31386e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0035529, Final residual = 9.9881e-08, No Iterations 302
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.66101e-08, global = 8.17754e-15, cumulative = 1.15896e-12
-ExecutionTime = 126.27 s  ClockTime = 133 s
+ExecutionTime = 48.99 s  ClockTime = 50 s
 
 Courant Number mean: 0.0120336 max: 0.386348
 deltaT = 0.2
@@ -973,7 +973,7 @@ time step continuity errors : sum local = 3.25229e-08, global = 4.22244e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00348639, Final residual = 9.68037e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.67669e-08, global = 5.94625e-15, cumulative = 1.20713e-12
-ExecutionTime = 128.18 s  ClockTime = 135 s
+ExecutionTime = 49.76 s  ClockTime = 51 s
 
 Courant Number mean: 0.0118539 max: 0.365432
 deltaT = 0.2
@@ -987,7 +987,7 @@ time step continuity errors : sum local = 2.9893e-08, global = 1.65068e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00332912, Final residual = 9.55849e-08, No Iterations 303
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.69747e-08, global = 1.56559e-15, cumulative = 1.22521e-12
-ExecutionTime = 129.93 s  ClockTime = 137 s
+ExecutionTime = 50.5 s  ClockTime = 52 s
 
 Courant Number mean: 0.0116782 max: 0.346111
 deltaT = 0.2
@@ -1001,7 +1001,7 @@ time step continuity errors : sum local = 2.97143e-08, global = -2.3414e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0032052, Final residual = 9.93084e-08, No Iterations 302
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.67019e-08, global = -7.92437e-15, cumulative = 1.19387e-12
-ExecutionTime = 131.69 s  ClockTime = 138 s
+ExecutionTime = 51.25 s  ClockTime = 53 s
 
 Courant Number mean: 0.0115064 max: 0.328238
 deltaT = 0.2
@@ -1015,7 +1015,7 @@ time step continuity errors : sum local = 2.88516e-08, global = -1.37126e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00312832, Final residual = 9.74953e-08, No Iterations 302
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 2.62408e-08, global = -8.65546e-15, cumulative = 1.1715e-12
-ExecutionTime = 134.56 s  ClockTime = 141 s
+ExecutionTime = 52.31 s  ClockTime = 54 s
 
 Courant Number mean: 0.0113382 max: 0.311684
 deltaT = 0.25
@@ -1029,7 +1029,7 @@ time step continuity errors : sum local = 3.62628e-08, global = -4.82182e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00288401, Final residual = 9.73175e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.39399e-08, global = -3.12678e-14, cumulative = 1.13541e-12
-ExecutionTime = 136.24 s  ClockTime = 143 s
+ExecutionTime = 53.05 s  ClockTime = 55 s
 
 Courant Number mean: 0.0139657 max: 0.370129
 deltaT = 0.25
@@ -1043,7 +1043,7 @@ time step continuity errors : sum local = 3.55172e-08, global = 4.14178e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00286269, Final residual = 9.59237e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.27037e-08, global = 4.58925e-14, cumulative = 1.22272e-12
-ExecutionTime = 138.15 s  ClockTime = 145 s
+ExecutionTime = 53.8 s  ClockTime = 55 s
 
 Courant Number mean: 0.0137634 max: 0.352463
 deltaT = 0.25
@@ -1057,7 +1057,7 @@ time step continuity errors : sum local = 3.53204e-08, global = -2.16813e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0028168, Final residual = 9.97816e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.3371e-08, global = -1.33705e-14, cumulative = 1.18767e-12
-ExecutionTime = 139.91 s  ClockTime = 147 s
+ExecutionTime = 54.53 s  ClockTime = 56 s
 
 Courant Number mean: 0.0135653 max: 0.33646
 deltaT = 0.25
@@ -1071,7 +1071,7 @@ time step continuity errors : sum local = 3.53629e-08, global = -1.05179e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00280462, Final residual = 9.92793e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 3.28349e-08, global = -2.53781e-14, cumulative = 1.15177e-12
-ExecutionTime = 142.69 s  ClockTime = 150 s
+ExecutionTime = 55.6 s  ClockTime = 57 s
 
 Courant Number mean: 0.0133712 max: 0.321526
 deltaT = 0.333333
@@ -1085,7 +1085,7 @@ time step continuity errors : sum local = 4.62375e-08, global = 2.81138e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00258218, Final residual = 9.26342e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.50813e-08, global = 1.15e-14, cumulative = 1.19139e-12
-ExecutionTime = 144.91 s  ClockTime = 152 s
+ExecutionTime = 56.35 s  ClockTime = 58 s
 
 Courant Number mean: 0.0175734 max: 0.409853
 deltaT = 0.333333
@@ -1099,7 +1099,7 @@ time step continuity errors : sum local = 5.23349e-08, global = 1.96601e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00256857, Final residual = 8.9785e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.49143e-08, global = 1.66425e-14, cumulative = 1.22769e-12
-ExecutionTime = 146.99 s  ClockTime = 154 s
+ExecutionTime = 57.24 s  ClockTime = 59 s
 
 Courant Number mean: 0.0173234 max: 0.392275
 deltaT = 0.333333
@@ -1113,7 +1113,7 @@ time step continuity errors : sum local = 4.67668e-08, global = 3.82633e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00252468, Final residual = 9.73136e-08, No Iterations 288
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34646e-08, global = 1.49189e-14, cumulative = 1.24644e-12
-ExecutionTime = 149.65 s  ClockTime = 157 s
+ExecutionTime = 58.28 s  ClockTime = 60 s
 
 Courant Number mean: 0.0170778 max: 0.37586
 deltaT = 0.333333
@@ -1127,7 +1127,7 @@ time step continuity errors : sum local = 4.53529e-08, global = 1.72947e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00248345, Final residual = 9.25636e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.42709e-08, global = -2.48762e-15, cumulative = 1.26124e-12
-ExecutionTime = 151.51 s  ClockTime = 159 s
+ExecutionTime = 59.06 s  ClockTime = 61 s
 
 Courant Number mean: 0.0168365 max: 0.360502
 deltaT = 0.333333
@@ -1141,7 +1141,7 @@ time step continuity errors : sum local = 4.60684e-08, global = -2.26721e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.002455, Final residual = 8.9359e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.43108e-08, global = -1.07545e-14, cumulative = 1.22782e-12
-ExecutionTime = 153.5 s  ClockTime = 161 s
+ExecutionTime = 59.81 s  ClockTime = 61 s
 
 Courant Number mean: 0.0165992 max: 0.350746
 deltaT = 0.333333
@@ -1155,7 +1155,7 @@ time step continuity errors : sum local = 4.47229e-08, global = -9.89828e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00245168, Final residual = 8.97209e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.48386e-08, global = -3.32839e-14, cumulative = 1.18463e-12
-ExecutionTime = 156.36 s  ClockTime = 164 s
+ExecutionTime = 60.85 s  ClockTime = 62 s
 
 Courant Number mean: 0.0163656 max: 0.34709
 deltaT = 0.333333
@@ -1169,7 +1169,7 @@ time step continuity errors : sum local = 4.44238e-08, global = 4.95471e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00242413, Final residual = 8.81331e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.38252e-08, global = 3.70686e-14, cumulative = 1.27125e-12
-ExecutionTime = 158.21 s  ClockTime = 166 s
+ExecutionTime = 61.62 s  ClockTime = 63 s
 
 Courant Number mean: 0.0161353 max: 0.343389
 deltaT = 0.333333
@@ -1183,7 +1183,7 @@ time step continuity errors : sum local = 4.39121e-08, global = 3.32041e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00238718, Final residual = 8.82861e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.41847e-08, global = -1.74326e-14, cumulative = 1.25714e-12
-ExecutionTime = 160.06 s  ClockTime = 168 s
+ExecutionTime = 62.37 s  ClockTime = 64 s
 
 Courant Number mean: 0.0159088 max: 0.339661
 deltaT = 0.333333
@@ -1197,7 +1197,7 @@ time step continuity errors : sum local = 4.3439e-08, global = 4.24562e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00234803, Final residual = 9.83237e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.3543e-08, global = 9.51929e-15, cumulative = 1.30911e-12
-ExecutionTime = 163.95 s  ClockTime = 172 s
+ExecutionTime = 63.41 s  ClockTime = 65 s
 
 Courant Number mean: 0.0156861 max: 0.336054
 deltaT = 0.333333
@@ -1211,7 +1211,7 @@ time step continuity errors : sum local = 4.23737e-08, global = -7.78973e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00230993, Final residual = 8.51573e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34557e-08, global = -5.72493e-16, cumulative = 1.30075e-12
-ExecutionTime = 166.61 s  ClockTime = 175 s
+ExecutionTime = 64.14 s  ClockTime = 66 s
 
 Courant Number mean: 0.0154666 max: 0.332656
 deltaT = 0.333333
@@ -1225,7 +1225,7 @@ time step continuity errors : sum local = 4.16928e-08, global = 5.85419e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00227778, Final residual = 9.26206e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.25118e-08, global = -9.66002e-15, cumulative = 1.29694e-12
-ExecutionTime = 168.99 s  ClockTime = 177 s
+ExecutionTime = 64.86 s  ClockTime = 66 s
 
 Courant Number mean: 0.0152505 max: 0.329273
 deltaT = 0.333333
@@ -1239,7 +1239,7 @@ time step continuity errors : sum local = 4.12417e-08, global = 5.46945e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00225751, Final residual = 9.87342e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.308e-08, global = 1.26236e-14, cumulative = 1.36426e-12
-ExecutionTime = 172.54 s  ClockTime = 181 s
+ExecutionTime = 65.99 s  ClockTime = 68 s
 
 Courant Number mean: 0.0150376 max: 0.325918
 deltaT = 0.333333
@@ -1253,7 +1253,7 @@ time step continuity errors : sum local = 4.05849e-08, global = 6.48076e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00223916, Final residual = 9.53814e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.23222e-08, global = 2.45781e-14, cumulative = 1.39532e-12
-ExecutionTime = 174.95 s  ClockTime = 183 s
+ExecutionTime = 66.74 s  ClockTime = 68 s
 
 Courant Number mean: 0.0148281 max: 0.322561
 deltaT = 0.333333
@@ -1267,7 +1267,7 @@ time step continuity errors : sum local = 4.05189e-08, global = -2.50101e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00221204, Final residual = 8.78667e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.27171e-08, global = -2.46025e-14, cumulative = 1.34571e-12
-ExecutionTime = 177.66 s  ClockTime = 186 s
+ExecutionTime = 67.48 s  ClockTime = 69 s
 
 Courant Number mean: 0.0146218 max: 0.319198
 deltaT = 0.333333
@@ -1281,7 +1281,7 @@ time step continuity errors : sum local = 4.02942e-08, global = 1.75701e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00218956, Final residual = 8.61745e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.31602e-08, global = -1.78411e-14, cumulative = 1.34544e-12
-ExecutionTime = 180.6 s  ClockTime = 189 s
+ExecutionTime = 68.55 s  ClockTime = 70 s
 
 Courant Number mean: 0.0144188 max: 0.315841
 deltaT = 0.333333
@@ -1295,7 +1295,7 @@ time step continuity errors : sum local = 3.97299e-08, global = 2.49163e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.002162, Final residual = 8.74108e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.39373e-08, global = 1.79719e-14, cumulative = 1.3659e-12
-ExecutionTime = 183.17 s  ClockTime = 192 s
+ExecutionTime = 69.29 s  ClockTime = 71 s
 
 Courant Number mean: 0.0142187 max: 0.312481
 deltaT = 0.333333
@@ -1309,7 +1309,7 @@ time step continuity errors : sum local = 3.89222e-08, global = 7.27529e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00214232, Final residual = 9.09154e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.35224e-08, global = 2.71019e-15, cumulative = 1.37589e-12
-ExecutionTime = 185.59 s  ClockTime = 194 s
+ExecutionTime = 70.04 s  ClockTime = 72 s
 
 Courant Number mean: 0.0140216 max: 0.309112
 deltaT = 0.333333
@@ -1323,7 +1323,7 @@ time step continuity errors : sum local = 3.83172e-08, global = -1.01257e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0021314, Final residual = 9.56749e-08, No Iterations 296
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.42497e-08, global = 1.23131e-14, cumulative = 1.37807e-12
-ExecutionTime = 188.76 s  ClockTime = 197 s
+ExecutionTime = 71.09 s  ClockTime = 73 s
 
 Courant Number mean: 0.0138274 max: 0.305762
 deltaT = 0.333333
@@ -1337,7 +1337,7 @@ time step continuity errors : sum local = 3.78483e-08, global = -6.65053e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00211404, Final residual = 8.35641e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.30811e-08, global = -1.53533e-14, cumulative = 1.35607e-12
-ExecutionTime = 191.32 s  ClockTime = 200 s
+ExecutionTime = 71.82 s  ClockTime = 73 s
 
 Courant Number mean: 0.013636 max: 0.302416
 deltaT = 0.333333
@@ -1351,7 +1351,7 @@ time step continuity errors : sum local = 3.79409e-08, global = 2.81278e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00209033, Final residual = 9.15251e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34545e-08, global = 4.20562e-15, cumulative = 1.36309e-12
-ExecutionTime = 193.37 s  ClockTime = 202 s
+ExecutionTime = 72.56 s  ClockTime = 74 s
 
 Courant Number mean: 0.0134475 max: 0.299072
 deltaT = 0.333333
@@ -1365,7 +1365,7 @@ time step continuity errors : sum local = 3.75227e-08, global = -7.87799e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00207005, Final residual = 9.01659e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.37424e-08, global = -3.06996e-14, cumulative = 1.32451e-12
-ExecutionTime = 196.38 s  ClockTime = 205 s
+ExecutionTime = 73.6 s  ClockTime = 75 s
 
 Courant Number mean: 0.0132619 max: 0.295744
 deltaT = 0.333333
@@ -1379,7 +1379,7 @@ time step continuity errors : sum local = 3.68433e-08, global = 2.19195e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0020529, Final residual = 9.57472e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.3453e-08, global = 1.71178e-14, cumulative = 1.36355e-12
-ExecutionTime = 198.53 s  ClockTime = 207 s
+ExecutionTime = 74.33 s  ClockTime = 76 s
 
 Courant Number mean: 0.0130789 max: 0.29245
 deltaT = 0.333333
@@ -1393,7 +1393,7 @@ time step continuity errors : sum local = 3.60736e-08, global = 3.69221e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00202085, Final residual = 9.83172e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34642e-08, global = -1.20685e-14, cumulative = 1.3884e-12
-ExecutionTime = 200.59 s  ClockTime = 209 s
+ExecutionTime = 75.11 s  ClockTime = 77 s
 
 Courant Number mean: 0.0128984 max: 0.28942
 deltaT = 0.333333
@@ -1407,7 +1407,7 @@ time step continuity errors : sum local = 3.50741e-08, global = -3.11371e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00199396, Final residual = 9.93193e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.39144e-08, global = 9.72635e-16, cumulative = 1.38626e-12
-ExecutionTime = 203.53 s  ClockTime = 212 s
+ExecutionTime = 76.16 s  ClockTime = 78 s
 
 Courant Number mean: 0.0127202 max: 0.286431
 deltaT = 0.333333
@@ -1421,7 +1421,7 @@ time step continuity errors : sum local = 3.49652e-08, global = 4.5981e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00196937, Final residual = 9.92277e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.37303e-08, global = 1.35056e-14, cumulative = 1.44575e-12
-ExecutionTime = 205.32 s  ClockTime = 214 s
+ExecutionTime = 76.92 s  ClockTime = 78 s
 
 Courant Number mean: 0.0125444 max: 0.283479
 deltaT = 0.333333
@@ -1435,7 +1435,7 @@ time step continuity errors : sum local = 3.48899e-08, global = 3.35012e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00193385, Final residual = 9.82647e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34457e-08, global = 5.55475e-15, cumulative = 1.4848e-12
-ExecutionTime = 207.24 s  ClockTime = 216 s
+ExecutionTime = 77.7 s  ClockTime = 79 s
 
 Courant Number mean: 0.0123709 max: 0.280554
 deltaT = 0.333333
@@ -1449,7 +1449,7 @@ time step continuity errors : sum local = 3.4291e-08, global = -1.5001e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00191044, Final residual = 9.78097e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.33833e-08, global = 1.68032e-15, cumulative = 1.47148e-12
-ExecutionTime = 210.15 s  ClockTime = 219 s
+ExecutionTime = 79.04 s  ClockTime = 81 s
 
 Courant Number mean: 0.0121996 max: 0.277652
 deltaT = 0.333333
@@ -1463,7 +1463,7 @@ time step continuity errors : sum local = 3.45229e-08, global = -5.03144e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00189094, Final residual = 9.69248e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.36947e-08, global = -2.13716e-14, cumulative = 1.44508e-12
-ExecutionTime = 211.92 s  ClockTime = 221 s
+ExecutionTime = 79.98 s  ClockTime = 82 s
 
 Courant Number mean: 0.0120307 max: 0.274776
 deltaT = 0.333333
@@ -1477,7 +1477,7 @@ time step continuity errors : sum local = 3.34424e-08, global = 2.19528e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00186243, Final residual = 9.62994e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34213e-08, global = -8.62679e-15, cumulative = 1.45841e-12
-ExecutionTime = 213.67 s  ClockTime = 223 s
+ExecutionTime = 80.93 s  ClockTime = 82 s
 
 Courant Number mean: 0.0118642 max: 0.271928
 deltaT = 0.333333
@@ -1491,7 +1491,7 @@ time step continuity errors : sum local = 3.38236e-08, global = 5.09741e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00184807, Final residual = 9.46406e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.30142e-08, global = 7.25189e-14, cumulative = 1.5819e-12
-ExecutionTime = 216.79 s  ClockTime = 226 s
+ExecutionTime = 82.21 s  ClockTime = 84 s
 
 Courant Number mean: 0.0117 max: 0.269112
 deltaT = 0.333333
@@ -1505,7 +1505,7 @@ time step continuity errors : sum local = 3.32191e-08, global = -3.57275e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00184426, Final residual = 9.42232e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.33661e-08, global = -2.94481e-14, cumulative = 1.51672e-12
-ExecutionTime = 219.1 s  ClockTime = 228 s
+ExecutionTime = 83.18 s  ClockTime = 85 s
 
 Courant Number mean: 0.011538 max: 0.266328
 deltaT = 0.333333
@@ -1519,7 +1519,7 @@ time step continuity errors : sum local = 3.30727e-08, global = -1.27693e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00182331, Final residual = 9.28362e-08, No Iterations 301
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.3431e-08, global = -1.1663e-14, cumulative = 1.49229e-12
-ExecutionTime = 221.57 s  ClockTime = 231 s
+ExecutionTime = 84.16 s  ClockTime = 86 s
 
 Courant Number mean: 0.0113783 max: 0.263569
 deltaT = 0.333333
@@ -1533,7 +1533,7 @@ time step continuity errors : sum local = 3.29949e-08, global = 3.53246e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00182174, Final residual = 9.91426e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.33923e-08, global = 5.80008e-14, cumulative = 1.55382e-12
-ExecutionTime = 224.95 s  ClockTime = 235 s
+ExecutionTime = 85.44 s  ClockTime = 87 s
 
 Courant Number mean: 0.0112206 max: 0.260844
 deltaT = 0.333333
@@ -1547,7 +1547,7 @@ time step continuity errors : sum local = 3.26443e-08, global = -3.08653e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00181166, Final residual = 9.77574e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.32663e-08, global = -6.06944e-14, cumulative = 1.46226e-12
-ExecutionTime = 226.78 s  ClockTime = 237 s
+ExecutionTime = 86.45 s  ClockTime = 88 s
 
 Courant Number mean: 0.0110651 max: 0.258163
 deltaT = 0.333333
@@ -1561,7 +1561,7 @@ time step continuity errors : sum local = 3.20929e-08, global = 5.32863e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0018065, Final residual = 9.8951e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.33061e-08, global = 6.41295e-15, cumulative = 1.47401e-12
-ExecutionTime = 228.6 s  ClockTime = 239 s
+ExecutionTime = 87.55 s  ClockTime = 89 s
 
 Courant Number mean: 0.0109116 max: 0.255526
 deltaT = 0.333333
@@ -1575,7 +1575,7 @@ time step continuity errors : sum local = 3.2016e-08, global = 1.82662e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.001814, Final residual = 9.76945e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.31956e-08, global = 3.49685e-15, cumulative = 1.49577e-12
-ExecutionTime = 231.7 s  ClockTime = 242 s
+ExecutionTime = 88.91 s  ClockTime = 91 s
 
 Courant Number mean: 0.0107603 max: 0.252916
 deltaT = 0.333333
@@ -1589,7 +1589,7 @@ time step continuity errors : sum local = 3.15727e-08, global = -2.62559e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00179424, Final residual = 9.23712e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.34754e-08, global = -3.14435e-14, cumulative = 1.4617e-12
-ExecutionTime = 234.36 s  ClockTime = 245 s
+ExecutionTime = 90 s  ClockTime = 92 s
 
 Courant Number mean: 0.0106111 max: 0.250331
 deltaT = 0.333333
@@ -1603,7 +1603,7 @@ time step continuity errors : sum local = 3.13385e-08, global = 8.84945e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00179123, Final residual = 9.06414e-08, No Iterations 300
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.29704e-08, global = 1.87326e-14, cumulative = 1.48928e-12
-ExecutionTime = 236.93 s  ClockTime = 248 s
+ExecutionTime = 91.01 s  ClockTime = 93 s
 
 Courant Number mean: 0.0104637 max: 0.247777
 deltaT = 0.333333
@@ -1617,7 +1617,7 @@ time step continuity errors : sum local = 3.04556e-08, global = 1.43799e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00178126, Final residual = 9.91057e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 4.2945e-08, global = -2.42242e-14, cumulative = 1.47944e-12
-ExecutionTime = 240.3 s  ClockTime = 251 s
+ExecutionTime = 92.29 s  ClockTime = 94 s
 
 Courant Number mean: 0.0103183 max: 0.24541
 deltaT = 0.5
@@ -1631,7 +1631,7 @@ time step continuity errors : sum local = 5.22396e-08, global = -9.4019e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00165251, Final residual = 9.37632e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.66637e-08, global = 6.01712e-14, cumulative = 1.53021e-12
-ExecutionTime = 242.26 s  ClockTime = 253 s
+ExecutionTime = 93.24 s  ClockTime = 95 s
 
 Courant Number mean: 0.0152612 max: 0.364475
 deltaT = 0.5
@@ -1645,7 +1645,7 @@ time step continuity errors : sum local = 3.63344e-08, global = -3.62978e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00167899, Final residual = 9.9986e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.66506e-08, global = -2.41139e-14, cumulative = 1.4698e-12
-ExecutionTime = 245.01 s  ClockTime = 256 s
+ExecutionTime = 94.49 s  ClockTime = 96 s
 
 Courant Number mean: 0.0150479 max: 0.360932
 deltaT = 0.5
@@ -1659,7 +1659,7 @@ time step continuity errors : sum local = 3.70153e-08, global = -3.84209e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00168288, Final residual = 9.95151e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.65896e-08, global = -5.52442e-15, cumulative = 1.42585e-12
-ExecutionTime = 246.52 s  ClockTime = 257 s
+ExecutionTime = 95.39 s  ClockTime = 97 s
 
 Courant Number mean: 0.0148374 max: 0.357436
 deltaT = 0.5
@@ -1673,7 +1673,7 @@ time step continuity errors : sum local = 3.45652e-08, global = 1.10411e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0016677, Final residual = 8.4791e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.70299e-08, global = 1.63591e-14, cumulative = 1.44331e-12
-ExecutionTime = 248.83 s  ClockTime = 260 s
+ExecutionTime = 96.69 s  ClockTime = 98 s
 
 Courant Number mean: 0.0146297 max: 0.353989
 deltaT = 0.5
@@ -1687,7 +1687,7 @@ time step continuity errors : sum local = 3.24011e-08, global = -5.90652e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00167036, Final residual = 9.73194e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.6596e-08, global = -6.52726e-15, cumulative = 1.37772e-12
-ExecutionTime = 250.3 s  ClockTime = 261 s
+ExecutionTime = 97.59 s  ClockTime = 99 s
 
 Courant Number mean: 0.014425 max: 0.350588
 deltaT = 0.5
@@ -1701,7 +1701,7 @@ time step continuity errors : sum local = 3.22897e-08, global = 7.48414e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00167371, Final residual = 9.15972e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.7e-08, global = 5.9529e-15, cumulative = 1.39116e-12
-ExecutionTime = 252.59 s  ClockTime = 264 s
+ExecutionTime = 98.81 s  ClockTime = 101 s
 
 Courant Number mean: 0.0142231 max: 0.347229
 deltaT = 0.5
@@ -1715,7 +1715,7 @@ time step continuity errors : sum local = 3.13236e-08, global = -7.47772e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00167582, Final residual = 8.60568e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.61791e-08, global = 1.25096e-14, cumulative = 1.39619e-12
-ExecutionTime = 254.12 s  ClockTime = 265 s
+ExecutionTime = 99.63 s  ClockTime = 101 s
 
 Courant Number mean: 0.0140239 max: 0.343917
 deltaT = 0.5
@@ -1729,7 +1729,7 @@ time step continuity errors : sum local = 3.39054e-08, global = -3.40802e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00167179, Final residual = 9.10273e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.65865e-08, global = -1.85707e-14, cumulative = 1.34354e-12
-ExecutionTime = 256.64 s  ClockTime = 268 s
+ExecutionTime = 100.8 s  ClockTime = 103 s
 
 Courant Number mean: 0.0138275 max: 0.340651
 deltaT = 0.5
@@ -1743,7 +1743,7 @@ time step continuity errors : sum local = 3.37456e-08, global = -2.16401e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00166738, Final residual = 9.9335e-08, No Iterations 296
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.65445e-08, global = 1.77692e-14, cumulative = 1.33967e-12
-ExecutionTime = 258.12 s  ClockTime = 269 s
+ExecutionTime = 101.63 s  ClockTime = 103 s
 
 Courant Number mean: 0.013634 max: 0.337425
 deltaT = 0.5
@@ -1757,7 +1757,7 @@ time step continuity errors : sum local = 3.28065e-08, global = -1.19976e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00166249, Final residual = 8.6158e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.64027e-08, global = -4.80206e-14, cumulative = 1.27965e-12
-ExecutionTime = 260.57 s  ClockTime = 272 s
+ExecutionTime = 102.81 s  ClockTime = 105 s
 
 Courant Number mean: 0.0134434 max: 0.334245
 deltaT = 0.5
@@ -1771,7 +1771,7 @@ time step continuity errors : sum local = 3.35368e-08, global = -2.10053e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00165364, Final residual = 8.88321e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.59367e-08, global = -1.47471e-14, cumulative = 1.2439e-12
-ExecutionTime = 262.07 s  ClockTime = 273 s
+ExecutionTime = 103.67 s  ClockTime = 105 s
 
 Courant Number mean: 0.0132558 max: 0.331103
 deltaT = 0.5
@@ -1785,7 +1785,7 @@ time step continuity errors : sum local = 3.02524e-08, global = 3.70907e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00164256, Final residual = 9.1186e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.62934e-08, global = 6.18933e-14, cumulative = 1.34288e-12
-ExecutionTime = 264.61 s  ClockTime = 276 s
+ExecutionTime = 104.85 s  ClockTime = 107 s
 
 Courant Number mean: 0.013071 max: 0.327966
 deltaT = 0.5
@@ -1799,7 +1799,7 @@ time step continuity errors : sum local = 3.0682e-08, global = 2.61522e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00163209, Final residual = 9.58422e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.5642e-08, global = -5.06617e-14, cumulative = 1.31837e-12
-ExecutionTime = 266.16 s  ClockTime = 278 s
+ExecutionTime = 105.69 s  ClockTime = 107 s
 
 Courant Number mean: 0.0128893 max: 0.324853
 deltaT = 0.5
@@ -1813,7 +1813,7 @@ time step continuity errors : sum local = 3.05101e-08, global = 1.90366e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00160889, Final residual = 8.65593e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.57541e-08, global = 8.88344e-15, cumulative = 1.34629e-12
-ExecutionTime = 268.57 s  ClockTime = 280 s
+ExecutionTime = 106.86 s  ClockTime = 109 s
 
 Courant Number mean: 0.0127103 max: 0.321775
 deltaT = 0.5
@@ -1827,7 +1827,7 @@ time step continuity errors : sum local = 3.1922e-08, global = 1.6659e-14, cumul
 DICPCG:  Solving for p_rgh, Initial residual = 0.00159925, Final residual = 9.03667e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.68077e-08, global = 2.37153e-14, cumulative = 1.38667e-12
-ExecutionTime = 270.02 s  ClockTime = 281 s
+ExecutionTime = 107.67 s  ClockTime = 109 s
 
 Courant Number mean: 0.0125342 max: 0.318727
 deltaT = 0.5
@@ -1841,7 +1841,7 @@ time step continuity errors : sum local = 3.19251e-08, global = 2.25891e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00158919, Final residual = 9.61413e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.62355e-08, global = -2.1586e-14, cumulative = 1.38767e-12
-ExecutionTime = 272.9 s  ClockTime = 284 s
+ExecutionTime = 108.85 s  ClockTime = 111 s
 
 Courant Number mean: 0.0123611 max: 0.315697
 deltaT = 0.5
@@ -1855,7 +1855,7 @@ time step continuity errors : sum local = 3.12256e-08, global = -3.34421e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00157948, Final residual = 9.8128e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.57861e-08, global = 6.53959e-15, cumulative = 1.36077e-12
-ExecutionTime = 274.36 s  ClockTime = 286 s
+ExecutionTime = 109.68 s  ClockTime = 111 s
 
 Courant Number mean: 0.0121911 max: 0.312693
 deltaT = 0.5
@@ -1869,7 +1869,7 @@ time step continuity errors : sum local = 3.13809e-08, global = 1.47607e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00157012, Final residual = 9.98091e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.65377e-08, global = 1.6796e-14, cumulative = 1.39232e-12
-ExecutionTime = 276.74 s  ClockTime = 288 s
+ExecutionTime = 110.91 s  ClockTime = 113 s
 
 Courant Number mean: 0.012024 max: 0.309704
 deltaT = 0.5
@@ -1883,7 +1883,7 @@ time step continuity errors : sum local = 2.96069e-08, global = -5.10568e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00155446, Final residual = 9.47722e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.61647e-08, global = 2.28972e-14, cumulative = 1.36416e-12
-ExecutionTime = 278.42 s  ClockTime = 290 s
+ExecutionTime = 111.89 s  ClockTime = 114 s
 
 Courant Number mean: 0.0118598 max: 0.306806
 deltaT = 0.5
@@ -1897,7 +1897,7 @@ time step continuity errors : sum local = 3.04609e-08, global = -2.79825e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00155509, Final residual = 7.23954e-08, No Iterations 299
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.51372e-08, global = -1.20312e-14, cumulative = 1.32415e-12
-ExecutionTime = 280.75 s  ClockTime = 292 s
+ExecutionTime = 113.21 s  ClockTime = 115 s
 
 Courant Number mean: 0.0116988 max: 0.303882
 deltaT = 0.5
@@ -1911,7 +1911,7 @@ time step continuity errors : sum local = 3.01504e-08, global = -3.99259e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00154454, Final residual = 9.58659e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.40792e-08, global = -5.07658e-14, cumulative = 1.23346e-12
-ExecutionTime = 282.41 s  ClockTime = 294 s
+ExecutionTime = 114.02 s  ClockTime = 116 s
 
 Courant Number mean: 0.0115409 max: 0.300908
 deltaT = 0.5
@@ -1925,7 +1925,7 @@ time step continuity errors : sum local = 3.07391e-08, global = 2.22217e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00153028, Final residual = 9.03548e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.40347e-08, global = 2.72815e-14, cumulative = 1.28296e-12
-ExecutionTime = 284.88 s  ClockTime = 297 s
+ExecutionTime = 115.19 s  ClockTime = 117 s
 
 Courant Number mean: 0.0113862 max: 0.297909
 deltaT = 0.5
@@ -1939,7 +1939,7 @@ time step continuity errors : sum local = 2.92843e-08, global = -2.79806e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00151831, Final residual = 8.59729e-08, No Iterations 276
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.32119e-08, global = 1.36199e-14, cumulative = 1.2686e-12
-ExecutionTime = 286.27 s  ClockTime = 298 s
+ExecutionTime = 116.08 s  ClockTime = 118 s
 
 Courant Number mean: 0.0112346 max: 0.294898
 deltaT = 0.5
@@ -1953,7 +1953,7 @@ time step continuity errors : sum local = 3.02669e-08, global = 6.41018e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.001502, Final residual = 9.31817e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.4933e-08, global = -4.3152e-14, cumulative = 1.23186e-12
-ExecutionTime = 288.81 s  ClockTime = 301 s
+ExecutionTime = 117.27 s  ClockTime = 119 s
 
 Courant Number mean: 0.0110862 max: 0.291887
 deltaT = 0.5
@@ -1967,7 +1967,7 @@ time step continuity errors : sum local = 2.97352e-08, global = 5.63263e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00148257, Final residual = 8.99759e-08, No Iterations 277
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.34372e-08, global = 3.69827e-14, cumulative = 1.32517e-12
-ExecutionTime = 290.56 s  ClockTime = 302 s
+ExecutionTime = 118.11 s  ClockTime = 120 s
 
 Courant Number mean: 0.0109409 max: 0.288879
 deltaT = 0.5
@@ -1981,7 +1981,7 @@ time step continuity errors : sum local = 2.8437e-08, global = -4.09321e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00146148, Final residual = 9.33288e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.35751e-08, global = -1.13428e-14, cumulative = 1.27289e-12
-ExecutionTime = 293.22 s  ClockTime = 305 s
+ExecutionTime = 119.3 s  ClockTime = 121 s
 
 Courant Number mean: 0.0107987 max: 0.285876
 deltaT = 0.5
@@ -1995,7 +1995,7 @@ time step continuity errors : sum local = 2.81503e-08, global = 3.36712e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0014428, Final residual = 9.27009e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.57302e-08, global = 9.20844e-15, cumulative = 1.31577e-12
-ExecutionTime = 294.82 s  ClockTime = 307 s
+ExecutionTime = 120.32 s  ClockTime = 122 s
 
 Courant Number mean: 0.0106598 max: 0.282882
 deltaT = 0.5
@@ -2009,7 +2009,7 @@ time step continuity errors : sum local = 2.80625e-08, global = -2.02841e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0014183, Final residual = 9.07494e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.32411e-08, global = 6.87806e-15, cumulative = 1.32062e-12
-ExecutionTime = 297.27 s  ClockTime = 309 s
+ExecutionTime = 121.54 s  ClockTime = 123 s
 
 Courant Number mean: 0.010524 max: 0.279906
 deltaT = 0.5
@@ -2023,7 +2023,7 @@ time step continuity errors : sum local = 2.71861e-08, global = -1.33961e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00140562, Final residual = 9.66694e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.48518e-08, global = -1.45322e-14, cumulative = 1.29269e-12
-ExecutionTime = 298.94 s  ClockTime = 311 s
+ExecutionTime = 122.41 s  ClockTime = 124 s
 
 Courant Number mean: 0.0103916 max: 0.276947
 deltaT = 0.5
@@ -2037,7 +2037,7 @@ time step continuity errors : sum local = 2.61095e-08, global = 4.56616e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00139236, Final residual = 8.57453e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.41826e-08, global = 4.34756e-14, cumulative = 1.38183e-12
-ExecutionTime = 301.5 s  ClockTime = 313 s
+ExecutionTime = 123.56 s  ClockTime = 126 s
 
 Courant Number mean: 0.0102625 max: 0.273996
 deltaT = 0.5
@@ -2051,7 +2051,7 @@ time step continuity errors : sum local = 2.5395e-08, global = -6.48145e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00138458, Final residual = 9.11075e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.51118e-08, global = -5.90778e-14, cumulative = 1.25794e-12
-ExecutionTime = 303.11 s  ClockTime = 315 s
+ExecutionTime = 124.39 s  ClockTime = 126 s
 
 Courant Number mean: 0.0101367 max: 0.271059
 deltaT = 0.5
@@ -2065,7 +2065,7 @@ time step continuity errors : sum local = 2.67755e-08, global = 2.83846e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00137297, Final residual = 9.694e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.45028e-08, global = 2.41669e-14, cumulative = 1.31049e-12
-ExecutionTime = 305.44 s  ClockTime = 317 s
+ExecutionTime = 125.59 s  ClockTime = 128 s
 
 Courant Number mean: 0.0100143 max: 0.268137
 deltaT = 0.5
@@ -2079,7 +2079,7 @@ time step continuity errors : sum local = 2.50725e-08, global = -5.09158e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00134259, Final residual = 9.17576e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.3794e-08, global = -2.6603e-14, cumulative = 1.2788e-12
-ExecutionTime = 306.94 s  ClockTime = 319 s
+ExecutionTime = 126.46 s  ClockTime = 128 s
 
 Courant Number mean: 0.00989523 max: 0.265236
 deltaT = 0.5
@@ -2093,7 +2093,7 @@ time step continuity errors : sum local = 2.52424e-08, global = 1.19638e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00132349, Final residual = 8.46706e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.58325e-08, global = 6.92035e-14, cumulative = 1.35996e-12
-ExecutionTime = 309.41 s  ClockTime = 321 s
+ExecutionTime = 127.6 s  ClockTime = 130 s
 
 Courant Number mean: 0.00977943 max: 0.262357
 deltaT = 0.5
@@ -2107,7 +2107,7 @@ time step continuity errors : sum local = 2.39922e-08, global = -9.10793e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00128854, Final residual = 8.2351e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.32298e-08, global = -5.48518e-14, cumulative = 1.21403e-12
-ExecutionTime = 310.8 s  ClockTime = 323 s
+ExecutionTime = 128.49 s  ClockTime = 130 s
 
 Courant Number mean: 0.00966658 max: 0.259497
 deltaT = 0.5
@@ -2121,7 +2121,7 @@ time step continuity errors : sum local = 2.43349e-08, global = 2.36054e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00125651, Final residual = 9.35636e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.46509e-08, global = -2.7168e-14, cumulative = 1.21047e-12
-ExecutionTime = 313.18 s  ClockTime = 325 s
+ExecutionTime = 129.71 s  ClockTime = 132 s
 
 Courant Number mean: 0.00955675 max: 0.25674
 deltaT = 0.5
@@ -2135,7 +2135,7 @@ time step continuity errors : sum local = 2.28645e-08, global = 1.72076e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00124083, Final residual = 8.14529e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.46465e-08, global = 3.11781e-14, cumulative = 1.25886e-12
-ExecutionTime = 314.61 s  ClockTime = 327 s
+ExecutionTime = 130.6 s  ClockTime = 133 s
 
 Courant Number mean: 0.00944996 max: 0.254061
 deltaT = 0.5
@@ -2149,7 +2149,7 @@ time step continuity errors : sum local = 2.37018e-08, global = 1.14218e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00122507, Final residual = 8.35789e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.42558e-08, global = -1.06441e-14, cumulative = 1.25963e-12
-ExecutionTime = 316.94 s  ClockTime = 329 s
+ExecutionTime = 131.76 s  ClockTime = 134 s
 
 Courant Number mean: 0.00934614 max: 0.251394
 deltaT = 0.5
@@ -2163,7 +2163,7 @@ time step continuity errors : sum local = 2.28673e-08, global = 7.27544e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00120581, Final residual = 9.87224e-08, No Iterations 295
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.45292e-08, global = -1.75667e-14, cumulative = 1.31482e-12
-ExecutionTime = 318.59 s  ClockTime = 331 s
+ExecutionTime = 132.59 s  ClockTime = 135 s
 
 Courant Number mean: 0.00924542 max: 0.248747
 deltaT = 0.5
@@ -2177,7 +2177,7 @@ time step continuity errors : sum local = 2.31663e-08, global = 2.2788e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00118952, Final residual = 8.15954e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.46991e-08, global = 3.63554e-14, cumulative = 1.37396e-12
-ExecutionTime = 320.91 s  ClockTime = 333 s
+ExecutionTime = 133.78 s  ClockTime = 136 s
 
 Courant Number mean: 0.0091479 max: 0.246118
 deltaT = 0.5
@@ -2191,7 +2191,7 @@ time step continuity errors : sum local = 2.2644e-08, global = -3.51114e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00117609, Final residual = 9.89326e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.48702e-08, global = -9.52932e-15, cumulative = 1.32932e-12
-ExecutionTime = 322.35 s  ClockTime = 335 s
+ExecutionTime = 134.65 s  ClockTime = 137 s
 
 Courant Number mean: 0.00905332 max: 0.24351
 deltaT = 0.5
@@ -2205,7 +2205,7 @@ time step continuity errors : sum local = 2.22881e-08, global = 3.31155e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00114941, Final residual = 9.32503e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.43517e-08, global = 1.93464e-14, cumulative = 1.35198e-12
-ExecutionTime = 324.85 s  ClockTime = 337 s
+ExecutionTime = 135.8 s  ClockTime = 138 s
 
 Courant Number mean: 0.00896174 max: 0.240923
 deltaT = 0.5
@@ -2219,7 +2219,7 @@ time step continuity errors : sum local = 2.25198e-08, global = -3.51482e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00111078, Final residual = 9.94406e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.38254e-08, global = 8.49086e-15, cumulative = 1.32532e-12
-ExecutionTime = 326.28 s  ClockTime = 339 s
+ExecutionTime = 136.71 s  ClockTime = 139 s
 
 Courant Number mean: 0.00887334 max: 0.238353
 deltaT = 0.5
@@ -2233,7 +2233,7 @@ time step continuity errors : sum local = 2.15912e-08, global = 6.72566e-16, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0010638, Final residual = 8.52356e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.47287e-08, global = -2.96645e-14, cumulative = 1.29633e-12
-ExecutionTime = 328.68 s  ClockTime = 341 s
+ExecutionTime = 137.84 s  ClockTime = 140 s
 
 Courant Number mean: 0.00878795 max: 0.235811
 deltaT = 0.5
@@ -2247,7 +2247,7 @@ time step continuity errors : sum local = 2.35199e-08, global = 1.09886e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00102698, Final residual = 8.41982e-08, No Iterations 298
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.42516e-08, global = 4.97255e-14, cumulative = 1.35705e-12
-ExecutionTime = 330.32 s  ClockTime = 343 s
+ExecutionTime = 138.66 s  ClockTime = 141 s
 
 Courant Number mean: 0.00870546 max: 0.233281
 deltaT = 0.5
@@ -2261,7 +2261,7 @@ time step continuity errors : sum local = 2.20838e-08, global = -1.14442e-13, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000985937, Final residual = 9.83199e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.49653e-08, global = -2.12083e-14, cumulative = 1.2214e-12
-ExecutionTime = 332.83 s  ClockTime = 345 s
+ExecutionTime = 139.9 s  ClockTime = 142 s
 
 Courant Number mean: 0.00862564 max: 0.230778
 deltaT = 0.5
@@ -2275,7 +2275,7 @@ time step continuity errors : sum local = 2.31399e-08, global = -3.54519e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000965519, Final residual = 9.68707e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.47062e-08, global = -4.14537e-14, cumulative = 1.1764e-12
-ExecutionTime = 334.35 s  ClockTime = 347 s
+ExecutionTime = 140.77 s  ClockTime = 143 s
 
 Courant Number mean: 0.00854836 max: 0.228296
 deltaT = 0.5
@@ -2289,7 +2289,7 @@ time step continuity errors : sum local = 2.25645e-08, global = 6.29156e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000942839, Final residual = 9.39836e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.48364e-08, global = 2.63996e-14, cumulative = 1.26571e-12
-ExecutionTime = 336.69 s  ClockTime = 349 s
+ExecutionTime = 141.95 s  ClockTime = 144 s
 
 Courant Number mean: 0.00847362 max: 0.22584
 deltaT = 0.5
@@ -2303,7 +2303,7 @@ time step continuity errors : sum local = 2.3157e-08, global = -6.98213e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000930588, Final residual = 9.508e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.46355e-08, global = -7.34002e-15, cumulative = 1.18855e-12
-ExecutionTime = 338.32 s  ClockTime = 351 s
+ExecutionTime = 142.85 s  ClockTime = 145 s
 
 Courant Number mean: 0.0084013 max: 0.223405
 deltaT = 0.5
@@ -2317,7 +2317,7 @@ time step continuity errors : sum local = 2.23404e-08, global = 6.24657e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000914791, Final residual = 8.86203e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.44899e-08, global = 4.02463e-14, cumulative = 1.23504e-12
-ExecutionTime = 340.63 s  ClockTime = 353 s
+ExecutionTime = 144.04 s  ClockTime = 146 s
 
 Courant Number mean: 0.00833121 max: 0.220993
 deltaT = 0.5
@@ -2331,7 +2331,7 @@ time step continuity errors : sum local = 2.24978e-08, global = -2.3724e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000895267, Final residual = 8.95726e-08, No Iterations 297
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.46534e-08, global = -1.40901e-14, cumulative = 1.19723e-12
-ExecutionTime = 342.24 s  ClockTime = 355 s
+ExecutionTime = 144.93 s  ClockTime = 147 s
 
 Courant Number mean: 0.00826325 max: 0.218607
 deltaT = 0.5
@@ -2345,7 +2345,7 @@ time step continuity errors : sum local = 2.20793e-08, global = 5.06178e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.0008774, Final residual = 9.93302e-08, No Iterations 295
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.48735e-08, global = -9.975e-15, cumulative = 1.19232e-12
-ExecutionTime = 344.68 s  ClockTime = 358 s
+ExecutionTime = 146.08 s  ClockTime = 148 s
 
 Courant Number mean: 0.00819725 max: 0.216248
 deltaT = 0.5
@@ -2359,7 +2359,7 @@ time step continuity errors : sum local = 2.25193e-08, global = -3.66025e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00085937, Final residual = 9.94766e-08, No Iterations 296
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.52892e-08, global = -9.4828e-15, cumulative = 1.14623e-12
-ExecutionTime = 346.38 s  ClockTime = 359 s
+ExecutionTime = 146.9 s  ClockTime = 149 s
 
 Courant Number mean: 0.00813298 max: 0.213909
 deltaT = 0.5
@@ -2373,7 +2373,7 @@ time step continuity errors : sum local = 2.18749e-08, global = 3.61412e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000831474, Final residual = 9.82665e-08, No Iterations 295
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.42622e-08, global = 7.82583e-15, cumulative = 1.1902e-12
-ExecutionTime = 348.99 s  ClockTime = 362 s
+ExecutionTime = 148.05 s  ClockTime = 150 s
 
 Courant Number mean: 0.00807038 max: 0.211596
 deltaT = 0.5
@@ -2387,7 +2387,7 @@ time step continuity errors : sum local = 2.28589e-08, global = 7.02647e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000805335, Final residual = 9.14396e-08, No Iterations 294
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.38468e-08, global = -5.35106e-14, cumulative = 1.14371e-12
-ExecutionTime = 350.62 s  ClockTime = 364 s
+ExecutionTime = 148.77 s  ClockTime = 151 s
 
 Courant Number mean: 0.00800934 max: 0.20938
 deltaT = 0.5
@@ -2401,7 +2401,7 @@ time step continuity errors : sum local = 2.32523e-08, global = 3.99458e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000790137, Final residual = 9.79428e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.37666e-08, global = 4.02773e-14, cumulative = 1.22394e-12
-ExecutionTime = 353.01 s  ClockTime = 366 s
+ExecutionTime = 149.72 s  ClockTime = 152 s
 
 Courant Number mean: 0.00794981 max: 0.207198
 deltaT = 0.5
@@ -2415,7 +2415,7 @@ time step continuity errors : sum local = 2.3168e-08, global = -1.68544e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000775561, Final residual = 9.41964e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.39107e-08, global = -1.15905e-14, cumulative = 1.19549e-12
-ExecutionTime = 354.49 s  ClockTime = 368 s
+ExecutionTime = 150.36 s  ClockTime = 153 s
 
 Courant Number mean: 0.00789172 max: 0.20504
 deltaT = 0.5
@@ -2429,7 +2429,7 @@ time step continuity errors : sum local = 2.32188e-08, global = 7.60476e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000763884, Final residual = 9.15995e-08, No Iterations 294
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.41621e-08, global = -1.32513e-14, cumulative = 1.18985e-12
-ExecutionTime = 356.87 s  ClockTime = 370 s
+ExecutionTime = 151.31 s  ClockTime = 154 s
 
 Courant Number mean: 0.00783507 max: 0.202899
 deltaT = 0.5
@@ -2443,7 +2443,7 @@ time step continuity errors : sum local = 2.27403e-08, global = 2.63205e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000750729, Final residual = 9.83171e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.44468e-08, global = 1.19797e-14, cumulative = 1.22815e-12
-ExecutionTime = 358.54 s  ClockTime = 372 s
+ExecutionTime = 151.98 s  ClockTime = 154 s
 
 Courant Number mean: 0.00777973 max: 0.200781
 deltaT = 0.5
@@ -2457,7 +2457,7 @@ time step continuity errors : sum local = 2.35624e-08, global = 1.31669e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000736697, Final residual = 9.85105e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.28862e-08, global = 3.37732e-15, cumulative = 1.24469e-12
-ExecutionTime = 361.04 s  ClockTime = 374 s
+ExecutionTime = 152.9 s  ClockTime = 155 s
 
 Courant Number mean: 0.0077257 max: 0.198684
 deltaT = 0.5
@@ -2471,7 +2471,7 @@ time step continuity errors : sum local = 2.27134e-08, global = 2.88463e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00072647, Final residual = 9.14177e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.41525e-08, global = 1.17315e-14, cumulative = 1.28527e-12
-ExecutionTime = 362.6 s  ClockTime = 376 s
+ExecutionTime = 153.53 s  ClockTime = 156 s
 
 Courant Number mean: 0.00767287 max: 0.196609
 deltaT = 0.5
@@ -2485,7 +2485,7 @@ time step continuity errors : sum local = 2.29509e-08, global = -4.46757e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000712247, Final residual = 9.59388e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.4273e-08, global = 3.6845e-15, cumulative = 1.24428e-12
-ExecutionTime = 365.08 s  ClockTime = 378 s
+ExecutionTime = 154.51 s  ClockTime = 157 s
 
 Courant Number mean: 0.0076212 max: 0.194554
 deltaT = 0.5
@@ -2499,7 +2499,7 @@ time step continuity errors : sum local = 2.31816e-08, global = -1.71245e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000701199, Final residual = 9.64692e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.48191e-08, global = -7.96995e-15, cumulative = 1.23459e-12
-ExecutionTime = 366.66 s  ClockTime = 380 s
+ExecutionTime = 155.12 s  ClockTime = 157 s
 
 Courant Number mean: 0.00757056 max: 0.192519
 deltaT = 0.5
@@ -2513,7 +2513,7 @@ time step continuity errors : sum local = 2.27207e-08, global = 1.44339e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000686648, Final residual = 8.33645e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.38685e-08, global = 8.57262e-15, cumulative = 1.2576e-12
-ExecutionTime = 369.08 s  ClockTime = 383 s
+ExecutionTime = 156.05 s  ClockTime = 158 s
 
 Courant Number mean: 0.00752091 max: 0.190506
 deltaT = 0.5
@@ -2527,7 +2527,7 @@ time step continuity errors : sum local = 2.31536e-08, global = 1.14347e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000675927, Final residual = 9.1936e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.35114e-08, global = -1.49567e-14, cumulative = 1.25408e-12
-ExecutionTime = 370.6 s  ClockTime = 384 s
+ExecutionTime = 156.7 s  ClockTime = 159 s
 
 Courant Number mean: 0.00747217 max: 0.188512
 deltaT = 0.5
@@ -2541,7 +2541,7 @@ time step continuity errors : sum local = 2.25071e-08, global = -1.95813e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000661992, Final residual = 8.845e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.38572e-08, global = 4.2742e-14, cumulative = 1.27724e-12
-ExecutionTime = 373.11 s  ClockTime = 387 s
+ExecutionTime = 157.57 s  ClockTime = 160 s
 
 Courant Number mean: 0.00742427 max: 0.18654
 deltaT = 0.5
@@ -2555,7 +2555,7 @@ time step continuity errors : sum local = 2.27812e-08, global = 2.74368e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00064962, Final residual = 9.60323e-08, No Iterations 286
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.37769e-08, global = -6.92926e-14, cumulative = 1.21069e-12
-ExecutionTime = 374.49 s  ClockTime = 388 s
+ExecutionTime = 158.18 s  ClockTime = 161 s
 
 Courant Number mean: 0.00737721 max: 0.184588
 deltaT = 0.5
@@ -2569,7 +2569,7 @@ time step continuity errors : sum local = 2.30514e-08, global = 7.61108e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000639666, Final residual = 9.65587e-08, No Iterations 286
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.37805e-08, global = 9.45813e-14, cumulative = 1.38138e-12
-ExecutionTime = 377.01 s  ClockTime = 391 s
+ExecutionTime = 159.1 s  ClockTime = 161 s
 
 Courant Number mean: 0.00733095 max: 0.182656
 deltaT = 0.5
@@ -2583,7 +2583,7 @@ time step continuity errors : sum local = 2.27605e-08, global = -7.18809e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00062592, Final residual = 9.79994e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.38671e-08, global = -9.33672e-14, cumulative = 1.21614e-12
-ExecutionTime = 378.48 s  ClockTime = 392 s
+ExecutionTime = 159.71 s  ClockTime = 162 s
 
 Courant Number mean: 0.00728548 max: 0.180746
 deltaT = 0.5
@@ -2597,7 +2597,7 @@ time step continuity errors : sum local = 2.37394e-08, global = 3.94483e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000618258, Final residual = 8.26917e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.40616e-08, global = 3.60729e-14, cumulative = 1.29166e-12
-ExecutionTime = 380.78 s  ClockTime = 395 s
+ExecutionTime = 160.67 s  ClockTime = 163 s
 
 Courant Number mean: 0.00724075 max: 0.178855
 deltaT = 0.5
@@ -2611,7 +2611,7 @@ time step continuity errors : sum local = 2.30859e-08, global = 6.53287e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000606063, Final residual = 9.17664e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.32735e-08, global = -9.70243e-15, cumulative = 1.28849e-12
-ExecutionTime = 382.45 s  ClockTime = 396 s
+ExecutionTime = 161.3 s  ClockTime = 164 s
 
 Courant Number mean: 0.00719675 max: 0.176983
 deltaT = 0.5
@@ -2625,7 +2625,7 @@ time step continuity errors : sum local = 2.31033e-08, global = 7.40389e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000594828, Final residual = 9.76402e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.28532e-08, global = -4.67813e-14, cumulative = 1.24911e-12
-ExecutionTime = 384.89 s  ClockTime = 399 s
+ExecutionTime = 162.22 s  ClockTime = 165 s
 
 Courant Number mean: 0.00715346 max: 0.175131
 deltaT = 0.5
@@ -2639,7 +2639,7 @@ time step continuity errors : sum local = 3.26035e-08, global = 1.03545e-13, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000602822, Final residual = 8.9245e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.3324e-08, global = 2.75925e-14, cumulative = 1.38025e-12
-ExecutionTime = 386.74 s  ClockTime = 401 s
+ExecutionTime = 162.88 s  ClockTime = 165 s
 
 Courant Number mean: 0.00711083 max: 0.173299
 deltaT = 0.5
@@ -2653,7 +2653,7 @@ time step continuity errors : sum local = 3.5898e-08, global = 3.59052e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000596328, Final residual = 9.17266e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.31415e-08, global = 2.23276e-14, cumulative = 1.43848e-12
-ExecutionTime = 389.33 s  ClockTime = 403 s
+ExecutionTime = 163.87 s  ClockTime = 166 s
 
 Courant Number mean: 0.00706889 max: 0.171485
 deltaT = 0.5
@@ -2667,7 +2667,7 @@ time step continuity errors : sum local = 3.00279e-08, global = 2.10163e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000576561, Final residual = 8.4001e-08, No Iterations 294
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.28539e-08, global = 2.21126e-15, cumulative = 1.46171e-12
-ExecutionTime = 390.92 s  ClockTime = 405 s
+ExecutionTime = 164.56 s  ClockTime = 167 s
 
 Courant Number mean: 0.00702756 max: 0.169694
 deltaT = 0.5
@@ -2681,7 +2681,7 @@ time step continuity errors : sum local = 3.00901e-08, global = -7.22098e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000566852, Final residual = 9.35499e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.28997e-08, global = -2.30606e-15, cumulative = 1.45218e-12
-ExecutionTime = 393.29 s  ClockTime = 407 s
+ExecutionTime = 165.53 s  ClockTime = 168 s
 
 Courant Number mean: 0.00698684 max: 0.167922
 deltaT = 0.5
@@ -2695,7 +2695,7 @@ time step continuity errors : sum local = 2.93073e-08, global = 7.0532e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000556779, Final residual = 8.99275e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.30524e-08, global = 7.22455e-14, cumulative = 1.59496e-12
-ExecutionTime = 394.8 s  ClockTime = 409 s
+ExecutionTime = 166.18 s  ClockTime = 169 s
 
 Courant Number mean: 0.00694674 max: 0.166168
 deltaT = 0.5
@@ -2709,7 +2709,7 @@ time step continuity errors : sum local = 4.82603e-08, global = -7.73855e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000584088, Final residual = 8.40714e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.32742e-08, global = -6.12767e-14, cumulative = 1.4563e-12
-ExecutionTime = 397.69 s  ClockTime = 412 s
+ExecutionTime = 167.29 s  ClockTime = 170 s
 
 Courant Number mean: 0.00690725 max: 0.164433
 deltaT = 0.5
@@ -2723,7 +2723,7 @@ time step continuity errors : sum local = 3.60488e-08, global = -1.73925e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000552106, Final residual = 8.65663e-08, No Iterations 293
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.25584e-08, global = -1.94985e-14, cumulative = 1.4194e-12
-ExecutionTime = 399.51 s  ClockTime = 414 s
+ExecutionTime = 167.99 s  ClockTime = 171 s
 
 Courant Number mean: 0.00686835 max: 0.162717
 deltaT = 0.5
@@ -2737,7 +2737,7 @@ time step continuity errors : sum local = 3.52573e-08, global = 1.92958e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00054265, Final residual = 9.95648e-08, No Iterations 286
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.16179e-08, global = 1.92267e-14, cumulative = 1.45793e-12
-ExecutionTime = 402 s  ClockTime = 416 s
+ExecutionTime = 168.98 s  ClockTime = 172 s
 
 Courant Number mean: 0.00683003 max: 0.161057
 deltaT = 0.5
@@ -2751,7 +2751,7 @@ time step continuity errors : sum local = 3.63775e-08, global = 1.64687e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000536448, Final residual = 9.98211e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.23488e-08, global = -6.2868e-15, cumulative = 1.46811e-12
-ExecutionTime = 403.91 s  ClockTime = 418 s
+ExecutionTime = 169.71 s  ClockTime = 172 s
 
 Courant Number mean: 0.00679226 max: 0.15942
 deltaT = 0.5
@@ -2765,7 +2765,7 @@ time step continuity errors : sum local = 3.42077e-08, global = 4.45724e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000522679, Final residual = 8.42845e-08, No Iterations 286
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.15919e-08, global = -3.49107e-15, cumulative = 1.50919e-12
-ExecutionTime = 406.85 s  ClockTime = 421 s
+ExecutionTime = 170.79 s  ClockTime = 173 s
 
 Courant Number mean: 0.00675505 max: 0.1578
 deltaT = 0.5
@@ -2779,7 +2779,7 @@ time step continuity errors : sum local = 3.34472e-08, global = 4.90271e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000513666, Final residual = 9.37387e-08, No Iterations 262
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.95582e-08, global = -1.22391e-14, cumulative = 1.50185e-12
-ExecutionTime = 408.67 s  ClockTime = 423 s
+ExecutionTime = 171.66 s  ClockTime = 174 s
 
 Courant Number mean: 0.00671836 max: 0.156196
 deltaT = 0.5
@@ -2793,7 +2793,7 @@ time step continuity errors : sum local = 3.07863e-08, global = 2.19992e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000499204, Final residual = 8.98126e-08, No Iterations 284
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.20783e-08, global = -9.31299e-15, cumulative = 1.51454e-12
-ExecutionTime = 411.43 s  ClockTime = 426 s
+ExecutionTime = 172.88 s  ClockTime = 175 s
 
 Courant Number mean: 0.00668217 max: 0.154613
 deltaT = 0.5
@@ -2807,7 +2807,7 @@ time step continuity errors : sum local = 5.16367e-08, global = 4.26163e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000538204, Final residual = 9.75647e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.18415e-08, global = -2.06037e-14, cumulative = 1.53655e-12
-ExecutionTime = 413.55 s  ClockTime = 428 s
+ExecutionTime = 174.1 s  ClockTime = 177 s
 
 Courant Number mean: 0.00664652 max: 0.153041
 deltaT = 0.5
@@ -2821,7 +2821,7 @@ time step continuity errors : sum local = 3.48727e-08, global = 9.29359e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000495178, Final residual = 9.82558e-08, No Iterations 266
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.07735e-08, global = 5.79639e-14, cumulative = 1.68745e-12
-ExecutionTime = 415.98 s  ClockTime = 431 s
+ExecutionTime = 175.43 s  ClockTime = 178 s
 
 Courant Number mean: 0.00661135 max: 0.151489
 deltaT = 0.5
@@ -2835,7 +2835,7 @@ time step continuity errors : sum local = 5.05791e-08, global = 1.54277e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000520919, Final residual = 9.33212e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.17268e-08, global = -7.83711e-15, cumulative = 1.68116e-12
-ExecutionTime = 418.19 s  ClockTime = 433 s
+ExecutionTime = 176.57 s  ClockTime = 179 s
 
 Courant Number mean: 0.00657668 max: 0.149951
 deltaT = 0.5
@@ -2849,7 +2849,7 @@ time step continuity errors : sum local = 3.52369e-08, global = 1.0653e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00048206, Final residual = 8.85959e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.17203e-08, global = -6.14385e-14, cumulative = 1.63037e-12
-ExecutionTime = 420.8 s  ClockTime = 436 s
+ExecutionTime = 177.87 s  ClockTime = 180 s
 
 Courant Number mean: 0.00654248 max: 0.148433
 deltaT = 0.5
@@ -2863,7 +2863,7 @@ time step continuity errors : sum local = 5.15733e-08, global = 8.25097e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000511633, Final residual = 8.95753e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.07503e-08, global = 2.76817e-14, cumulative = 1.74056e-12
-ExecutionTime = 422.73 s  ClockTime = 438 s
+ExecutionTime = 179.02 s  ClockTime = 182 s
 
 Courant Number mean: 0.00650876 max: 0.146926
 deltaT = 0.5
@@ -2877,7 +2877,7 @@ time step continuity errors : sum local = 3.66002e-08, global = 2.22957e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000472106, Final residual = 9.02499e-08, No Iterations 268
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.19828e-08, global = 5.02157e-14, cumulative = 1.81308e-12
-ExecutionTime = 425.22 s  ClockTime = 440 s
+ExecutionTime = 180.26 s  ClockTime = 183 s
 
 Courant Number mean: 0.00647548 max: 0.145438
 deltaT = 0.5
@@ -2891,7 +2891,7 @@ time step continuity errors : sum local = 5.16406e-08, global = -2.07589e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000500146, Final residual = 9.42297e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.18306e-08, global = -8.38359e-15, cumulative = 1.78393e-12
-ExecutionTime = 427.24 s  ClockTime = 442 s
+ExecutionTime = 181.41 s  ClockTime = 184 s
 
 Courant Number mean: 0.00644263 max: 0.143966
 deltaT = 0.5
@@ -2905,7 +2905,7 @@ time step continuity errors : sum local = 5.2282e-08, global = 3.37463e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000495348, Final residual = 8.94525e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.04734e-08, global = -2.30868e-14, cumulative = 1.79459e-12
-ExecutionTime = 430.45 s  ClockTime = 446 s
+ExecutionTime = 182.92 s  ClockTime = 185 s
 
 Courant Number mean: 0.00641023 max: 0.142506
 deltaT = 0.5
@@ -2919,7 +2919,7 @@ time step continuity errors : sum local = 3.72827e-08, global = 4.74727e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000454861, Final residual = 9.82478e-08, No Iterations 267
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.114e-08, global = -5.38512e-14, cumulative = 1.78821e-12
-ExecutionTime = 432.54 s  ClockTime = 448 s
+ExecutionTime = 183.85 s  ClockTime = 186 s
 
 Courant Number mean: 0.00637823 max: 0.141067
 deltaT = 0.5
@@ -2933,7 +2933,7 @@ time step continuity errors : sum local = 5.38485e-08, global = 5.01524e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000487635, Final residual = 9.15188e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.21204e-08, global = 8.19253e-14, cumulative = 1.92029e-12
-ExecutionTime = 436.69 s  ClockTime = 452 s
+ExecutionTime = 185.29 s  ClockTime = 188 s
 
 Courant Number mean: 0.00634667 max: 0.139639
 deltaT = 0.5
@@ -2947,7 +2947,7 @@ time step continuity errors : sum local = 3.36806e-08, global = -5.07058e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000434409, Final residual = 9.94727e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.23822e-08, global = -6.47618e-14, cumulative = 1.85046e-12
-ExecutionTime = 438.97 s  ClockTime = 455 s
+ExecutionTime = 186.28 s  ClockTime = 189 s
 
 Courant Number mean: 0.00631551 max: 0.138227
 deltaT = 0.5
@@ -2961,7 +2961,7 @@ time step continuity errors : sum local = 5.21141e-08, global = 4.30221e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000473442, Final residual = 9.72492e-08, No Iterations 267
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.18755e-08, global = 5.72323e-14, cumulative = 1.95071e-12
-ExecutionTime = 442.16 s  ClockTime = 458 s
+ExecutionTime = 187.75 s  ClockTime = 190 s
 
 Courant Number mean: 0.00628477 max: 0.13683
 deltaT = 0.5
@@ -2975,7 +2975,7 @@ time step continuity errors : sum local = 4.80213e-08, global = -7.06785e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000457445, Final residual = 9.28706e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.14744e-08, global = -2.52155e-14, cumulative = 1.85482e-12
-ExecutionTime = 444.25 s  ClockTime = 460 s
+ExecutionTime = 188.91 s  ClockTime = 191 s
 
 Courant Number mean: 0.00625438 max: 0.135449
 deltaT = 0.5
@@ -2989,7 +2989,7 @@ time step continuity errors : sum local = 4.99286e-08, global = 3.62312e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000455639, Final residual = 9.42367e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.17281e-08, global = 2.46331e-14, cumulative = 1.91568e-12
-ExecutionTime = 447.13 s  ClockTime = 463 s
+ExecutionTime = 190.38 s  ClockTime = 193 s
 
 Courant Number mean: 0.00622438 max: 0.134081
 deltaT = 0.5
@@ -3003,7 +3003,7 @@ time step continuity errors : sum local = 5.12571e-08, global = 2.3335e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000455577, Final residual = 9.1212e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.12707e-08, global = -3.26684e-14, cumulative = 1.90635e-12
-ExecutionTime = 449.41 s  ClockTime = 465 s
+ExecutionTime = 191.54 s  ClockTime = 194 s
 
 Courant Number mean: 0.00619472 max: 0.132728
 deltaT = 0.5
@@ -3017,7 +3017,7 @@ time step continuity errors : sum local = 5.27137e-08, global = 2.90051e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000454177, Final residual = 9.87374e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.22291e-08, global = -1.65971e-14, cumulative = 1.91876e-12
-ExecutionTime = 452.21 s  ClockTime = 468 s
+ExecutionTime = 193.06 s  ClockTime = 196 s
 
 Courant Number mean: 0.00616542 max: 0.13139
 deltaT = 0.5
@@ -3031,7 +3031,7 @@ time step continuity errors : sum local = 5.20698e-08, global = 3.80824e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000449167, Final residual = 9.79834e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.30662e-08, global = 1.67602e-14, cumulative = 1.93933e-12
-ExecutionTime = 454.79 s  ClockTime = 471 s
+ExecutionTime = 194.28 s  ClockTime = 197 s
 
 Courant Number mean: 0.00613645 max: 0.130066
 deltaT = 0.5
@@ -3045,7 +3045,7 @@ time step continuity errors : sum local = 5.22634e-08, global = 6.95177e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000444613, Final residual = 8.93308e-08, No Iterations 292
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.22527e-08, global = 6.24452e-15, cumulative = 1.95252e-12
-ExecutionTime = 458.44 s  ClockTime = 475 s
+ExecutionTime = 195.85 s  ClockTime = 199 s
 
 Courant Number mean: 0.00610784 max: 0.128756
 deltaT = 0.5
@@ -3059,7 +3059,7 @@ time step continuity errors : sum local = 3.54668e-08, global = 2.45811e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00039761, Final residual = 9.60148e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.27007e-08, global = -1.32995e-14, cumulative = 1.9638e-12
-ExecutionTime = 460.84 s  ClockTime = 477 s
+ExecutionTime = 196.88 s  ClockTime = 200 s
 
 Courant Number mean: 0.00607955 max: 0.127462
 deltaT = 0.5
@@ -3073,7 +3073,7 @@ time step continuity errors : sum local = 5.18307e-08, global = 2.09359e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000434726, Final residual = 9.45535e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.19572e-08, global = 6.32283e-15, cumulative = 1.99106e-12
-ExecutionTime = 465.57 s  ClockTime = 483 s
+ExecutionTime = 198.44 s  ClockTime = 201 s
 
 Courant Number mean: 0.00605161 max: 0.126181
 deltaT = 0.5
@@ -3087,7 +3087,7 @@ time step continuity errors : sum local = 3.8517e-08, global = -1.69553e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000397562, Final residual = 9.35495e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.28558e-08, global = 2.04761e-14, cumulative = 1.99458e-12
-ExecutionTime = 468.21 s  ClockTime = 485 s
+ExecutionTime = 199.38 s  ClockTime = 202 s
 
 Courant Number mean: 0.00602399 max: 0.124913
 deltaT = 0.5
@@ -3101,7 +3101,7 @@ time step continuity errors : sum local = 5.05209e-08, global = -3.18288e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000421261, Final residual = 9.24853e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.16799e-08, global = 1.33696e-14, cumulative = 1.97613e-12
-ExecutionTime = 472.68 s  ClockTime = 491 s
+ExecutionTime = 200.87 s  ClockTime = 204 s
 
 Courant Number mean: 0.00599671 max: 0.123659
 deltaT = 0.5
@@ -3115,7 +3115,7 @@ time step continuity errors : sum local = 5.15133e-08, global = 8.30733e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000421549, Final residual = 9.81087e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.10427e-08, global = -1.75922e-14, cumulative = 1.96684e-12
-ExecutionTime = 475.46 s  ClockTime = 494 s
+ExecutionTime = 201.95 s  ClockTime = 205 s
 
 Courant Number mean: 0.00596976 max: 0.122418
 deltaT = 0.5
@@ -3129,7 +3129,7 @@ time step continuity errors : sum local = 5.13766e-08, global = 7.30961e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000416872, Final residual = 9.5894e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.22846e-08, global = 4.38667e-15, cumulative = 1.97854e-12
-ExecutionTime = 479.12 s  ClockTime = 498 s
+ExecutionTime = 203.44 s  ClockTime = 206 s
 
 Courant Number mean: 0.00594314 max: 0.121191
 deltaT = 0.5
@@ -3143,7 +3143,7 @@ time step continuity errors : sum local = 5.19248e-08, global = 4.37864e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000415477, Final residual = 9.49969e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.3085e-08, global = -1.87781e-15, cumulative = 2.02045e-12
-ExecutionTime = 481.83 s  ClockTime = 501 s
+ExecutionTime = 204.56 s  ClockTime = 207 s
 
 Courant Number mean: 0.00591686 max: 0.119977
 deltaT = 0.5
@@ -3157,7 +3157,7 @@ time step continuity errors : sum local = 5.18313e-08, global = 3.18462e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000411147, Final residual = 9.37186e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.18507e-08, global = 2.01766e-14, cumulative = 2.07247e-12
-ExecutionTime = 485.2 s  ClockTime = 504 s
+ExecutionTime = 206.04 s  ClockTime = 209 s
 
 Courant Number mean: 0.00589092 max: 0.118776
 deltaT = 0.5
@@ -3171,7 +3171,7 @@ time step continuity errors : sum local = 5.28579e-08, global = 2.96614e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000408753, Final residual = 8.87076e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.14368e-08, global = -1.38286e-14, cumulative = 2.06161e-12
-ExecutionTime = 487.67 s  ClockTime = 507 s
+ExecutionTime = 207.16 s  ClockTime = 210 s
 
 Courant Number mean: 0.00586535 max: 0.117587
 deltaT = 0.5
@@ -3185,7 +3185,7 @@ time step continuity errors : sum local = 5.13414e-08, global = -1.38651e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000402819, Final residual = 9.28514e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.263e-08, global = -8.17976e-15, cumulative = 2.03956e-12
-ExecutionTime = 491.02 s  ClockTime = 510 s
+ExecutionTime = 208.64 s  ClockTime = 211 s
 
 Courant Number mean: 0.0058401 max: 0.116412
 deltaT = 0.5
@@ -3199,7 +3199,7 @@ time step continuity errors : sum local = 5.4116e-08, global = -5.08893e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000406288, Final residual = 9.48166e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.21828e-08, global = 3.59401e-14, cumulative = 2.02461e-12
-ExecutionTime = 493.49 s  ClockTime = 513 s
+ExecutionTime = 209.79 s  ClockTime = 213 s
 
 Courant Number mean: 0.00581517 max: 0.115249
 deltaT = 0.5
@@ -3213,7 +3213,7 @@ time step continuity errors : sum local = 5.05978e-08, global = -6.11879e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000394345, Final residual = 9.59137e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.23166e-08, global = -1.7301e-14, cumulative = 2.00119e-12
-ExecutionTime = 497.89 s  ClockTime = 517 s
+ExecutionTime = 211.25 s  ClockTime = 214 s
 
 Courant Number mean: 0.00579055 max: 0.114099
 deltaT = 0.5
@@ -3227,7 +3227,7 @@ time step continuity errors : sum local = 5.33453e-08, global = 1.39233e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000397614, Final residual = 9.40305e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.2107e-08, global = 2.74458e-14, cumulative = 2.04256e-12
-ExecutionTime = 501.21 s  ClockTime = 521 s
+ExecutionTime = 212.34 s  ClockTime = 215 s
 
 Courant Number mean: 0.00576625 max: 0.112961
 deltaT = 0.5
@@ -3241,7 +3241,7 @@ time step continuity errors : sum local = 5.18834e-08, global = -2.60824e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0003904, Final residual = 9.42524e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.12278e-08, global = -1.9189e-14, cumulative = 1.99729e-12
-ExecutionTime = 505.63 s  ClockTime = 526 s
+ExecutionTime = 213.83 s  ClockTime = 217 s
 
 Courant Number mean: 0.00574227 max: 0.111835
 deltaT = 0.5
@@ -3255,7 +3255,7 @@ time step continuity errors : sum local = 5.02039e-08, global = -3.27659e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000382922, Final residual = 9.5728e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.03691e-08, global = -5.36435e-14, cumulative = 1.91088e-12
-ExecutionTime = 508.32 s  ClockTime = 529 s
+ExecutionTime = 214.97 s  ClockTime = 218 s
 
 Courant Number mean: 0.00571861 max: 0.110722
 deltaT = 0.5
@@ -3269,7 +3269,7 @@ time step continuity errors : sum local = 5.04841e-08, global = 4.65326e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000380319, Final residual = 8.41638e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.1262e-08, global = 1.18991e-13, cumulative = 2.0764e-12
-ExecutionTime = 511.41 s  ClockTime = 532 s
+ExecutionTime = 216.4 s  ClockTime = 219 s
 
 Courant Number mean: 0.00569528 max: 0.10962
 deltaT = 0.5
@@ -3283,7 +3283,7 @@ time step continuity errors : sum local = 3.93423e-08, global = -8.43891e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000348002, Final residual = 9.54361e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.08079e-08, global = -7.48859e-14, cumulative = 1.91713e-12
-ExecutionTime = 513.38 s  ClockTime = 534 s
+ExecutionTime = 217.35 s  ClockTime = 220 s
 
 Courant Number mean: 0.00567226 max: 0.10853
 deltaT = 0.5
@@ -3297,7 +3297,7 @@ time step continuity errors : sum local = 3.18231e-08, global = -2.18173e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000326074, Final residual = 9.36227e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.17929e-08, global = 3.73185e-14, cumulative = 1.93263e-12
-ExecutionTime = 515.72 s  ClockTime = 537 s
+ExecutionTime = 218.57 s  ClockTime = 221 s
 
 Courant Number mean: 0.00564952 max: 0.107453
 deltaT = 0.5
@@ -3311,7 +3311,7 @@ time step continuity errors : sum local = 5.23569e-08, global = -2.49476e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000377715, Final residual = 9.75787e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.224e-08, global = -3.7634e-14, cumulative = 1.87005e-12
-ExecutionTime = 517.71 s  ClockTime = 539 s
+ExecutionTime = 219.68 s  ClockTime = 222 s
 
 Courant Number mean: 0.00562712 max: 0.106386
 deltaT = 0.5
@@ -3325,7 +3325,7 @@ time step continuity errors : sum local = 5.26841e-08, global = 2.66313e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000376188, Final residual = 9.47365e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.20931e-08, global = -2.89604e-14, cumulative = 1.86772e-12
-ExecutionTime = 520.9 s  ClockTime = 542 s
+ExecutionTime = 220.98 s  ClockTime = 224 s
 
 Courant Number mean: 0.00560503 max: 0.105333
 deltaT = 0.5
@@ -3339,7 +3339,7 @@ time step continuity errors : sum local = 5.33602e-08, global = 6.6349e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000374731, Final residual = 8.84611e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.16767e-08, global = 3.1797e-14, cumulative = 1.96586e-12
-ExecutionTime = 522.89 s  ClockTime = 544 s
+ExecutionTime = 221.82 s  ClockTime = 225 s
 
 Courant Number mean: 0.00558327 max: 0.104302
 deltaT = 0.5
@@ -3353,7 +3353,7 @@ time step continuity errors : sum local = 5.23732e-08, global = -5.83812e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000370493, Final residual = 8.73649e-08, No Iterations 291
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.05278e-08, global = -5.00476e-14, cumulative = 1.90998e-12
-ExecutionTime = 525.87 s  ClockTime = 547 s
+ExecutionTime = 223.02 s  ClockTime = 226 s
 
 Courant Number mean: 0.00556181 max: 0.103282
 deltaT = 0.5
@@ -3367,7 +3367,7 @@ time step continuity errors : sum local = 3.81767e-08, global = 1.01592e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000328501, Final residual = 8.88597e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.19698e-08, global = 3.48924e-14, cumulative = 1.94589e-12
-ExecutionTime = 527.66 s  ClockTime = 549 s
+ExecutionTime = 223.74 s  ClockTime = 227 s
 
 Courant Number mean: 0.00554063 max: 0.102274
 deltaT = 0.5
@@ -3381,7 +3381,7 @@ time step continuity errors : sum local = 5.2809e-08, global = -1.28862e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00036557, Final residual = 9.98965e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.2156e-08, global = -3.9786e-14, cumulative = 1.89322e-12
-ExecutionTime = 530.74 s  ClockTime = 552 s
+ExecutionTime = 224.89 s  ClockTime = 228 s
 
 Courant Number mean: 0.00551976 max: 0.101276
 deltaT = 0.5
@@ -3395,7 +3395,7 @@ time step continuity errors : sum local = 3.7304e-08, global = -1.20724e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000321173, Final residual = 9.33891e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.05059e-08, global = 1.95458e-14, cumulative = 1.90069e-12
-ExecutionTime = 532.55 s  ClockTime = 554 s
+ExecutionTime = 225.63 s  ClockTime = 228 s
 
 Courant Number mean: 0.00549912 max: 0.100287
 deltaT = 0.5
@@ -3409,7 +3409,7 @@ time step continuity errors : sum local = 3.58367e-08, global = -1.04192e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000313955, Final residual = 9.35837e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.2278e-08, global = 5.37276e-16, cumulative = 1.89081e-12
-ExecutionTime = 535.16 s  ClockTime = 557 s
+ExecutionTime = 226.64 s  ClockTime = 230 s
 
 Courant Number mean: 0.00547874 max: 0.0993094
 deltaT = 0.5
@@ -3423,7 +3423,7 @@ time step continuity errors : sum local = 4.90927e-08, global = 5.17395e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00034938, Final residual = 8.51808e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.11725e-08, global = 6.53285e-14, cumulative = 2.00787e-12
-ExecutionTime = 537.19 s  ClockTime = 559 s
+ExecutionTime = 227.58 s  ClockTime = 230 s
 
 Courant Number mean: 0.00545858 max: 0.098342
 deltaT = 0.5
@@ -3437,7 +3437,7 @@ time step continuity errors : sum local = 5.34208e-08, global = 6.63675e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000359308, Final residual = 8.9379e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.20436e-08, global = -3.43927e-14, cumulative = 1.98012e-12
-ExecutionTime = 540.01 s  ClockTime = 562 s
+ExecutionTime = 228.79 s  ClockTime = 232 s
 
 Courant Number mean: 0.00543867 max: 0.097384
 deltaT = 0.5
@@ -3451,7 +3451,7 @@ time step continuity errors : sum local = 5.24116e-08, global = 2.02251e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000354362, Final residual = 8.38633e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.15331e-08, global = -8.59898e-15, cumulative = 1.99174e-12
-ExecutionTime = 541.94 s  ClockTime = 564 s
+ExecutionTime = 229.66 s  ClockTime = 233 s
 
 Courant Number mean: 0.005419 max: 0.0964359
 deltaT = 0.5
@@ -3465,7 +3465,7 @@ time step continuity errors : sum local = 5.34642e-08, global = -3.66769e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.0003561, Final residual = 8.42284e-08, No Iterations 290
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.11988e-08, global = 4.59955e-14, cumulative = 2.00106e-12
-ExecutionTime = 545.08 s  ClockTime = 567 s
+ExecutionTime = 230.84 s  ClockTime = 234 s
 
 Courant Number mean: 0.00539954 max: 0.0954983
 deltaT = 0.5
@@ -3479,7 +3479,7 @@ time step continuity errors : sum local = 5.18245e-08, global = -2.81704e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00034863, Final residual = 9.60402e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.22682e-08, global = -7.63156e-14, cumulative = 1.89658e-12
-ExecutionTime = 547.28 s  ClockTime = 569 s
+ExecutionTime = 231.76 s  ClockTime = 235 s
 
 Courant Number mean: 0.00538032 max: 0.0945703
 deltaT = 0.5
@@ -3493,7 +3493,7 @@ time step continuity errors : sum local = 4.94929e-08, global = 4.15947e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00034014, Final residual = 9.00375e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.10556e-08, global = 3.11486e-14, cumulative = 1.96932e-12
-ExecutionTime = 550.22 s  ClockTime = 572 s
+ExecutionTime = 232.89 s  ClockTime = 236 s
 
 Courant Number mean: 0.00536129 max: 0.0936517
 deltaT = 0.5
@@ -3507,7 +3507,7 @@ time step continuity errors : sum local = 5.15939e-08, global = 9.68552e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000343041, Final residual = 9.65147e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.19148e-08, global = -6.31969e-15, cumulative = 1.97269e-12
-ExecutionTime = 552.32 s  ClockTime = 574 s
+ExecutionTime = 233.71 s  ClockTime = 237 s
 
 Courant Number mean: 0.00534248 max: 0.0927434
 deltaT = 0.5
@@ -3521,7 +3521,7 @@ time step continuity errors : sum local = 5.23241e-08, global = 2.73749e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000346163, Final residual = 9.29631e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.07369e-08, global = -1.10686e-15, cumulative = 1.99895e-12
-ExecutionTime = 555.38 s  ClockTime = 577 s
+ExecutionTime = 234.87 s  ClockTime = 238 s
 
 Courant Number mean: 0.00532385 max: 0.0918439
 deltaT = 0.5
@@ -3535,7 +3535,7 @@ time step continuity errors : sum local = 5.28682e-08, global = -1.01165e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000342927, Final residual = 9.37272e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.15902e-08, global = 1.25146e-15, cumulative = 1.99919e-12
-ExecutionTime = 557.68 s  ClockTime = 580 s
+ExecutionTime = 235.74 s  ClockTime = 239 s
 
 Courant Number mean: 0.00530539 max: 0.0909527
 deltaT = 0.5
@@ -3549,7 +3549,7 @@ time step continuity errors : sum local = 5.1266e-08, global = 1.57197e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000336796, Final residual = 9.38331e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.14454e-08, global = -4.27859e-15, cumulative = 2.01064e-12
-ExecutionTime = 560.77 s  ClockTime = 583 s
+ExecutionTime = 236.95 s  ClockTime = 240 s
 
 Courant Number mean: 0.00528709 max: 0.0900728
 deltaT = 0.5
@@ -3563,7 +3563,7 @@ time step continuity errors : sum local = 5.34293e-08, global = -4.90516e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000342107, Final residual = 9.47862e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.94534e-08, global = -2.1105e-14, cumulative = 1.98463e-12
-ExecutionTime = 563.6 s  ClockTime = 586 s
+ExecutionTime = 237.77 s  ClockTime = 241 s
 
 Courant Number mean: 0.00526897 max: 0.089201
 deltaT = 0.5
@@ -3577,7 +3577,7 @@ time step continuity errors : sum local = 3.73378e-08, global = -3.86058e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000293629, Final residual = 9.19878e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.96287e-08, global = -2.11263e-14, cumulative = 1.92489e-12
-ExecutionTime = 566.85 s  ClockTime = 589 s
+ExecutionTime = 238.81 s  ClockTime = 242 s
 
 Courant Number mean: 0.005251 max: 0.0883387
 deltaT = 0.5
@@ -3591,7 +3591,7 @@ time step continuity errors : sum local = 4.77775e-08, global = 2.04972e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000321117, Final residual = 9.19437e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.04676e-08, global = 4.06354e-14, cumulative = 1.98603e-12
-ExecutionTime = 569.21 s  ClockTime = 592 s
+ExecutionTime = 239.66 s  ClockTime = 243 s
 
 Courant Number mean: 0.00523319 max: 0.0874865
 deltaT = 0.5
@@ -3605,7 +3605,7 @@ time step continuity errors : sum local = 5.10924e-08, global = -3.80592e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000330111, Final residual = 9.15162e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.97649e-08, global = 8.54372e-15, cumulative = 1.95651e-12
-ExecutionTime = 572.6 s  ClockTime = 596 s
+ExecutionTime = 240.81 s  ClockTime = 244 s
 
 Courant Number mean: 0.00521556 max: 0.0866416
 deltaT = 0.5
@@ -3619,7 +3619,7 @@ time step continuity errors : sum local = 5.35356e-08, global = 7.56836e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000336658, Final residual = 9.59073e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.09435e-08, global = -1.51959e-14, cumulative = 1.94888e-12
-ExecutionTime = 575.34 s  ClockTime = 599 s
+ExecutionTime = 241.69 s  ClockTime = 245 s
 
 Courant Number mean: 0.00519808 max: 0.0858069
 deltaT = 0.5
@@ -3633,7 +3633,7 @@ time step continuity errors : sum local = 5.33241e-08, global = 1.61676e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000332431, Final residual = 9.39968e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.08298e-08, global = 1.84348e-14, cumulative = 1.98349e-12
-ExecutionTime = 578.99 s  ClockTime = 603 s
+ExecutionTime = 242.88 s  ClockTime = 246 s
 
 Courant Number mean: 0.00518077 max: 0.0849786
 deltaT = 0.5
@@ -3647,7 +3647,7 @@ time step continuity errors : sum local = 5.32265e-08, global = 1.41658e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000332662, Final residual = 9.81942e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.03254e-08, global = -4.04845e-15, cumulative = 1.9936e-12
-ExecutionTime = 581.01 s  ClockTime = 605 s
+ExecutionTime = 243.76 s  ClockTime = 247 s
 
 Courant Number mean: 0.00516362 max: 0.0841601
 deltaT = 0.5
@@ -3661,7 +3661,7 @@ time step continuity errors : sum local = 4.88487e-08, global = 1.50779e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000318169, Final residual = 9.1325e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.98038e-08, global = 2.83101e-14, cumulative = 2.03699e-12
-ExecutionTime = 584.03 s  ClockTime = 608 s
+ExecutionTime = 244.91 s  ClockTime = 248 s
 
 Courant Number mean: 0.00514663 max: 0.0833509
 deltaT = 0.5
@@ -3675,7 +3675,7 @@ time step continuity errors : sum local = 5.15263e-08, global = -7.01777e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000323761, Final residual = 9.11401e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.9896e-08, global = -2.89955e-14, cumulative = 1.93782e-12
-ExecutionTime = 586.24 s  ClockTime = 610 s
+ExecutionTime = 245.76 s  ClockTime = 249 s
 
 Courant Number mean: 0.00512979 max: 0.0825502
 deltaT = 0.5
@@ -3689,7 +3689,7 @@ time step continuity errors : sum local = 5.4082e-08, global = 1.16141e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000329856, Final residual = 9.26663e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.9725e-08, global = -2.56664e-14, cumulative = 1.92376e-12
-ExecutionTime = 589.77 s  ClockTime = 614 s
+ExecutionTime = 246.92 s  ClockTime = 250 s
 
 Courant Number mean: 0.0051131 max: 0.0817565
 deltaT = 0.5
@@ -3703,7 +3703,7 @@ time step continuity errors : sum local = 5.39523e-08, global = 4.52003e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000329224, Final residual = 9.29281e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.97472e-08, global = 6.11863e-15, cumulative = 1.97508e-12
-ExecutionTime = 592.44 s  ClockTime = 617 s
+ExecutionTime = 247.75 s  ClockTime = 251 s
 
 Courant Number mean: 0.00509658 max: 0.0809711
 deltaT = 0.5
@@ -3717,7 +3717,7 @@ time step continuity errors : sum local = 3.74176e-08, global = -4.08137e-15, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.00027641, Final residual = 8.65302e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.07642e-08, global = -3.15738e-14, cumulative = 1.93943e-12
-ExecutionTime = 595.64 s  ClockTime = 621 s
+ExecutionTime = 248.79 s  ClockTime = 252 s
 
 Courant Number mean: 0.00508018 max: 0.0801953
 deltaT = 0.5
@@ -3731,7 +3731,7 @@ time step continuity errors : sum local = 5.26962e-08, global = 5.16324e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00032288, Final residual = 9.94417e-08, No Iterations 271
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.81934e-08, global = 4.45225e-14, cumulative = 2.03558e-12
-ExecutionTime = 598.38 s  ClockTime = 624 s
+ExecutionTime = 249.62 s  ClockTime = 253 s
 
 Courant Number mean: 0.00506393 max: 0.0794258
 deltaT = 0.5
@@ -3745,7 +3745,7 @@ time step continuity errors : sum local = 5.36329e-08, global = 7.32538e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000323806, Final residual = 9.00389e-08, No Iterations 267
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.96121e-08, global = 5.10248e-14, cumulative = 2.15986e-12
-ExecutionTime = 602.13 s  ClockTime = 628 s
+ExecutionTime = 250.72 s  ClockTime = 254 s
 
 Courant Number mean: 0.00504779 max: 0.0786664
 deltaT = 0.5
@@ -3759,7 +3759,7 @@ time step continuity errors : sum local = 5.30163e-08, global = -3.08058e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000320493, Final residual = 9.60288e-08, No Iterations 282
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.98924e-08, global = -6.75684e-14, cumulative = 2.06149e-12
-ExecutionTime = 604.78 s  ClockTime = 631 s
+ExecutionTime = 251.65 s  ClockTime = 255 s
 
 Courant Number mean: 0.0050318 max: 0.0779135
 deltaT = 0.5
@@ -3773,7 +3773,7 @@ time step continuity errors : sum local = 5.31497e-08, global = 4.46508e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00031932, Final residual = 9.86686e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.99664e-08, global = 1.23066e-14, cumulative = 2.11845e-12
-ExecutionTime = 608.4 s  ClockTime = 635 s
+ExecutionTime = 253.01 s  ClockTime = 256 s
 
 Courant Number mean: 0.00501591 max: 0.0771691
 deltaT = 0.5
@@ -3787,7 +3787,7 @@ time step continuity errors : sum local = 5.24096e-08, global = 4.63312e-15, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00031647, Final residual = 9.03958e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.96697e-08, global = 6.89196e-16, cumulative = 2.12377e-12
-ExecutionTime = 610.71 s  ClockTime = 637 s
+ExecutionTime = 253.95 s  ClockTime = 257 s
 
 Courant Number mean: 0.00500015 max: 0.0764322
 deltaT = 0.5
@@ -3801,7 +3801,7 @@ time step continuity errors : sum local = 5.3541e-08, global = 3.45558e-14, cumu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000318598, Final residual = 9.19544e-08, No Iterations 268
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 6.01935e-08, global = 4.61292e-14, cumulative = 2.20445e-12
-ExecutionTime = 613.73 s  ClockTime = 640 s
+ExecutionTime = 255.08 s  ClockTime = 258 s
 
 Courant Number mean: 0.0049845 max: 0.0757032
 deltaT = 0.5
@@ -3815,7 +3815,7 @@ time step continuity errors : sum local = 5.42277e-08, global = -2.78714e-14, cu
 DICPCG:  Solving for p_rgh, Initial residual = 0.000318337, Final residual = 9.93889e-08, No Iterations 288
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.94695e-08, global = -9.18771e-14, cumulative = 2.0847e-12
-ExecutionTime = 616.03 s  ClockTime = 642 s
+ExecutionTime = 255.95 s  ClockTime = 259 s
 
 Courant Number mean: 0.00496898 max: 0.0749807
 deltaT = 0.5
@@ -3829,7 +3829,7 @@ time step continuity errors : sum local = 5.43007e-08, global = 5.31656e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000318684, Final residual = 9.5733e-08, No Iterations 286
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.77723e-08, global = 7.82072e-15, cumulative = 2.14569e-12
-ExecutionTime = 619.24 s  ClockTime = 646 s
+ExecutionTime = 257.13 s  ClockTime = 260 s
 
 Courant Number mean: 0.00495359 max: 0.0742654
 deltaT = 0.5
@@ -3843,7 +3843,7 @@ time step continuity errors : sum local = 4.31026e-08, global = 4.93653e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000282455, Final residual = 9.40028e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.8255e-08, global = 2.75887e-14, cumulative = 2.22264e-12
-ExecutionTime = 621.8 s  ClockTime = 649 s
+ExecutionTime = 257.93 s  ClockTime = 261 s
 
 Courant Number mean: 0.00493827 max: 0.0735606
 deltaT = 0.5
@@ -3857,7 +3857,7 @@ time step continuity errors : sum local = 5.7202e-08, global = -1.11548e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000326428, Final residual = 8.3754e-08, No Iterations 289
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.89675e-08, global = 6.19009e-14, cumulative = 2.27339e-12
-ExecutionTime = 625.61 s  ClockTime = 653 s
+ExecutionTime = 259.12 s  ClockTime = 262 s
 
 Courant Number mean: 0.00492309 max: 0.0728603
 deltaT = 0.5
@@ -3871,7 +3871,7 @@ time step continuity errors : sum local = 5.39136e-08, global = -6.9873e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000315024, Final residual = 9.23252e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.86773e-08, global = -1.0142e-13, cumulative = 2.1021e-12
-ExecutionTime = 628.54 s  ClockTime = 656 s
+ExecutionTime = 259.98 s  ClockTime = 263 s
 
 Courant Number mean: 0.00490802 max: 0.0721683
 deltaT = 0.5
@@ -3885,7 +3885,7 @@ time step continuity errors : sum local = 5.32657e-08, global = 9.00277e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.00031134, Final residual = 9.89648e-08, No Iterations 287
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.95872e-08, global = 4.3377e-14, cumulative = 2.2355e-12
-ExecutionTime = 632.44 s  ClockTime = 660 s
+ExecutionTime = 261.13 s  ClockTime = 264 s
 
 Courant Number mean: 0.00489305 max: 0.0714837
 deltaT = 0.5
@@ -3899,7 +3899,7 @@ time step continuity errors : sum local = 5.26446e-08, global = 1.09238e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000308858, Final residual = 9.40476e-08, No Iterations 270
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.82427e-08, global = 2.29422e-14, cumulative = 2.26937e-12
-ExecutionTime = 634.99 s  ClockTime = 663 s
+ExecutionTime = 261.95 s  ClockTime = 265 s
 
 Courant Number mean: 0.0048782 max: 0.0708048
 deltaT = 0.5
@@ -3913,7 +3913,7 @@ time step continuity errors : sum local = 3.57024e-08, global = -2.4887e-14, cum
 DICPCG:  Solving for p_rgh, Initial residual = 0.000254859, Final residual = 9.30277e-08, No Iterations 270
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 time step continuity errors : sum local = 5.77201e-08, global = 9.96296e-15, cumulative = 2.25444e-12
-ExecutionTime = 638.04 s  ClockTime = 666 s
+ExecutionTime = 262.94 s  ClockTime = 266 s
 
 End
 

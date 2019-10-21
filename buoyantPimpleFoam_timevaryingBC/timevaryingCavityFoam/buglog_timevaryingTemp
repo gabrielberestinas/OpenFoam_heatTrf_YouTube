@@ -1,0 +1,14 @@
+debugging...
+
+what do we notice?
+
+1. we find that the temperature fields are not caclulating
+	a. maybe the maxIter entry is 0 thats why
+	b. 
+
+
+2. we find that the temperature profile is not alternating according to the csv file
+a. is it due to sampling time too long?
+
+3. so setting writeinterval to 1s after copying the case doesnt show the desired results
+a. partly solved

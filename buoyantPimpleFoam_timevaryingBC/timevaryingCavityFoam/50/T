@@ -43,7 +43,7 @@ boundaryField
             mergeSeparators 0;
             file            "<constant>/temp_profile.csv";
         }
-        value           uniform 501.505;
+        value           uniform 501.51;
     }
     cold
     {
