@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Oct 27 2019
-Time   : 15:52:55
-Host   : LAPTOP-FK3MEHTI
-PID    : 1786
+Date   : Oct 28 2019
+Time   : 16:37:37
+Host   : DESKTOP-9S60IA4
+PID    : 3625
 I/O    : uncollated
-Case   : /home/theodore_ong/OpenFoam/tutorials/heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation
+Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/multiRegionHeaterRadiation
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -31,9 +31,9 @@ Trying to match regions to existing cell zones.
 
 Number of regions:5
 
-Writing region per cell file (for manual decomposition) to "/home/theodore_ong/OpenFoam/tutorials/heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/cellToRegion"
+Writing region per cell file (for manual decomposition) to "/home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/multiRegionHeaterRadiation/constant/cellToRegion"
 
-Writing region per cell as volScalarField to "/home/theodore_ong/OpenFoam/tutorials/heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/0/cellToRegion"
+Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/multiRegionHeaterRadiation/0/cellToRegion"
 
 Region	Cells
 ------	-----

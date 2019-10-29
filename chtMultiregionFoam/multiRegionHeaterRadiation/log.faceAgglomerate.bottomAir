@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : faceAgglomerate -region bottomAir -dict constant/viewFactorsDict
+Date   : Oct 28 2019
+Time   : 16:37:38
+Host   : DESKTOP-9S60IA4
+PID    : 3639
+I/O    : uncollated
+Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/multiRegionHeaterRadiation
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh bottomAir for time = 0
+
+
+Agglomerating patch : bottomAir_to_heater
+
+Agglomerating patch : bottomAir_to_leftSolid
+
+Agglomerating patch : bottomAir_to_rightSolid
+
+Agglomerating patch : minX
+
+Agglomerating patch : minY
+
+Agglomerating patch : minZ
+
+Agglomerating patch : maxX
+
+Agglomerating patch : maxZ
+
+Writing facesAgglomeration
+End
+

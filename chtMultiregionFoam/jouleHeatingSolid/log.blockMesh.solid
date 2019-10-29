@@ -1,0 +1,78 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : blockMesh -region solid
+Date   : Oct 28 2019
+Time   : 17:05:02
+Host   : DESKTOP-9S60IA4
+PID    : 3948
+I/O    : uncollated
+Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/jouleHeatingSolid
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Generating mesh for region solid
+Creating block mesh from "system/solid/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.01 .. 0.01
+        j : 0.005 .. 0.005
+        k : 0.1 .. 0.1
+
+
+There are no merge patch pairs
+
+Writing polyMesh with 0 cellZones
+----------------
+Mesh Information
+----------------
+  boundingBox: (-2.5 0 0) (2.5 0.1 0.1)
+  nPoints: 21042
+  nCells: 10000
+  nFaces: 40520
+  nInternalFaces: 19480
+----------------
+Patches
+----------------
+  patch 0 (start: 19480 size: 500) name: top
+  patch 1 (start: 19980 size: 500) name: bottom
+  patch 2 (start: 20480 size: 20) name: left
+  patch 3 (start: 20500 size: 20) name: right
+  patch 4 (start: 20520 size: 20000) name: frontAndBack
+
+End
+
