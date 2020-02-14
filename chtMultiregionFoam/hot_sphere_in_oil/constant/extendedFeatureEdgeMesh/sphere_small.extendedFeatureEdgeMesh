@@ -9,17 +9,54 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    class       extendedFeatureEdgeMesh;
+    location    "constant/extendedFeatureEdgeMesh";
+    object      sphere_small.extendedFeatureEdgeMesh;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
+// points
+4((0.01879998 -4.604668e-18 -0.1488172) (9.184851e-18 -2.24964e-33 -0.15) (9.184851e-18 -2.24964e-33 0.15) (0.01879998 -4.604668e-18 0.1488172))
+// edges
+2((0 1) (2 3))
+// concaveStart mixedStart nonFeatureStart
+0 0 0
+// internalStart flatStart openStart multipleStart
+0 2 2 2
+// normals
+4((0.05925118 -0.3309943 -0.9417707) (0.05925118 0.3309943 -0.9417707) (0.05925118 -0.3309943 0.9417707) (0.05925118 0.3309943 0.9417707))
+// normal volume types
+
+4
 (
-    fluid       (oil)
-    solid       (sphere)
-);
+0
+0
+0
+0
+)
+
+// normalDirections
+
+2
+(
+2(1 -1)
+2(1 -1)
+)
+
+// edgeNormals
+
+2
+(
+2(0 1)
+2(2 3)
+)
+
+// featurePointNormals
+0()
+// featurePointEdges
+0()
+// regionEdges
+0()
 
 
 // ************************************************************************* //

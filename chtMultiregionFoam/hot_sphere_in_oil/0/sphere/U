@@ -9,17 +9,25 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    class       volVectorField;
+    location    "0/sphere";
+    object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
-(
-    fluid       (oil)
-    solid       (sphere)
-);
+dimensions      [0 1 -1 0 0 0 0];
+
+
+internalField   uniform (0.01 0 0);
+
+boundaryField
+{
+    sphere_to_oil
+    {
+        type            calculated;
+        value           uniform (0 0 0);
+    }
+}
 
 
 // ************************************************************************* //

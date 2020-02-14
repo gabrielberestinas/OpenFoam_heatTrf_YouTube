@@ -10,16 +10,11 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    location    "system/sphere";
+    object      fvSolution;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
-(
-    fluid       (oil)
-    solid       (sphere)
-);
 
 
 // ************************************************************************* //

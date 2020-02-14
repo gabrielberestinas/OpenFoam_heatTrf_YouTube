@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-geom.stl
+sphere_small.stl
 {
     extractionMethod    extractFromSurface;
 

@@ -9,17 +9,24 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    class       polyBoundaryMesh;
+    location    "constant/sphere/polyMesh";
+    object      boundary;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
+1
 (
-    fluid       (oil)
-    solid       (sphere)
-);
-
+    sphere_to_oil
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          416;
+        startFace       872;
+        sampleMode      nearestPatchFace;
+        sampleRegion    oil;
+        samplePatch     oil_to_sphere;
+    }
+)
 
 // ************************************************************************* //

@@ -9,17 +9,12 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    class       faceSet;
+    location    "constant/polyMesh/sets";
+    object      wrongFaces;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
-(
-    fluid       (oil)
-    solid       (sphere)
-);
-
+10(11009 10516 10323 5737 11178 10681 11195 5616 5617 10483)
 
 // ************************************************************************* //

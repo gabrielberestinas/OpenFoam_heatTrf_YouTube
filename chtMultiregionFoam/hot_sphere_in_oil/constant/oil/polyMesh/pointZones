@@ -9,17 +9,12 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "constant";
-    object      regionProperties;
+    class       regIOobject;
+    location    "constant/oil/polyMesh";
+    object      pointZones;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-regions
-(
-    fluid       (oil)
-    solid       (sphere)
-);
-
+0()
 
 // ************************************************************************* //
