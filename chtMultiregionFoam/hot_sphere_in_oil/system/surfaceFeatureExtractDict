@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-sphere_small.stl
+sphere_OpenFoam.stl
 {
     extractionMethod    extractFromSurface;
 

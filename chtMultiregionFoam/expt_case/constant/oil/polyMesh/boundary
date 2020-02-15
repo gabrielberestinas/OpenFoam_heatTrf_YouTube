@@ -1,0 +1,72 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/oil/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+7
+(
+    maxY
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          300;
+        startFace       22558;
+    }
+    minX
+    {
+        type            patch;
+        nFaces          100;
+        startFace       22858;
+    }
+    maxX
+    {
+        type            patch;
+        nFaces          100;
+        startFace       22958;
+    }
+    minY
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          300;
+        startFace       23058;
+    }
+    minZ
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          300;
+        startFace       23358;
+    }
+    maxZ
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          300;
+        startFace       23658;
+    }
+    oil_to_sphere
+    {
+        type            mappedWall;
+        inGroups        1(wall);
+        nFaces          1580;
+        startFace       23958;
+        sampleMode      nearestPatchFace;
+        sampleRegion    sphere;
+        samplePatch     sphere_to_oil;
+    }
+)
+
+// ************************************************************************* //

@@ -29,10 +29,10 @@ addLayers       false;
 // - to 'snap' the mesh boundary to the surface
 geometry
 {
-    sphere_small.stl
+    sphere_OpenFoam.stl
     {
         type triSurfaceMesh;
-        name sphere_small;
+        name sphere;
     }
 }
 
@@ -78,7 +78,7 @@ castellatedMeshControls
     features
     (
         {
-            file "sphere_small.extendedFeatureEdgeMesh";    //"geom.eMesh";
+            file "sphere_OpenFoam.extendedFeatureEdgeMesh";    //"geom.eMesh";
             level 1;
         }
     );
@@ -96,7 +96,7 @@ castellatedMeshControls
 
     refinementSurfaces
     {
-        sphere_small
+        sphere
         {
             // Surface-wise min and max refinement level
             level (1 1);
@@ -141,7 +141,7 @@ castellatedMeshControls
     locationsInMesh 
     (
         (( 0.0005 0.0005  0.0005) sphere)
-        (( 0.455  0.455  0.455) oil)
+        (( 0.495  0.495  0.495) oil)
     );
 
 

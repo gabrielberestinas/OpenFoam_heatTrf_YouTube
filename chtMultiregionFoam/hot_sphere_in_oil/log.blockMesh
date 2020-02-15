@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Feb 13 2020
-Time   : 16:28:53
-Host   : DESKTOP-9S60IA4
-PID    : 3701
+Date   : Feb 14 2020
+Time   : 21:29:24
+Host   : LAPTOP-FK3MEHTI
+PID    : 1805
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -48,8 +48,8 @@ Creating cells
 Creating points with scale 1
     Block 0 cell size :
         i : 0.03333333 .. 0.03333333
-        j : 0.1 .. 0.1
-        k : 0.1 .. 0.1
+        j : 0.03333333 .. 0.03333333
+        k : 0.03333333 .. 0.03333333
 
 
 There are no merge patch pairs
@@ -59,19 +59,19 @@ Writing polyMesh with 0 cellZones
 Mesh Information
 ----------------
   boundingBox: (-0.5 -0.5 -0.5) (0.5 0.5 0.5)
-  nPoints: 3751
-  nCells: 3000
-  nFaces: 9700
-  nInternalFaces: 8300
+  nPoints: 29791
+  nCells: 27000
+  nFaces: 83700
+  nInternalFaces: 78300
 ----------------
 Patches
 ----------------
-  patch 0 (start: 8300 size: 300) name: maxY
-  patch 1 (start: 8600 size: 100) name: minX
-  patch 2 (start: 8700 size: 100) name: maxX
-  patch 3 (start: 8800 size: 300) name: minY
-  patch 4 (start: 9100 size: 300) name: minZ
-  patch 5 (start: 9400 size: 300) name: maxZ
+  patch 0 (start: 78300 size: 900) name: maxY
+  patch 1 (start: 79200 size: 900) name: minX
+  patch 2 (start: 80100 size: 900) name: maxX
+  patch 3 (start: 81000 size: 900) name: minY
+  patch 4 (start: 81900 size: 900) name: minZ
+  patch 5 (start: 82800 size: 900) name: maxZ
 
 End
 
