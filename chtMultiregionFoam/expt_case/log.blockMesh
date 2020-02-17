@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Feb 14 2020
-Time   : 20:10:55
+Date   : Feb 16 2020
+Time   : 15:22:15
 Host   : LAPTOP-FK3MEHTI
-PID    : 1063
+PID    : 1325
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)

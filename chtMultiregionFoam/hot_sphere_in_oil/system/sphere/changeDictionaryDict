@@ -9,25 +9,40 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
-    location    "0/sphere";
-    object      alphat;
+    class       dictionary;
+    object      changeDictionaryDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [1 -1 -1 0 0 0 0];
-
-
-internalField   uniform 0;
-
-boundaryField
+boundary
 {
-    sphere_to_oil
+}
+
+T
+{
+    internalField   uniform 500;
+
+    boundaryField
     {
-        type            calculated;
-        value           uniform 0;
+        ".*"
+        {
+            type            zeroGradient;
+            value           uniform 300;
+        }
+        "procBoundary.*"
+        {
+            type            processor;
+        }
+        "sphere_to_.*"
+        {
+            type            compressible::turbulentTemperatureCoupledBaffleMixed;
+            Tnbr            T;
+            kappaMethod     solidThermo;
+            value           uniform 500;
+        }
     }
 }
+
 
 
 // ************************************************************************* //

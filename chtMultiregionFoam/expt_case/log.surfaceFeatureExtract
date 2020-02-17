@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
-Date   : Feb 14 2020
-Time   : 20:10:56
+Date   : Feb 16 2020
+Time   : 15:22:16
 Host   : LAPTOP-FK3MEHTI
-PID    : 1064
+PID    : 1326
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -63,23 +63,23 @@ Final Feature set:
         open edges         : 0
         multiply connected : 0
 
-Writing extendedFeatureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small"
-Writing 0 convex feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_convexFeaturePts.obj"
-Writing 0 concave feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_concaveFeaturePts.obj"
-Writing 0 mixed feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_mixedFeaturePts.obj"
-Writing 0 mixed feature point structure to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_mixedFeaturePtsStructure.obj"
-Writing 0 external edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_externalEdges.obj"
-Writing 2 internal edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_internalEdges.obj"
-Writing 0 flat edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_flatEdges.obj"
-Writing 0 open edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_openEdges.obj"
-Writing 0 multiple edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_multipleEdges.obj"
-Writing 0 region edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_regionEdges.obj"
-Writing 2 edge directions to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_small_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small"
+Writing 0 convex feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_convexFeaturePts.obj"
+Writing 0 concave feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_concaveFeaturePts.obj"
+Writing 0 mixed feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_mixedFeaturePts.obj"
+Writing 0 mixed feature point structure to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_mixedFeaturePtsStructure.obj"
+Writing 0 external edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_externalEdges.obj"
+Writing 2 internal edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_internalEdges.obj"
+Writing 0 flat edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_flatEdges.obj"
+Writing 0 open edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_openEdges.obj"
+Writing 0 multiple edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_multipleEdges.obj"
+Writing 0 region edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_regionEdges.obj"
+Writing 2 edge directions to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_small_edgeDirections.obj"
 
-Writing featureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/triSurface/sphere_small.eMesh"
-ExecutionTime = 0.03 s  ClockTime = 0 s
+Writing featureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/triSurface/sphere_small.eMesh"
+ExecutionTime = 0.07 s  ClockTime = 0 s
 
 End
 

@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Feb 14 2020
-Time   : 20:11:07
+Date   : Feb 16 2020
+Time   : 15:22:26
 Host   : LAPTOP-FK3MEHTI
-PID    : 1069
+PID    : 1330
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -31,9 +31,9 @@ Trying to match regions to existing cell zones.
 
 Number of regions:2
 
-Writing region per cell file (for manual decomposition) to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/cellToRegion"
+Writing region per cell file (for manual decomposition) to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/cellToRegion"
 
-Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/0/cellToRegion"
+Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/0/cellToRegion"
 
 Region	Cells
 ------	-----
