@@ -15,60 +15,69 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+
 7
 (
     maxY
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       78981;
     }
+
     minX
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       79881;
     }
+
     maxX
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       80781;
     }
+
     minY
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       81681;
     }
+
     minZ
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       82581;
     }
+
     maxZ
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          900;
         startFace       83481;
     }
+
     oil_to_sphere
     {
         type            mappedWall;
-        inGroups        1(wall);
+        inGroups        1 ( wall );
         nFaces          24;
         startFace       84381;
         sampleMode      nearestPatchFace;
         sampleRegion    sphere;
         samplePatch     sphere_to_oil;
     }
+
 )
+
 
 // ************************************************************************* //

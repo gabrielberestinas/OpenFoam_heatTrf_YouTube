@@ -15,8 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 2 -3 0 0 0 0];
-
+dimensions      [ 0 2 -3 0 0 0 0 ];
 
 internalField   uniform 0.01;
 
@@ -24,38 +23,38 @@ boundaryField
 {
     maxY
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     minX
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     maxX
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     minY
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     minZ
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     maxZ
     {
-        type            calculated;
+        type            epsilonWallFunction;
         value           uniform 0.01;
     }
     oil_to_sphere
     {
-        type            calculated;
-        value           uniform 0;
+        type            epsilonWallFunction;
+        value           uniform 0.01;
     }
 }
 

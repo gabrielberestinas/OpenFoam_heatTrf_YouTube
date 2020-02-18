@@ -21,10 +21,10 @@ do
     rm -f processor*/0/$region/{nut,alphat,epsilon,k,U,p_rgh}
 done
 
-#for region in $(foamListRegions)
-#do
-#    runApplication -s $region changeDictionary -region $region
-#done
+for region in $(foamListRegions)
+do
+    runApplication -s $region changeDictionary -region $region
+done
 
 
 

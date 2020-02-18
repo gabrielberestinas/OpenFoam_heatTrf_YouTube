@@ -8,10 +8,10 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Feb 14 2020
-Time   : 21:29:29
+Date   : Feb 17 2020
+Time   : 22:39:47
 Host   : LAPTOP-FK3MEHTI
-PID    : 1810
+PID    : 1526
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
@@ -67,8 +67,6 @@ For interface between region oil and sphere added patches
 Region 0
 -------- 
 Creating mesh for region 0 oil
-Writing dummy "oil/fvSchemes"
-Writing dummy "oil/fvSolution"
 Mapping fields
 Mapping field rho
 Mapping field cellToRegion
@@ -90,8 +88,6 @@ Writing map boundaryRegionAddressing from region0 boundary back to base mesh.
 Region 1
 -------- 
 Creating mesh for region 1 sphere
-Writing dummy "sphere/fvSchemes"
-Writing dummy "sphere/fvSolution"
 Mapping fields
 Mapping field rho
 Mapping field cellToRegion

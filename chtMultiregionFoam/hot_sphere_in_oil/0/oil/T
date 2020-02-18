@@ -15,8 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
-
+dimensions      [ 0 0 0 1 0 0 0 ];
 
 internalField   uniform 300;
 
@@ -24,38 +23,40 @@ boundaryField
 {
     maxY
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     minX
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     maxX
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     minY
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     minZ
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     maxZ
     {
-        type            calculated;
+        type            zeroGradient;
         value           uniform 300;
     }
     oil_to_sphere
     {
-        type            calculated;
-        value           uniform 0;
+        type            compressible::turbulentTemperatureCoupledBaffleMixed;
+        value           uniform 300;
+        Tnbr            T;
+        kappaMethod     fluidThermo;
     }
 }
 

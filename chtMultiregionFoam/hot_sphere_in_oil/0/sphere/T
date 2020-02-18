@@ -15,18 +15,25 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [ 0 0 0 1 0 0 0 ];
 
-
-internalField   uniform 300;
+internalField   uniform 500;
 
 boundaryField
 {
     sphere_to_oil
     {
-        type            calculated;
-        value           uniform 0;
+        type            compressible::turbulentTemperatureCoupledBaffleMixed;
+        value           uniform 500;
+        Tnbr            T;
+        kappaMethod     solidThermo;
     }
+}
+
+sphere_to_oil
+{
+    type            calculated;
+    value           uniform 100000;
 }
 
 

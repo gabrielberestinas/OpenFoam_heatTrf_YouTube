@@ -1,0 +1,57 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : changeDictionary -region sphere
+Date   : Feb 17 2020
+Time   : 22:39:50
+Host   : LAPTOP-FK3MEHTI
+PID    : 1532
+I/O    : uncollated
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh sphere for time = 0
+
+Read dictionary changeDictionaryDict with replacements for dictionaries 2(boundary T)
+Reading polyMesh/boundary file to extract patch names
+Loaded dictionary boundary with entries 1(sphere_to_oil)
+Extracted patch groups:
+    group wall with patches 1(sphere_to_oil)
+Replacing entries in dictionary boundary
+Special handling of boundary as polyMesh/boundary file.
+Merging entries from 0()
+fieldDict:
+{
+    sphere_to_oil
+    {
+        type            mappedWall;
+        inGroups        1 ( wall );
+        nFaces          24;
+        startFace       12;
+        sampleMode      nearestPatchFace;
+        sampleRegion    oil;
+        samplePatch     oil_to_sphere;
+    }
+}
+
+Writing modified boundary
+Replacing entries in dictionary T
+Loading dictionary T
+Loaded dictionary T with entries 3(dimensions internalField boundaryField)
+Merging entries from 3(internalField boundaryField sphere_to_oil)
+Writing modified fieldDict T
+
+End
+

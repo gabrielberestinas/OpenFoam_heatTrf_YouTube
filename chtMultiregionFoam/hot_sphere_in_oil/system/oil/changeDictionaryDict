@@ -162,4 +162,19 @@ p
     }
 }
 
+rho
+{
+
+    internalField    	uniform 8000;
+
+    boundaryField
+    {
+    	oil_to_sphere
+    	{
+            type            calculated;
+            value           uniform 8000;
+    	}
+    }
+}
+
 // ************************************************************************* //

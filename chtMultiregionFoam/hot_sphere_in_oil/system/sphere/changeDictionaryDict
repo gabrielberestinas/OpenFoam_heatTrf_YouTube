@@ -41,6 +41,12 @@ T
             value           uniform 500;
         }
     }
+
+    sphere_to_oil
+    {
+        type            calculated;
+        value           uniform 1e5;
+    }
 }
 
 

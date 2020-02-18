@@ -8,10 +8,10 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : snappyHexMesh -overwrite
-Date   : Feb 14 2020
-Time   : 21:29:25
+Date   : Feb 17 2020
+Time   : 22:39:43
 Host   : LAPTOP-FK3MEHTI
-PID    : 1807
+PID    : 1523
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
@@ -24,7 +24,7 @@ Create time
 
 Create mesh for time = 0
 
-Read mesh in = 0.07 s
+Read mesh in = 0.1 s
 
 Overall mesh bounding box  : (-0.5 -0.5 -0.5) (0.5 0.5 0.5)
 Relative tolerance         : 1e-06
@@ -38,7 +38,7 @@ Read refinement shells in = 0 s
 
 Setting refinement level of surface to be consistent with shells.
 For geometry sphere_OpenFoam.stl detected 0 uncached triangles out of 4450
-Checked shell refinement in = 0 s
+Checked shell refinement in = 0.02 s
 
 Reading features.
 Read extendedFeatureEdgeMesh sphere_OpenFoam.extendedFeatureEdgeMesh
@@ -73,7 +73,7 @@ Edge intersection testing:
     Number of edges             : 83700
     Number of edges to retest   : 83700
     Number of intersected edges : 0
-Calculated surface intersections in = 0.08 s
+Calculated surface intersections in = 0.09 s
 
 Initial mesh : cells:27000  faces:83700  points:29791
 Cells per refinement level:
@@ -106,7 +106,7 @@ Feature refinement iteration 0
 ------------------------------
 
 Marked for refinement due to explicit features             : 3 cells.
-Determined cells to refine in = 0.19 s
+Determined cells to refine in = 0.18 s
 Selected for feature refinement : 3 cells (out of 27000)
 Edge intersection testing:
     Number of edges             : 83784
@@ -122,7 +122,7 @@ Feature refinement iteration 1
 ------------------------------
 
 Marked for refinement due to explicit features             : 0 cells.
-Determined cells to refine in = 0.15 s
+Determined cells to refine in = 0.17 s
 Selected for feature refinement : 0 cells (out of 27021)
 Stopping refining since too few cells selected.
 
@@ -137,7 +137,7 @@ Edge intersection testing:
     Number of edges             : 83883
     Number of edges to retest   : 249
     Number of intersected edges : 24
-Refined mesh in = 0.05 s
+Refined mesh in = 0.07 s
 After refinement surface refinement iteration 0 : cells:27049  faces:83883  points:29882
 Cells per refinement level:
     0	26993
@@ -189,13 +189,13 @@ Shell refinement iteration 0
 
 Marked for refinement due to distance to explicit features : 0 cells.
 Marked for refinement due to refinement shells             : 0 cells.
-Determined cells to refine in = 0.09 s
+Determined cells to refine in = 0.1 s
 Selected for internal refinement : 22 cells (out of 27049)
 Edge intersection testing:
     Number of edges             : 84417
     Number of edges to retest   : 1008
     Number of intersected edges : 24
-Refined mesh in = 0.05 s
+Refined mesh in = 0.04 s
 After refinement shell refinement iteration 0 : cells:27203  faces:84417  points:30114
 Cells per refinement level:
     0	26971
@@ -206,7 +206,7 @@ Shell refinement iteration 1
 
 Marked for refinement due to distance to explicit features : 0 cells.
 Marked for refinement due to refinement shells             : 0 cells.
-Determined cells to refine in = 0 s
+Determined cells to refine in = 0.02 s
 Selected for internal refinement : 0 cells (out of 27203)
 Stopping refining since too few cells selected.
 
@@ -230,7 +230,7 @@ Stopping refining since too few cells selected.
 Refinement transition refinement iteration 0
 --------------------------------------------
 
-Determined cells to refine in = 0.02 s
+Determined cells to refine in = 0 s
 Selected for refinement : 0 cells (out of 27203)
 Stopping refining since too few cells selected.
 
@@ -248,7 +248,7 @@ Location : (0.495 0.495 0.495)
 
 For cellZone sphere found point (0.0005 0.0005 0.0005) in global region 1 out of 2 regions.
 For cellZone oil found point (0.495 0.495 0.495) in global region 0 out of 2 regions.
-Created baffles in = 0.02 s
+Created baffles in = 0.01 s
 
 
 After introducing baffles : cells:27203  faces:84417  points:30114
@@ -265,12 +265,12 @@ Introducing baffles to block off problem cells
     Did not visit some faces, e.g. face 0 at (-0.4666667 -0.4833333 -0.4833333)
 Assigning these faces to patch 6
 markFacesOnProblemCells : marked 0 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0.03 s
+Analyzed problem cells in = 0.02 s
 
 
 Introducing baffles to delete problem cells.
 
-Created baffles in = 0 s
+Created baffles in = 0.01 s
 
 
 After introducing baffles : cells:27203  faces:84417  points:30114
@@ -289,7 +289,7 @@ For cellZone oil found point (0.495 0.495 0.495) in global region 0 out of 2 reg
 Remove unreachable sections of mesh
 -----------------------------------
 
-Split mesh in = 0.01 s
+Split mesh in = 0 s
 
 
 After subsetting : cells:27203  faces:84417  points:30114
@@ -346,7 +346,7 @@ Location : (0.495 0.495 0.495)
 
 For cellZone sphere found point (0.0005 0.0005 0.0005) in global region 1 out of 2 regions.
 For cellZone oil found point (0.495 0.495 0.495) in global region 0 out of 2 regions.
-Created baffles in = 0.06 s
+Created baffles in = 0.08 s
 
 
 After introducing baffles : cells:27203  faces:84417  points:30114
@@ -425,7 +425,7 @@ Cells per refinement level:
     1	232
 Writing mesh to time constant
 Wrote mesh in = 0.11 s.
-Mesh refined in = 0.84 s.
+Mesh refined in = 0.87 s.
 
 Morphing phase
 --------------
@@ -477,7 +477,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Detected 0 illegal faces (concave, zero area or negative cell pyramid volume)
-Checked initial mesh in = 0.06 s
+Checked initial mesh in = 0.07 s
 
 
 Smoothing patch points ...
@@ -532,7 +532,7 @@ Checking faces in error :
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
 
-Patch points smoothed in = 0.24 s
+Patch points smoothed in = 0.28 s
 
 
 
@@ -638,7 +638,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.03 s
+Displacement smoothed in = 0.04 s
 
 
 Moving mesh ...
@@ -700,7 +700,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.04 s
+Displacement smoothed in = 0.05 s
 
 
 Moving mesh ...
@@ -780,7 +780,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.07 s
+Moved mesh in = 0.09 s
 
 
 
@@ -842,7 +842,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.1 s
+Moved mesh in = 0.08 s
 
 
 
@@ -886,7 +886,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.03 s
+Displacement smoothed in = 0.05 s
 
 
 Moving mesh ...
@@ -966,7 +966,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.07 s
+Moved mesh in = 0.08 s
 
 
 
@@ -1010,7 +1010,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.04 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -1028,7 +1028,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.09 s
+Moved mesh in = 0.1 s
 
 
 
@@ -1090,7 +1090,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.08 s
+Moved mesh in = 0.09 s
 
 
 
@@ -1134,7 +1134,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.05 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -1152,7 +1152,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.08 s
+Moved mesh in = 0.1 s
 
 
 Edge intersection testing:
@@ -1160,7 +1160,7 @@ Edge intersection testing:
     Number of edges to retest   : 24
     Number of intersected edges : 24
 Repatching faces according to nearest surface ...
-Repatched 0 faces in = 0.05 s
+Repatched 0 faces in = 0.04 s
 
 
 Edge intersection testing:
@@ -1182,7 +1182,7 @@ Cells per refinement level:
     1	232
 Writing mesh to time constant
 Wrote mesh in = 0.13 s.
-Mesh snapped in = 1.67 s.
+Mesh snapped in = 1.77 s.
 Checking final mesh ...
 Checking faces in error :
     non-orthogonality > 65  degrees                        : 0
@@ -1195,6 +1195,6 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Finished meshing without any errors
-Finished meshing in = 2.75 s.
+Finished meshing in = 2.95 s.
 End
 
