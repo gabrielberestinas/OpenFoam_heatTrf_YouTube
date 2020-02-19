@@ -28,21 +28,21 @@ thermoType
 
 mixture
 {
-    // coefficients for water
+    // coefficients for oil
 
     specie
     {
-        molWeight       18;
+        molWeight       166.0;
     }
     equationOfState
     {
-        rhoCoeffs<8>    ( 1000 0 0 0 0 0 0 0 );
+        rhoCoeffs<8>    ( 1076.5 -0.8357 0.0003 -2e-6 0 0 0 0 );
     }
     thermodynamics
     {
         Hf              0;
         Sf              0;
-        CpCoeffs<8>     ( 4183 0 0 0 0 0 0 0 );
+        CpCoeffs<8>     ( 1518.9 2.6074 0.0037 -2e-5 3e-8 0 0 0 );
     }
     transport
     {
