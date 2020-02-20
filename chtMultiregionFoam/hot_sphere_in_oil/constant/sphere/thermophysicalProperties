@@ -16,43 +16,46 @@ FoamFile
 
 thermoType
 {
-    type            heRhoThermo;
+    type            heSolidThermo;
     mixture         pureMixture;
     transport       polynomial;
-    thermo          hPolynomial;
-    equationOfState icoPolynomial;
+    thermo          hConst;
+    equationOfState rhoConst;
     specie          specie;
     energy          sensibleEnthalpy;
 }
 
-
 mixture
 {
-    // coefficients for DowThermA oil
-
+// this is for pure copper
     specie
     {
-        molWeight       166.0;
+        molWeight   63.546;
     }
-    equationOfState
+
+    transport
     {
-        rhoCoeffs<8>    ( 1363.3 -1.3939 0.0017 -2e-6 0 0 0 0 );
-    // valid from 15C to 405C
+        // valid from -23C to 327C
+
+        muCoeffs<8>     ( 0 0 0 0 0 0 0 0 );
+        kappaCoeffs<8>  ( 454.25 -0.2913 0.0005 -3E-07 0 0 0 0 );
+    }
+    thermodynamics
+    {
+        Hf      0;
+        Cp      450;
     }
     thermodynamics
     {
         Hf              0;
         Sf              0;
-        CpCoeffs<8>     ( 1666.5 -6.4879 0.0344 -6e-5 3e-8 0 0 0 );
-    
-    // valid from 15C to 405C
-    }
-    transport
-    {
-	// valid from 15C to 405C
+        CpCoeffs<8>     ( 186.58 1.492 -0.0042 6E-06 -3E-09 0 0 0 );
 
-        muCoeffs<8>     ( 0.7894 -0.0095 5E-05 -1E-07 2E-10 -1E-13 5E-17 0 );
-        kappaCoeffs<8>  ( 0.1856 -0.0002 0 0 0 0 0 0 );
+    // valid from -23C to 327C
+    }
+    equationOfState
+    {
+        rho     8960;
     }
 }
 
