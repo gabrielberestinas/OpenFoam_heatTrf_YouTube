@@ -8,10 +8,10 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : changeDictionary -region oil
-Date   : Feb 17 2020
-Time   : 22:39:49
+Date   : Feb 20 2020
+Time   : 11:33:28
 Host   : LAPTOP-FK3MEHTI
-PID    : 1531
+PID    : 1437
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
@@ -39,49 +39,49 @@ fieldDict:
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       78981;
+        startFace       80688;
     }
     minX
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       79881;
+        startFace       81588;
     }
     maxX
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       80781;
+        startFace       82488;
     }
     minY
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       81681;
+        startFace       83388;
     }
     minZ
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       82581;
+        startFace       84288;
     }
     maxZ
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       83481;
+        startFace       85188;
     }
     oil_to_sphere
     {
         type            mappedWall;
         inGroups        1 ( wall );
-        nFaces          24;
-        startFace       84381;
+        nFaces          360;
+        startFace       86088;
         sampleMode      nearestPatchFace;
         sampleRegion    sphere;
         samplePatch     sphere_to_oil;

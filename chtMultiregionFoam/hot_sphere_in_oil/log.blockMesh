@@ -8,10 +8,10 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Feb 17 2020
-Time   : 22:39:43
+Date   : Feb 20 2020
+Time   : 11:33:20
 Host   : LAPTOP-FK3MEHTI
-PID    : 1521
+PID    : 1427
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
@@ -47,9 +47,9 @@ Creating patches
 Creating cells
 Creating points with scale 1
     Block 0 cell size :
-        i : 0.03333333 .. 0.03333333
-        j : 0.03333333 .. 0.03333333
-        k : 0.03333333 .. 0.03333333
+        i : 0.00666667 .. 0.00666667
+        j : 0.00666667 .. 0.00666667
+        k : 0.00666667 .. 0.00666667
 
 
 There are no merge patch pairs
@@ -58,7 +58,7 @@ Writing polyMesh with 0 cellZones
 ----------------
 Mesh Information
 ----------------
-  boundingBox: (-0.5 -0.5 -0.5) (0.5 0.5 0.5)
+  boundingBox: (-0.1 -0.1 -0.1) (0.1 0.1 0.1)
   nPoints: 29791
   nCells: 27000
   nFaces: 83700

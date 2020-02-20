@@ -22,8 +22,8 @@ FoamFile
     {
         type            mappedWall;
         inGroups        1 ( wall );
-        nFaces          24;
-        startFace       12;
+        nFaces          360;
+        startFace       768;
         sampleMode      nearestPatchFace;
         sampleRegion    oil;
         samplePatch     oil_to_sphere;

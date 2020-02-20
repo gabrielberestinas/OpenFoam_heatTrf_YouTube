@@ -141,7 +141,7 @@ castellatedMeshControls
     locationsInMesh 
     (
         (( 0.0005 0.0005  0.0005) sphere)
-        (( 0.495  0.495  0.495) oil)
+        (( 0.0149  0.0149  0.0149) oil)
     );
 
 
