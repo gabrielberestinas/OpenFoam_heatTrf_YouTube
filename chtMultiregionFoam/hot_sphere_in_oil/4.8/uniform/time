@@ -10,48 +10,20 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    object      thermophysicalProperties;
+    location    "4.8/uniform";
+    object      time;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-thermoType
-{
-    type            heSolidThermo;
-    mixture         pureMixture;
-    transport       polynomial;
-    thermo          hPolynomial;
-    equationOfState rhoConst;
-    specie          specie;
-    energy          sensibleEnthalpy;
-}
+value           4.80000000000000071;
 
-mixture
-{
-// this is for pure copper
-    specie
-    {
-        molWeight   63.546;
-    }
+name            "4.8";
 
-    transport
-    {
-        // valid from -23C to 327C
+index           136;
 
-        muCoeffs<8>     ( 0 0 0 0 0 0 0 0 );
-        kappaCoeffs<8>  ( 454.25 -0.2913 0.0005 -3E-07 0 0 0 0 );
-    }
-    thermodynamics
-    {
-        Hf              0;
-        Sf              0;
-        CpCoeffs<8>     ( 186.58 1.492 -0.0042 6E-06 -3E-09 0 0 0 );
+deltaT          0.04;
 
-    // valid from -23C to 327C
-    }
-    equationOfState
-    {
-        rho     8960;
-    }
-}
+deltaT0         0.04;
+
 
 // ************************************************************************* //
