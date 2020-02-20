@@ -9,9 +9,9 @@ Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
 Date   : Feb 20 2020
-Time   : 11:33:21
+Time   : 11:57:11
 Host   : LAPTOP-FK3MEHTI
-PID    : 1428
+PID    : 1669
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
@@ -79,7 +79,7 @@ Writing 0 region edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam
 Writing 2 edge directions to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_edgeDirections.obj"
 
 Writing featureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil/constant/triSurface/sphere_OpenFoam.eMesh"
-ExecutionTime = 0.01 s  ClockTime = 0 s
+ExecutionTime = 0.02 s  ClockTime = 0 s
 
 End
 

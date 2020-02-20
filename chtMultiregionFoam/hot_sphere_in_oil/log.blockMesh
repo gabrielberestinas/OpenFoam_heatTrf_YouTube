@@ -9,9 +9,9 @@ Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
 Date   : Feb 20 2020
-Time   : 11:33:20
+Time   : 11:57:10
 Host   : LAPTOP-FK3MEHTI
-PID    : 1427
+PID    : 1668
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/hot_sphere_in_oil
 nProcs : 1
