@@ -9,59 +9,24 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "system";
-    object      controlDict;
+    class       volScalarField;
+    location    "7/sphere";
+    object      p;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     chtMultiRegionFoam;
-
-startFrom       latestTime;
-
-startTime       0.001;
-
-stopAt          endTime;
-
-endTime         10;
-
-deltaT          0.001;
-
-writeControl    adjustableRunTime;
-
-writeInterval   0.5;
-
-purgeWrite      0;
-
-writeFormat     ascii;
-
-writePrecision  6;
-
-writeCompression off;
-
-timeFormat      general;
-
-timePrecision   6;
-
-runTimeModifiable true;
-
-maxCo           1.5;
-
-maxDi           10.0;
-
-adjustTimeStep  yes;
+dimensions      [1 -1 -2 0 0 0 0];
 
 
-functions
+internalField   uniform 100000;
+
+boundaryField
 {
-   wallHeatFlux1
-	{
-	type 		wallHeatFlux;
-	libs		("libfieldFunctionObjects.so");
-	executeControl	writeTime;
-	writeControl	writeTime;
-	region		oil;
-	}
+    sphere_to_oil
+    {
+        type            calculated;
+        value           uniform 0;
+    }
 }
 
 

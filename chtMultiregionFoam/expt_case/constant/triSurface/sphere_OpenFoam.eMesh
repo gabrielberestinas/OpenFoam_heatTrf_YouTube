@@ -9,60 +9,19 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       dictionary;
-    location    "system";
-    object      controlDict;
+    class       featureEdgeMesh;
+    location    "constant/triSurface";
+    object      sphere_OpenFoam.eMesh;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     chtMultiRegionFoam;
 
-startFrom       latestTime;
+// points:
+4((0.00188 -4.60467e-19 -0.0148817) (9.18485e-19 -2.24964e-34 -0.015) (9.18485e-19 -2.24964e-34 0.015) (0.00188 -4.60467e-19 0.0148817))
 
-startTime       0.001;
-
-stopAt          endTime;
-
-endTime         10;
-
-deltaT          0.001;
-
-writeControl    adjustableRunTime;
-
-writeInterval   0.5;
-
-purgeWrite      0;
-
-writeFormat     ascii;
-
-writePrecision  6;
-
-writeCompression off;
-
-timeFormat      general;
-
-timePrecision   6;
-
-runTimeModifiable true;
-
-maxCo           1.5;
-
-maxDi           10.0;
-
-adjustTimeStep  yes;
-
-
-functions
-{
-   wallHeatFlux1
-	{
-	type 		wallHeatFlux;
-	libs		("libfieldFunctionObjects.so");
-	executeControl	writeTime;
-	writeControl	writeTime;
-	region		oil;
-	}
-}
+// edges:
+2((0 1) (2 3))
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 
 // ************************************************************************* //
