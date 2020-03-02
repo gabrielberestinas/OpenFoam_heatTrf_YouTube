@@ -9,9 +9,9 @@ Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : chtMultiRegionFoam
 Date   : Mar 02 2020
-Time   : 10:39:49
+Time   : 11:15:18
 Host   : DESKTOP-9S60IA4
-PID    : 3190
+PID    : 3469
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
@@ -125,7 +125,7 @@ time step continuity errors (oil): sum local = 2.13937e-09, global = 2.1388e-09,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 1, Final residual = 4.30532e-07, No Iterations 2
 Min/max T:499.92 500
-ExecutionTime = 0.37 s  ClockTime = 0 s
+ExecutionTime = 0.33 s  ClockTime = 0 s
 
 Region: oil Courant Number mean: 3.30158e-06 max: 0.000152944
 Region: sphere Diffusion Number mean: 0.00975244 max: 0.31923
@@ -148,7 +148,7 @@ time step continuity errors (oil): sum local = 1.78895e-09, global = 1.7888e-09,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.242768, Final residual = 1.52816e-07, No Iterations 2
 Min/max T:499.917 500
-ExecutionTime = 0.48 s  ClockTime = 1 s
+ExecutionTime = 0.42 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 3.43234e-06 max: 0.000158157
 Region: sphere Diffusion Number mean: 0.0116917 max: 0.382709
@@ -171,7 +171,7 @@ time step continuity errors (oil): sum local = 1.85442e-08, global = 1.85441e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.16355, Final residual = 1.88015e-07, No Iterations 2
 Min/max T:499.913 500
-ExecutionTime = 0.59 s  ClockTime = 1 s
+ExecutionTime = 0.51 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 4.45531e-06 max: 0.000249922
 Region: sphere Diffusion Number mean: 0.0140463 max: 0.459784
@@ -194,7 +194,7 @@ time step continuity errors (oil): sum local = 6.06357e-09, global = 6.06351e-09
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.131172, Final residual = 2.7672e-07, No Iterations 2
 Min/max T:499.908 500
-ExecutionTime = 0.71 s  ClockTime = 1 s
+ExecutionTime = 0.62 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 4.60526e-06 max: 0.000218771
 Region: sphere Diffusion Number mean: 0.0168673 max: 0.552127
@@ -217,7 +217,7 @@ time step continuity errors (oil): sum local = 3.82514e-09, global = -3.82508e-0
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.11491, Final residual = 4.43099e-07, No Iterations 2
 Min/max T:499.903 500
-ExecutionTime = 0.84 s  ClockTime = 1 s
+ExecutionTime = 0.72 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 5.05888e-06 max: 0.000252521
 Region: sphere Diffusion Number mean: 0.0202749 max: 0.66367
@@ -240,7 +240,7 @@ time step continuity errors (oil): sum local = 4.76622e-09, global = 4.76618e-09
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.105981, Final residual = 7.3255e-07, No Iterations 2
 Min/max T:499.897 500
-ExecutionTime = 0.95 s  ClockTime = 1 s
+ExecutionTime = 0.81 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 5.91225e-06 max: 0.000290615
 Region: sphere Diffusion Number mean: 0.0243547 max: 0.797217
@@ -263,7 +263,7 @@ time step continuity errors (oil): sum local = 6.69986e-09, global = 6.69981e-09
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.101074, Final residual = 4.61181e-09, No Iterations 3
 Min/max T:499.891 500
-ExecutionTime = 1.07 s  ClockTime = 1 s
+ExecutionTime = 0.9 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 6.74188e-06 max: 0.000331313
 Region: sphere Diffusion Number mean: 0.0291899 max: 0.955492
@@ -286,7 +286,7 @@ time step continuity errors (oil): sum local = 4.68849e-09, global = 4.68845e-09
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.0988754, Final residual = 1.03724e-08, No Iterations 3
 Min/max T:499.884 500
-ExecutionTime = 1.18 s  ClockTime = 1 s
+ExecutionTime = 1.01 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 7.5638e-06 max: 0.000374043
 Region: sphere Diffusion Number mean: 0.034873 max: 1.14152
@@ -309,7 +309,7 @@ time step continuity errors (oil): sum local = 6.1957e-09, global = 6.19566e-09,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.0994672, Final residual = 2.42451e-08, No Iterations 3
 Min/max T:499.876 500
-ExecutionTime = 1.29 s  ClockTime = 1 s
+ExecutionTime = 1.11 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 8.62909e-06 max: 0.000423759
 Region: sphere Diffusion Number mean: 0.0419978 max: 1.37474
@@ -332,7 +332,7 @@ time step continuity errors (oil): sum local = 7.8543e-09, global = 7.85424e-09,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.100636, Final residual = 5.30543e-08, No Iterations 3
 Min/max T:499.867 499.999
-ExecutionTime = 1.4 s  ClockTime = 2 s
+ExecutionTime = 1.2 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 9.75182e-06 max: 0.000482084
 Region: sphere Diffusion Number mean: 0.0501794 max: 1.64256
@@ -355,7 +355,7 @@ time step continuity errors (oil): sum local = 9.24174e-09, global = 9.24169e-09
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.103829, Final residual = 1.21e-07, No Iterations 3
 Min/max T:499.857 499.999
-ExecutionTime = 1.5 s  ClockTime = 2 s
+ExecutionTime = 1.29 s  ClockTime = 1 s
 
 Region: oil Courant Number mean: 1.10975e-05 max: 0.000567928
 Region: sphere Diffusion Number mean: 0.0605341 max: 1.98151
@@ -378,7 +378,7 @@ time step continuity errors (oil): sum local = 1.10184e-08, global = 1.10184e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.107111, Final residual = 2.56375e-07, No Iterations 3
 Min/max T:499.846 499.998
-ExecutionTime = 1.6 s  ClockTime = 2 s
+ExecutionTime = 1.39 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 1.24705e-05 max: 0.000661834
 Region: sphere Diffusion Number mean: 0.0721757 max: 2.36258
@@ -401,7 +401,7 @@ time step continuity errors (oil): sum local = 1.30858e-08, global = 1.30857e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.111053, Final residual = 5.31188e-07, No Iterations 3
 Min/max T:499.834 499.997
-ExecutionTime = 1.7 s  ClockTime = 2 s
+ExecutionTime = 1.47 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 1.39244e-05 max: 0.000768095
 Region: sphere Diffusion Number mean: 0.0856043 max: 2.80216
@@ -424,7 +424,7 @@ time step continuity errors (oil): sum local = 1.56896e-08, global = 1.56895e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.117048, Final residual = 2.94474e-08, No Iterations 4
 Min/max T:499.821 499.994
-ExecutionTime = 1.79 s  ClockTime = 2 s
+ExecutionTime = 1.56 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 1.57202e-05 max: 0.000903342
 Region: sphere Diffusion Number mean: 0.102726 max: 3.36261
@@ -447,7 +447,7 @@ time step continuity errors (oil): sum local = 1.90421e-08, global = 1.90419e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.12428, Final residual = 8.52709e-08, No Iterations 4
 Min/max T:499.807 499.991
-ExecutionTime = 1.89 s  ClockTime = 2 s
+ExecutionTime = 1.64 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 1.79682e-05 max: 0.00107662
 Region: sphere Diffusion Number mean: 0.12474 max: 4.08321
@@ -470,7 +470,7 @@ time step continuity errors (oil): sum local = 2.23415e-08, global = 2.23414e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.128919, Final residual = 1.92578e-07, No Iterations 4
 Min/max T:499.79 499.986
-ExecutionTime = 2 s  ClockTime = 2 s
+ExecutionTime = 1.72 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 1.98954e-05 max: 0.00124173
 Region: sphere Diffusion Number mean: 0.146435 max: 4.79339
@@ -493,7 +493,7 @@ time step continuity errors (oil): sum local = 2.72865e-08, global = 2.72864e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.138722, Final residual = 5.26723e-07, No Iterations 4
 Min/max T:499.772 499.979
-ExecutionTime = 2.09 s  ClockTime = 2 s
+ExecutionTime = 1.79 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 2.29804e-05 max: 0.00151425
 Region: sphere Diffusion Number mean: 0.178979 max: 5.85865
@@ -516,7 +516,7 @@ time step continuity errors (oil): sum local = 3.31049e-08, global = 3.31047e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.148965, Final residual = 7.50619e-08, No Iterations 5
 Min/max T:499.751 499.968
-ExecutionTime = 2.2 s  ClockTime = 2 s
+ExecutionTime = 1.87 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 2.64384e-05 max: 0.00187577
 Region: sphere Diffusion Number mean: 0.217335 max: 7.11418
@@ -539,7 +539,7 @@ time step continuity errors (oil): sum local = 3.90862e-08, global = 3.9086e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.157416, Final residual = 1.81607e-07, No Iterations 5
 Min/max T:499.728 499.954
-ExecutionTime = 2.29 s  ClockTime = 2 s
+ExecutionTime = 1.97 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 2.96835e-05 max: 0.00225484
 Region: sphere Diffusion Number mean: 0.256854 max: 8.40781
@@ -562,7 +562,7 @@ time step continuity errors (oil): sum local = 4.87927e-08, global = 4.87924e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.173206, Final residual = 5.69319e-07, No Iterations 5
 Min/max T:499.701 499.934
-ExecutionTime = 2.39 s  ClockTime = 3 s
+ExecutionTime = 2.05 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 3.53191e-05 max: 0.00286301
 Region: sphere Diffusion Number mean: 0.321075 max: 10.51
@@ -585,7 +585,7 @@ time step continuity errors (oil): sum local = 4.87552e-08, global = 4.8755e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.165575, Final residual = 5.17035e-07, No Iterations 5
 Min/max T:499.67 499.912
-ExecutionTime = 2.5 s  ClockTime = 3 s
+ExecutionTime = 2.13 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 3.37392e-05 max: 0.00289667
 Region: sphere Diffusion Number mean: 0.321081 max: 10.5102
@@ -608,7 +608,7 @@ time step continuity errors (oil): sum local = 4.87178e-08, global = 4.87175e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.15978, Final residual = 5.26561e-07, No Iterations 5
 Min/max T:499.639 499.89
-ExecutionTime = 2.59 s  ClockTime = 3 s
+ExecutionTime = 2.21 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 3.23518e-05 max: 0.00292641
 Region: sphere Diffusion Number mean: 0.321088 max: 10.5104
@@ -631,7 +631,7 @@ time step continuity errors (oil): sum local = 4.86813e-08, global = 4.8681e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.156168, Final residual = 5.28547e-07, No Iterations 5
 Min/max T:499.61 499.866
-ExecutionTime = 2.68 s  ClockTime = 3 s
+ExecutionTime = 2.3 s  ClockTime = 2 s
 
 Region: oil Courant Number mean: 3.11191e-05 max: 0.00295323
 Region: sphere Diffusion Number mean: 0.321094 max: 10.5107
@@ -654,7 +654,7 @@ time step continuity errors (oil): sum local = 4.8645e-08, global = 4.86447e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.153824, Final residual = 5.06746e-07, No Iterations 5
 Min/max T:499.581 499.841
-ExecutionTime = 2.79 s  ClockTime = 3 s
+ExecutionTime = 2.38 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 3.00114e-05 max: 0.00297763
 Region: sphere Diffusion Number mean: 0.3211 max: 10.5109
@@ -677,7 +677,7 @@ time step continuity errors (oil): sum local = 4.86087e-08, global = 4.86085e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.152076, Final residual = 4.82594e-07, No Iterations 5
 Min/max T:499.553 499.816
-ExecutionTime = 2.89 s  ClockTime = 3 s
+ExecutionTime = 2.46 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.90109e-05 max: 0.00300003
 Region: sphere Diffusion Number mean: 0.321106 max: 10.5111
@@ -700,7 +700,7 @@ time step continuity errors (oil): sum local = 4.85726e-08, global = 4.85724e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.150662, Final residual = 4.70934e-07, No Iterations 5
 Min/max T:499.525 499.79
-ExecutionTime = 3 s  ClockTime = 3 s
+ExecutionTime = 2.55 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.80971e-05 max: 0.00302069
 Region: sphere Diffusion Number mean: 0.321113 max: 10.5113
@@ -723,7 +723,7 @@ time step continuity errors (oil): sum local = 4.85366e-08, global = 4.85364e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.149559, Final residual = 4.68057e-07, No Iterations 5
 Min/max T:499.497 499.764
-ExecutionTime = 3.25 s  ClockTime = 3 s
+ExecutionTime = 2.75 s  ClockTime = 3 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -755,7 +755,7 @@ time step continuity errors (oil): sum local = 4.72658e-08, global = 4.72654e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.146183, Final residual = 4.05978e-07, No Iterations 5
 Min/max T:499.47 499.739
-ExecutionTime = 3.35 s  ClockTime = 3 s
+ExecutionTime = 2.84 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.57935e-05 max: 0.00297868
 Region: sphere Diffusion Number mean: 0.312919 max: 10.2431
@@ -778,7 +778,7 @@ time step continuity errors (oil): sum local = 4.72317e-08, global = 4.72314e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14563, Final residual = 4.07446e-07, No Iterations 5
 Min/max T:499.443 499.713
-ExecutionTime = 3.45 s  ClockTime = 4 s
+ExecutionTime = 2.92 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.5087e-05 max: 0.00299476
 Region: sphere Diffusion Number mean: 0.312925 max: 10.2432
@@ -801,7 +801,7 @@ time step continuity errors (oil): sum local = 4.71979e-08, global = 4.71977e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145297, Final residual = 4.0189e-07, No Iterations 5
 Min/max T:499.417 499.687
-ExecutionTime = 3.54 s  ClockTime = 4 s
+ExecutionTime = 3.02 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.44352e-05 max: 0.00300991
 Region: sphere Diffusion Number mean: 0.31293 max: 10.2434
@@ -824,7 +824,7 @@ time step continuity errors (oil): sum local = 4.71641e-08, global = 4.71638e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145021, Final residual = 3.96779e-07, No Iterations 5
 Min/max T:499.39 499.661
-ExecutionTime = 3.65 s  ClockTime = 4 s
+ExecutionTime = 3.09 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.38288e-05 max: 0.00302421
 Region: sphere Diffusion Number mean: 0.312936 max: 10.2436
@@ -847,7 +847,7 @@ time step continuity errors (oil): sum local = 4.71304e-08, global = 4.71301e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144774, Final residual = 3.95419e-07, No Iterations 5
 Min/max T:499.364 499.635
-ExecutionTime = 3.75 s  ClockTime = 4 s
+ExecutionTime = 3.17 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.32626e-05 max: 0.00303776
 Region: sphere Diffusion Number mean: 0.312942 max: 10.2438
@@ -870,7 +870,7 @@ time step continuity errors (oil): sum local = 4.70968e-08, global = 4.70965e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144576, Final residual = 3.95796e-07, No Iterations 5
 Min/max T:499.338 499.609
-ExecutionTime = 3.84 s  ClockTime = 4 s
+ExecutionTime = 3.25 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.27292e-05 max: 0.00305064
 Region: sphere Diffusion Number mean: 0.312948 max: 10.244
@@ -893,7 +893,7 @@ time step continuity errors (oil): sum local = 4.70632e-08, global = 4.70629e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144436, Final residual = 3.95774e-07, No Iterations 5
 Min/max T:499.312 499.582
-ExecutionTime = 3.94 s  ClockTime = 4 s
+ExecutionTime = 3.33 s  ClockTime = 3 s
 
 Region: oil Courant Number mean: 2.22266e-05 max: 0.00306292
 Region: sphere Diffusion Number mean: 0.312953 max: 10.2442
@@ -916,7 +916,7 @@ time step continuity errors (oil): sum local = 4.70297e-08, global = 4.70294e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14434, Final residual = 3.9509e-07, No Iterations 5
 Min/max T:499.286 499.556
-ExecutionTime = 4.05 s  ClockTime = 4 s
+ExecutionTime = 3.41 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 2.17499e-05 max: 0.00307468
 Region: sphere Diffusion Number mean: 0.312959 max: 10.2444
@@ -939,7 +939,7 @@ time step continuity errors (oil): sum local = 4.69963e-08, global = 4.6996e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144269, Final residual = 3.94416e-07, No Iterations 5
 Min/max T:499.26 499.53
-ExecutionTime = 4.17 s  ClockTime = 4 s
+ExecutionTime = 3.49 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 2.12983e-05 max: 0.00308596
 Region: sphere Diffusion Number mean: 0.312965 max: 10.2446
@@ -962,7 +962,7 @@ time step continuity errors (oil): sum local = 4.6963e-08, global = 4.69627e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144213, Final residual = 3.94113e-07, No Iterations 5
 Min/max T:499.233 499.504
-ExecutionTime = 4.27 s  ClockTime = 4 s
+ExecutionTime = 3.58 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 2.0868e-05 max: 0.00309682
 Region: sphere Diffusion Number mean: 0.31297 max: 10.2447
@@ -985,7 +985,7 @@ time step continuity errors (oil): sum local = 4.69297e-08, global = 4.69294e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144171, Final residual = 3.9405e-07, No Iterations 5
 Min/max T:499.207 499.478
-ExecutionTime = 4.38 s  ClockTime = 5 s
+ExecutionTime = 3.66 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 2.04585e-05 max: 0.00310734
 Region: sphere Diffusion Number mean: 0.312976 max: 10.2449
@@ -1008,7 +1008,7 @@ time step continuity errors (oil): sum local = 4.68965e-08, global = 4.68963e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144141, Final residual = 3.94004e-07, No Iterations 5
 Min/max T:499.181 499.451
-ExecutionTime = 4.48 s  ClockTime = 5 s
+ExecutionTime = 3.74 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 2.00682e-05 max: 0.00311752
 Region: sphere Diffusion Number mean: 0.312982 max: 10.2451
@@ -1031,7 +1031,7 @@ time step continuity errors (oil): sum local = 4.68634e-08, global = 4.68632e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144121, Final residual = 3.93917e-07, No Iterations 5
 Min/max T:499.155 499.425
-ExecutionTime = 4.7 s  ClockTime = 5 s
+ExecutionTime = 3.94 s  ClockTime = 4 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -1063,7 +1063,7 @@ time step continuity errors (oil): sum local = 4.68304e-08, global = 4.68301e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144108, Final residual = 3.93839e-07, No Iterations 5
 Min/max T:499.13 499.399
-ExecutionTime = 4.79 s  ClockTime = 5 s
+ExecutionTime = 4.03 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 1.93404e-05 max: 0.00313696
 Region: sphere Diffusion Number mean: 0.312993 max: 10.2455
@@ -1086,7 +1086,7 @@ time step continuity errors (oil): sum local = 4.67975e-08, global = 4.67972e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.1441, Final residual = 3.93808e-07, No Iterations 5
 Min/max T:499.104 499.373
-ExecutionTime = 4.87 s  ClockTime = 5 s
+ExecutionTime = 4.12 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 1.8999e-05 max: 0.00314629
 Region: sphere Diffusion Number mean: 0.312999 max: 10.2457
@@ -1109,7 +1109,7 @@ time step continuity errors (oil): sum local = 4.67646e-08, global = 4.67643e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144095, Final residual = 3.93816e-07, No Iterations 5
 Min/max T:499.078 499.347
-ExecutionTime = 4.98 s  ClockTime = 5 s
+ExecutionTime = 4.2 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 1.86703e-05 max: 0.0031554
 Region: sphere Diffusion Number mean: 0.313005 max: 10.2459
@@ -1132,7 +1132,7 @@ time step continuity errors (oil): sum local = 4.67318e-08, global = 4.67315e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144094, Final residual = 3.93837e-07, No Iterations 5
 Min/max T:499.052 499.321
-ExecutionTime = 5.07 s  ClockTime = 5 s
+ExecutionTime = 4.28 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 1.83522e-05 max: 0.00316429
 Region: sphere Diffusion Number mean: 0.31301 max: 10.2461
@@ -1155,7 +1155,7 @@ time step continuity errors (oil): sum local = 4.66991e-08, global = 4.66988e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144095, Final residual = 3.93861e-07, No Iterations 5
 Min/max T:499.026 499.295
-ExecutionTime = 5.16 s  ClockTime = 5 s
+ExecutionTime = 4.37 s  ClockTime = 4 s
 
 Region: oil Courant Number mean: 1.8045e-05 max: 0.003173
 Region: sphere Diffusion Number mean: 0.313016 max: 10.2462
@@ -1178,7 +1178,7 @@ time step continuity errors (oil): sum local = 4.66664e-08, global = 4.66661e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144098, Final residual = 3.9389e-07, No Iterations 5
 Min/max T:499 499.268
-ExecutionTime = 5.26 s  ClockTime = 5 s
+ExecutionTime = 4.45 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.77494e-05 max: 0.00318153
 Region: sphere Diffusion Number mean: 0.313022 max: 10.2464
@@ -1201,7 +1201,7 @@ time step continuity errors (oil): sum local = 4.66338e-08, global = 4.66335e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144103, Final residual = 3.93927e-07, No Iterations 5
 Min/max T:498.974 499.242
-ExecutionTime = 5.35 s  ClockTime = 6 s
+ExecutionTime = 4.55 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.74638e-05 max: 0.00318991
 Region: sphere Diffusion Number mean: 0.313027 max: 10.2466
@@ -1224,7 +1224,7 @@ time step continuity errors (oil): sum local = 4.66013e-08, global = 4.6601e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144108, Final residual = 3.93971e-07, No Iterations 5
 Min/max T:498.948 499.216
-ExecutionTime = 5.45 s  ClockTime = 6 s
+ExecutionTime = 4.62 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.71882e-05 max: 0.00319814
 Region: sphere Diffusion Number mean: 0.313033 max: 10.2468
@@ -1247,7 +1247,7 @@ time step continuity errors (oil): sum local = 4.65689e-08, global = 4.65685e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144114, Final residual = 3.94018e-07, No Iterations 5
 Min/max T:498.923 499.19
-ExecutionTime = 5.54 s  ClockTime = 6 s
+ExecutionTime = 4.7 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.69209e-05 max: 0.00320623
 Region: sphere Diffusion Number mean: 0.313039 max: 10.247
@@ -1270,7 +1270,7 @@ time step continuity errors (oil): sum local = 4.65365e-08, global = 4.65362e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144121, Final residual = 3.94068e-07, No Iterations 5
 Min/max T:498.897 499.164
-ExecutionTime = 5.63 s  ClockTime = 6 s
+ExecutionTime = 4.78 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.6661e-05 max: 0.0032142
 Region: sphere Diffusion Number mean: 0.313044 max: 10.2472
@@ -1293,7 +1293,7 @@ time step continuity errors (oil): sum local = 4.65042e-08, global = 4.65038e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144128, Final residual = 3.9412e-07, No Iterations 5
 Min/max T:498.871 499.138
-ExecutionTime = 5.74 s  ClockTime = 6 s
+ExecutionTime = 4.86 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.64096e-05 max: 0.00322205
 Region: sphere Diffusion Number mean: 0.31305 max: 10.2473
@@ -1316,7 +1316,7 @@ time step continuity errors (oil): sum local = 4.64719e-08, global = 4.64716e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144136, Final residual = 3.94173e-07, No Iterations 5
 Min/max T:498.845 499.112
-ExecutionTime = 5.84 s  ClockTime = 6 s
+ExecutionTime = 4.94 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.61665e-05 max: 0.0032298
 Region: sphere Diffusion Number mean: 0.313056 max: 10.2475
@@ -1339,7 +1339,7 @@ time step continuity errors (oil): sum local = 4.64398e-08, global = 4.64394e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144144, Final residual = 3.94228e-07, No Iterations 5
 Min/max T:498.82 499.086
-ExecutionTime = 6.11 s  ClockTime = 6 s
+ExecutionTime = 5.14 s  ClockTime = 5 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -1371,7 +1371,7 @@ time step continuity errors (oil): sum local = 4.64076e-08, global = 4.64073e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144152, Final residual = 3.94284e-07, No Iterations 5
 Min/max T:498.794 499.06
-ExecutionTime = 6.2 s  ClockTime = 6 s
+ExecutionTime = 5.24 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.57021e-05 max: 0.003245
 Region: sphere Diffusion Number mean: 0.313067 max: 10.2479
@@ -1394,7 +1394,7 @@ time step continuity errors (oil): sum local = 4.63756e-08, global = 4.63753e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14416, Final residual = 3.94341e-07, No Iterations 5
 Min/max T:498.768 499.034
-ExecutionTime = 6.3 s  ClockTime = 6 s
+ExecutionTime = 5.32 s  ClockTime = 5 s
 
 Region: oil Courant Number mean: 1.54795e-05 max: 0.00325246
 Region: sphere Diffusion Number mean: 0.313073 max: 10.2481
@@ -1417,7 +1417,7 @@ time step continuity errors (oil): sum local = 4.63436e-08, global = 4.63433e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144169, Final residual = 3.94398e-07, No Iterations 5
 Min/max T:498.742 499.008
-ExecutionTime = 6.39 s  ClockTime = 7 s
+ExecutionTime = 5.39 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.52625e-05 max: 0.00325984
 Region: sphere Diffusion Number mean: 0.313078 max: 10.2483
@@ -1440,7 +1440,7 @@ time step continuity errors (oil): sum local = 4.63117e-08, global = 4.63114e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144177, Final residual = 3.94455e-07, No Iterations 5
 Min/max T:498.717 498.982
-ExecutionTime = 6.5 s  ClockTime = 7 s
+ExecutionTime = 5.49 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.5051e-05 max: 0.00326714
 Region: sphere Diffusion Number mean: 0.313084 max: 10.2485
@@ -1463,7 +1463,7 @@ time step continuity errors (oil): sum local = 4.62799e-08, global = 4.62795e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144186, Final residual = 3.94513e-07, No Iterations 5
 Min/max T:498.691 498.956
-ExecutionTime = 6.61 s  ClockTime = 7 s
+ExecutionTime = 5.57 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.48449e-05 max: 0.00327437
 Region: sphere Diffusion Number mean: 0.313089 max: 10.2486
@@ -1486,7 +1486,7 @@ time step continuity errors (oil): sum local = 4.62481e-08, global = 4.62478e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144195, Final residual = 3.94571e-07, No Iterations 5
 Min/max T:498.666 498.93
-ExecutionTime = 6.7 s  ClockTime = 7 s
+ExecutionTime = 5.64 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.46434e-05 max: 0.00328154
 Region: sphere Diffusion Number mean: 0.313095 max: 10.2488
@@ -1509,7 +1509,7 @@ time step continuity errors (oil): sum local = 4.62164e-08, global = 4.62161e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144203, Final residual = 3.94629e-07, No Iterations 5
 Min/max T:498.64 498.905
-ExecutionTime = 6.8 s  ClockTime = 7 s
+ExecutionTime = 5.72 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.44466e-05 max: 0.00328864
 Region: sphere Diffusion Number mean: 0.313101 max: 10.249
@@ -1532,7 +1532,7 @@ time step continuity errors (oil): sum local = 4.61847e-08, global = 4.61844e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144212, Final residual = 3.94687e-07, No Iterations 5
 Min/max T:498.614 498.879
-ExecutionTime = 6.88 s  ClockTime = 7 s
+ExecutionTime = 5.82 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.4255e-05 max: 0.00329567
 Region: sphere Diffusion Number mean: 0.313106 max: 10.2492
@@ -1555,7 +1555,7 @@ time step continuity errors (oil): sum local = 4.61531e-08, global = 4.61528e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144221, Final residual = 3.94745e-07, No Iterations 5
 Min/max T:498.589 498.853
-ExecutionTime = 6.97 s  ClockTime = 7 s
+ExecutionTime = 5.89 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.4068e-05 max: 0.00330266
 Region: sphere Diffusion Number mean: 0.313112 max: 10.2494
@@ -1578,7 +1578,7 @@ time step continuity errors (oil): sum local = 4.61216e-08, global = 4.61213e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14423, Final residual = 3.94804e-07, No Iterations 5
 Min/max T:498.563 498.827
-ExecutionTime = 7.06 s  ClockTime = 7 s
+ExecutionTime = 5.97 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.38853e-05 max: 0.00330959
 Region: sphere Diffusion Number mean: 0.313117 max: 10.2496
@@ -1601,7 +1601,7 @@ time step continuity errors (oil): sum local = 4.60902e-08, global = 4.60899e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144238, Final residual = 3.94862e-07, No Iterations 5
 Min/max T:498.538 498.801
-ExecutionTime = 7.16 s  ClockTime = 7 s
+ExecutionTime = 6.05 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.37069e-05 max: 0.00331646
 Region: sphere Diffusion Number mean: 0.313123 max: 10.2497
@@ -1624,7 +1624,7 @@ time step continuity errors (oil): sum local = 4.60588e-08, global = 4.60585e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144247, Final residual = 3.9492e-07, No Iterations 5
 Min/max T:498.512 498.776
-ExecutionTime = 7.25 s  ClockTime = 7 s
+ExecutionTime = 6.13 s  ClockTime = 6 s
 
 Region: oil Courant Number mean: 1.35328e-05 max: 0.00332329
 Region: sphere Diffusion Number mean: 0.313129 max: 10.2499
@@ -1647,7 +1647,7 @@ time step continuity errors (oil): sum local = 4.60275e-08, global = 4.60272e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144256, Final residual = 3.94979e-07, No Iterations 5
 Min/max T:498.487 498.75
-ExecutionTime = 7.48 s  ClockTime = 8 s
+ExecutionTime = 6.34 s  ClockTime = 6 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -1679,7 +1679,7 @@ time step continuity errors (oil): sum local = 4.59962e-08, global = 4.59959e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144265, Final residual = 3.95037e-07, No Iterations 5
 Min/max T:498.461 498.724
-ExecutionTime = 7.58 s  ClockTime = 8 s
+ExecutionTime = 6.43 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.31978e-05 max: 0.00333681
 Region: sphere Diffusion Number mean: 0.31314 max: 10.2503
@@ -1702,7 +1702,7 @@ time step continuity errors (oil): sum local = 4.5965e-08, global = 4.59647e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144274, Final residual = 3.95095e-07, No Iterations 5
 Min/max T:498.436 498.698
-ExecutionTime = 7.67 s  ClockTime = 8 s
+ExecutionTime = 6.51 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.30375e-05 max: 0.00334351
 Region: sphere Diffusion Number mean: 0.313145 max: 10.2505
@@ -1725,7 +1725,7 @@ time step continuity errors (oil): sum local = 4.59339e-08, global = 4.59336e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144282, Final residual = 3.95153e-07, No Iterations 5
 Min/max T:498.41 498.673
-ExecutionTime = 7.75 s  ClockTime = 8 s
+ExecutionTime = 6.59 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.28818e-05 max: 0.00335016
 Region: sphere Diffusion Number mean: 0.313151 max: 10.2507
@@ -1748,7 +1748,7 @@ time step continuity errors (oil): sum local = 4.59028e-08, global = 4.59025e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144291, Final residual = 3.95212e-07, No Iterations 5
 Min/max T:498.385 498.647
-ExecutionTime = 7.86 s  ClockTime = 8 s
+ExecutionTime = 6.67 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.27306e-05 max: 0.00335678
 Region: sphere Diffusion Number mean: 0.313157 max: 10.2508
@@ -1771,7 +1771,7 @@ time step continuity errors (oil): sum local = 4.5872e-08, global = 4.58715e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.1443, Final residual = 3.9527e-07, No Iterations 5
 Min/max T:498.359 498.621
-ExecutionTime = 7.97 s  ClockTime = 8 s
+ExecutionTime = 6.75 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.25842e-05 max: 0.00336336
 Region: sphere Diffusion Number mean: 0.313162 max: 10.251
@@ -1794,7 +1794,7 @@ time step continuity errors (oil): sum local = 4.58408e-08, global = 4.58406e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144309, Final residual = 3.95328e-07, No Iterations 5
 Min/max T:498.334 498.595
-ExecutionTime = 8.07 s  ClockTime = 8 s
+ExecutionTime = 6.83 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.24416e-05 max: 0.0033699
 Region: sphere Diffusion Number mean: 0.313168 max: 10.2512
@@ -1817,7 +1817,7 @@ time step continuity errors (oil): sum local = 4.58102e-08, global = 4.58097e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144317, Final residual = 3.95386e-07, No Iterations 5
 Min/max T:498.309 498.57
-ExecutionTime = 8.17 s  ClockTime = 8 s
+ExecutionTime = 6.9 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.23035e-05 max: 0.00337642
 Region: sphere Diffusion Number mean: 0.313173 max: 10.2514
@@ -1840,7 +1840,7 @@ time step continuity errors (oil): sum local = 4.57791e-08, global = 4.57789e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144326, Final residual = 3.95444e-07, No Iterations 5
 Min/max T:498.283 498.544
-ExecutionTime = 8.26 s  ClockTime = 8 s
+ExecutionTime = 6.98 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.21698e-05 max: 0.0033829
 Region: sphere Diffusion Number mean: 0.313179 max: 10.2516
@@ -1863,7 +1863,7 @@ time step continuity errors (oil): sum local = 4.57486e-08, global = 4.57481e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144335, Final residual = 3.95502e-07, No Iterations 5
 Min/max T:498.258 498.519
-ExecutionTime = 8.35 s  ClockTime = 9 s
+ExecutionTime = 7.06 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.20403e-05 max: 0.00338935
 Region: sphere Diffusion Number mean: 0.313184 max: 10.2517
@@ -1886,7 +1886,7 @@ time step continuity errors (oil): sum local = 4.57177e-08, global = 4.57174e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144344, Final residual = 3.9556e-07, No Iterations 5
 Min/max T:498.233 498.493
-ExecutionTime = 8.45 s  ClockTime = 9 s
+ExecutionTime = 7.14 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.19151e-05 max: 0.00339576
 Region: sphere Diffusion Number mean: 0.31319 max: 10.2519
@@ -1909,7 +1909,7 @@ time step continuity errors (oil): sum local = 4.56873e-08, global = 4.56868e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144352, Final residual = 3.95618e-07, No Iterations 5
 Min/max T:498.207 498.467
-ExecutionTime = 8.54 s  ClockTime = 9 s
+ExecutionTime = 7.23 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.17943e-05 max: 0.00340215
 Region: sphere Diffusion Number mean: 0.313196 max: 10.2521
@@ -1932,7 +1932,7 @@ time step continuity errors (oil): sum local = 4.56567e-08, global = 4.56562e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144361, Final residual = 3.95675e-07, No Iterations 5
 Min/max T:498.182 498.442
-ExecutionTime = 8.65 s  ClockTime = 9 s
+ExecutionTime = 7.31 s  ClockTime = 7 s
 
 Region: oil Courant Number mean: 1.16781e-05 max: 0.00340851
 Region: sphere Diffusion Number mean: 0.313201 max: 10.2523
@@ -1955,7 +1955,7 @@ time step continuity errors (oil): sum local = 4.56262e-08, global = 4.56257e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144369, Final residual = 3.95733e-07, No Iterations 5
 Min/max T:498.157 498.416
-ExecutionTime = 8.9 s  ClockTime = 9 s
+ExecutionTime = 7.54 s  ClockTime = 8 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -1987,7 +1987,7 @@ time step continuity errors (oil): sum local = 4.55957e-08, global = 4.55953e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144378, Final residual = 3.9579e-07, No Iterations 5
 Min/max T:498.131 498.391
-ExecutionTime = 8.99 s  ClockTime = 9 s
+ExecutionTime = 7.62 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.14578e-05 max: 0.00342116
 Region: sphere Diffusion Number mean: 0.313212 max: 10.2527
@@ -2010,7 +2010,7 @@ time step continuity errors (oil): sum local = 4.55654e-08, global = 4.55649e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144387, Final residual = 3.95847e-07, No Iterations 5
 Min/max T:498.106 498.365
-ExecutionTime = 9.09 s  ClockTime = 9 s
+ExecutionTime = 7.69 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.13533e-05 max: 0.00342744
 Region: sphere Diffusion Number mean: 0.313218 max: 10.2528
@@ -2033,7 +2033,7 @@ time step continuity errors (oil): sum local = 4.5535e-08, global = 4.55346e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144395, Final residual = 3.95905e-07, No Iterations 5
 Min/max T:498.081 498.34
-ExecutionTime = 9.18 s  ClockTime = 9 s
+ExecutionTime = 7.77 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.12534e-05 max: 0.0034337
 Region: sphere Diffusion Number mean: 0.313223 max: 10.253
@@ -2056,7 +2056,7 @@ time step continuity errors (oil): sum local = 4.55048e-08, global = 4.55043e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144404, Final residual = 3.95962e-07, No Iterations 5
 Min/max T:498.056 498.314
-ExecutionTime = 9.27 s  ClockTime = 9 s
+ExecutionTime = 7.85 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.11582e-05 max: 0.00343993
 Region: sphere Diffusion Number mean: 0.313229 max: 10.2532
@@ -2079,7 +2079,7 @@ time step continuity errors (oil): sum local = 4.54746e-08, global = 4.54741e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144412, Final residual = 3.96019e-07, No Iterations 5
 Min/max T:498.031 498.289
-ExecutionTime = 9.35 s  ClockTime = 10 s
+ExecutionTime = 7.93 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.10673e-05 max: 0.00344614
 Region: sphere Diffusion Number mean: 0.313234 max: 10.2534
@@ -2102,7 +2102,7 @@ time step continuity errors (oil): sum local = 4.54444e-08, global = 4.5444e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144421, Final residual = 3.96076e-07, No Iterations 5
 Min/max T:498.005 498.263
-ExecutionTime = 9.45 s  ClockTime = 10 s
+ExecutionTime = 8.01 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.09812e-05 max: 0.00345233
 Region: sphere Diffusion Number mean: 0.31324 max: 10.2536
@@ -2125,7 +2125,7 @@ time step continuity errors (oil): sum local = 4.54143e-08, global = 4.54139e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144429, Final residual = 3.96134e-07, No Iterations 5
 Min/max T:497.98 498.238
-ExecutionTime = 9.56 s  ClockTime = 10 s
+ExecutionTime = 8.1 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.09002e-05 max: 0.00345849
 Region: sphere Diffusion Number mean: 0.313245 max: 10.2537
@@ -2148,7 +2148,7 @@ time step continuity errors (oil): sum local = 4.53843e-08, global = 4.53839e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144438, Final residual = 3.96191e-07, No Iterations 5
 Min/max T:497.955 498.213
-ExecutionTime = 9.67 s  ClockTime = 10 s
+ExecutionTime = 8.18 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.08243e-05 max: 0.00346464
 Region: sphere Diffusion Number mean: 0.313251 max: 10.2539
@@ -2171,7 +2171,7 @@ time step continuity errors (oil): sum local = 4.53544e-08, global = 4.53539e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144446, Final residual = 3.96248e-07, No Iterations 5
 Min/max T:497.93 498.187
-ExecutionTime = 9.79 s  ClockTime = 10 s
+ExecutionTime = 8.26 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.07537e-05 max: 0.00347076
 Region: sphere Diffusion Number mean: 0.313256 max: 10.2541
@@ -2194,7 +2194,7 @@ time step continuity errors (oil): sum local = 4.53245e-08, global = 4.5324e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144455, Final residual = 3.96305e-07, No Iterations 5
 Min/max T:497.905 498.162
-ExecutionTime = 9.92 s  ClockTime = 10 s
+ExecutionTime = 8.34 s  ClockTime = 8 s
 
 Region: oil Courant Number mean: 1.06888e-05 max: 0.00347687
 Region: sphere Diffusion Number mean: 0.313262 max: 10.2543
@@ -2217,7 +2217,7 @@ time step continuity errors (oil): sum local = 4.52946e-08, global = 4.52942e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144463, Final residual = 3.96362e-07, No Iterations 5
 Min/max T:497.88 498.136
-ExecutionTime = 10.03 s  ClockTime = 10 s
+ExecutionTime = 8.43 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.063e-05 max: 0.00348295
 Region: sphere Diffusion Number mean: 0.313267 max: 10.2545
@@ -2240,7 +2240,7 @@ time step continuity errors (oil): sum local = 4.52648e-08, global = 4.52644e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144472, Final residual = 3.96419e-07, No Iterations 5
 Min/max T:497.855 498.111
-ExecutionTime = 10.12 s  ClockTime = 10 s
+ExecutionTime = 8.5 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.05769e-05 max: 0.00348901
 Region: sphere Diffusion Number mean: 0.313273 max: 10.2546
@@ -2263,7 +2263,7 @@ time step continuity errors (oil): sum local = 4.52351e-08, global = 4.52347e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14448, Final residual = 3.96475e-07, No Iterations 5
 Min/max T:497.83 498.086
-ExecutionTime = 10.4 s  ClockTime = 11 s
+ExecutionTime = 8.72 s  ClockTime = 9 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -2295,7 +2295,7 @@ time step continuity errors (oil): sum local = 4.52054e-08, global = 4.5205e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144488, Final residual = 3.96532e-07, No Iterations 5
 Min/max T:497.804 498.061
-ExecutionTime = 10.48 s  ClockTime = 11 s
+ExecutionTime = 8.8 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.04879e-05 max: 0.00350108
 Region: sphere Diffusion Number mean: 0.313284 max: 10.255
@@ -2318,7 +2318,7 @@ time step continuity errors (oil): sum local = 4.51758e-08, global = 4.51754e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144497, Final residual = 3.96589e-07, No Iterations 5
 Min/max T:497.779 498.035
-ExecutionTime = 10.57 s  ClockTime = 11 s
+ExecutionTime = 8.89 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.04521e-05 max: 0.00350708
 Region: sphere Diffusion Number mean: 0.313289 max: 10.2552
@@ -2341,7 +2341,7 @@ time step continuity errors (oil): sum local = 4.51463e-08, global = 4.51458e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144505, Final residual = 3.96646e-07, No Iterations 5
 Min/max T:497.754 498.01
-ExecutionTime = 10.68 s  ClockTime = 11 s
+ExecutionTime = 8.97 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.04229e-05 max: 0.00351307
 Region: sphere Diffusion Number mean: 0.313295 max: 10.2554
@@ -2364,7 +2364,7 @@ time step continuity errors (oil): sum local = 4.51168e-08, global = 4.51164e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144514, Final residual = 3.96702e-07, No Iterations 5
 Min/max T:497.729 497.985
-ExecutionTime = 10.76 s  ClockTime = 11 s
+ExecutionTime = 9.06 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.03999e-05 max: 0.00351904
 Region: sphere Diffusion Number mean: 0.3133 max: 10.2555
@@ -2387,7 +2387,7 @@ time step continuity errors (oil): sum local = 4.50874e-08, global = 4.50869e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144522, Final residual = 3.96759e-07, No Iterations 5
 Min/max T:497.704 497.959
-ExecutionTime = 10.84 s  ClockTime = 11 s
+ExecutionTime = 9.14 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.03839e-05 max: 0.00352499
 Region: sphere Diffusion Number mean: 0.313306 max: 10.2557
@@ -2410,7 +2410,7 @@ time step continuity errors (oil): sum local = 4.5058e-08, global = 4.50576e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144531, Final residual = 3.96816e-07, No Iterations 5
 Min/max T:497.679 497.934
-ExecutionTime = 10.93 s  ClockTime = 11 s
+ExecutionTime = 9.22 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.03753e-05 max: 0.00353093
 Region: sphere Diffusion Number mean: 0.313311 max: 10.2559
@@ -2433,7 +2433,7 @@ time step continuity errors (oil): sum local = 4.50287e-08, global = 4.50282e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144539, Final residual = 3.96872e-07, No Iterations 5
 Min/max T:497.654 497.909
-ExecutionTime = 11.03 s  ClockTime = 11 s
+ExecutionTime = 9.3 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.03743e-05 max: 0.00353685
 Region: sphere Diffusion Number mean: 0.313317 max: 10.2561
@@ -2456,7 +2456,7 @@ time step continuity errors (oil): sum local = 4.49994e-08, global = 4.4999e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144547, Final residual = 3.96929e-07, No Iterations 5
 Min/max T:497.63 497.884
-ExecutionTime = 11.11 s  ClockTime = 11 s
+ExecutionTime = 9.37 s  ClockTime = 9 s
 
 Region: oil Courant Number mean: 1.0381e-05 max: 0.00354275
 Region: sphere Diffusion Number mean: 0.313322 max: 10.2563
@@ -2479,7 +2479,7 @@ time step continuity errors (oil): sum local = 4.49702e-08, global = 4.49698e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144556, Final residual = 3.96985e-07, No Iterations 5
 Min/max T:497.605 497.859
-ExecutionTime = 11.22 s  ClockTime = 11 s
+ExecutionTime = 9.45 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.03959e-05 max: 0.00354863
 Region: sphere Diffusion Number mean: 0.313328 max: 10.2564
@@ -2502,7 +2502,7 @@ time step continuity errors (oil): sum local = 4.49411e-08, global = 4.49407e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144564, Final residual = 3.97042e-07, No Iterations 5
 Min/max T:497.58 497.833
-ExecutionTime = 11.33 s  ClockTime = 12 s
+ExecutionTime = 9.53 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.04193e-05 max: 0.0035545
 Region: sphere Diffusion Number mean: 0.313333 max: 10.2566
@@ -2525,7 +2525,7 @@ time step continuity errors (oil): sum local = 4.4912e-08, global = 4.49116e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144572, Final residual = 3.97098e-07, No Iterations 5
 Min/max T:497.555 497.808
-ExecutionTime = 11.41 s  ClockTime = 12 s
+ExecutionTime = 9.61 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.04503e-05 max: 0.00356036
 Region: sphere Diffusion Number mean: 0.313339 max: 10.2568
@@ -2548,7 +2548,7 @@ time step continuity errors (oil): sum local = 4.4883e-08, global = 4.48825e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144581, Final residual = 3.97154e-07, No Iterations 5
 Min/max T:497.53 497.783
-ExecutionTime = 11.49 s  ClockTime = 12 s
+ExecutionTime = 9.69 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.0489e-05 max: 0.0035662
 Region: sphere Diffusion Number mean: 0.313344 max: 10.257
@@ -2571,7 +2571,7 @@ time step continuity errors (oil): sum local = 4.4854e-08, global = 4.48536e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144589, Final residual = 3.97211e-07, No Iterations 5
 Min/max T:497.505 497.758
-ExecutionTime = 11.71 s  ClockTime = 12 s
+ExecutionTime = 9.89 s  ClockTime = 10 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -2603,7 +2603,7 @@ time step continuity errors (oil): sum local = 4.48251e-08, global = 4.48247e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144597, Final residual = 3.97267e-07, No Iterations 5
 Min/max T:497.48 497.733
-ExecutionTime = 11.79 s  ClockTime = 12 s
+ExecutionTime = 9.98 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.059e-05 max: 0.00357783
 Region: sphere Diffusion Number mean: 0.313355 max: 10.2573
@@ -2626,7 +2626,7 @@ time step continuity errors (oil): sum local = 4.47963e-08, global = 4.47958e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144606, Final residual = 3.97323e-07, No Iterations 5
 Min/max T:497.455 497.708
-ExecutionTime = 11.89 s  ClockTime = 12 s
+ExecutionTime = 10.06 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.06522e-05 max: 0.00358363
 Region: sphere Diffusion Number mean: 0.31336 max: 10.2575
@@ -2649,7 +2649,7 @@ time step continuity errors (oil): sum local = 4.47675e-08, global = 4.4767e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144614, Final residual = 3.97379e-07, No Iterations 5
 Min/max T:497.43 497.683
-ExecutionTime = 11.96 s  ClockTime = 12 s
+ExecutionTime = 10.14 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.07224e-05 max: 0.00358941
 Region: sphere Diffusion Number mean: 0.313366 max: 10.2577
@@ -2672,7 +2672,7 @@ time step continuity errors (oil): sum local = 4.47387e-08, global = 4.47383e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144622, Final residual = 3.97435e-07, No Iterations 5
 Min/max T:497.406 497.658
-ExecutionTime = 12.06 s  ClockTime = 12 s
+ExecutionTime = 10.21 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.08005e-05 max: 0.00359518
 Region: sphere Diffusion Number mean: 0.313371 max: 10.2579
@@ -2695,7 +2695,7 @@ time step continuity errors (oil): sum local = 4.471e-08, global = 4.47096e-08, 
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14463, Final residual = 3.97491e-07, No Iterations 5
 Min/max T:497.381 497.633
-ExecutionTime = 12.15 s  ClockTime = 12 s
+ExecutionTime = 10.28 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.08864e-05 max: 0.00360093
 Region: sphere Diffusion Number mean: 0.313377 max: 10.258
@@ -2718,7 +2718,7 @@ time step continuity errors (oil): sum local = 4.46814e-08, global = 4.4681e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144639, Final residual = 3.97547e-07, No Iterations 5
 Min/max T:497.356 497.608
-ExecutionTime = 12.25 s  ClockTime = 12 s
+ExecutionTime = 10.38 s  ClockTime = 10 s
 
 Region: oil Courant Number mean: 1.098e-05 max: 0.00360667
 Region: sphere Diffusion Number mean: 0.313382 max: 10.2582
@@ -2741,7 +2741,7 @@ time step continuity errors (oil): sum local = 4.46528e-08, global = 4.46524e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144647, Final residual = 3.97603e-07, No Iterations 5
 Min/max T:497.331 497.583
-ExecutionTime = 12.36 s  ClockTime = 13 s
+ExecutionTime = 10.46 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.10818e-05 max: 0.00361239
 Region: sphere Diffusion Number mean: 0.313388 max: 10.2584
@@ -2764,7 +2764,7 @@ time step continuity errors (oil): sum local = 4.46243e-08, global = 4.46239e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144655, Final residual = 3.97659e-07, No Iterations 5
 Min/max T:497.307 497.558
-ExecutionTime = 12.46 s  ClockTime = 13 s
+ExecutionTime = 10.53 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.1191e-05 max: 0.0036181
 Region: sphere Diffusion Number mean: 0.313393 max: 10.2586
@@ -2787,7 +2787,7 @@ time step continuity errors (oil): sum local = 4.45958e-08, global = 4.45954e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144663, Final residual = 3.97715e-07, No Iterations 5
 Min/max T:497.282 497.533
-ExecutionTime = 12.6 s  ClockTime = 13 s
+ExecutionTime = 10.61 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.13078e-05 max: 0.0036238
 Region: sphere Diffusion Number mean: 0.313398 max: 10.2587
@@ -2810,7 +2810,7 @@ time step continuity errors (oil): sum local = 4.45674e-08, global = 4.4567e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144672, Final residual = 3.97771e-07, No Iterations 5
 Min/max T:497.257 497.508
-ExecutionTime = 12.7 s  ClockTime = 13 s
+ExecutionTime = 10.69 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.14313e-05 max: 0.00362949
 Region: sphere Diffusion Number mean: 0.313404 max: 10.2589
@@ -2833,7 +2833,7 @@ time step continuity errors (oil): sum local = 4.45391e-08, global = 4.45386e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14468, Final residual = 3.97827e-07, No Iterations 5
 Min/max T:497.232 497.483
-ExecutionTime = 12.81 s  ClockTime = 13 s
+ExecutionTime = 10.77 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.15616e-05 max: 0.00363516
 Region: sphere Diffusion Number mean: 0.313409 max: 10.2591
@@ -2856,7 +2856,7 @@ time step continuity errors (oil): sum local = 4.45108e-08, global = 4.45103e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144688, Final residual = 3.97882e-07, No Iterations 5
 Min/max T:497.208 497.458
-ExecutionTime = 12.92 s  ClockTime = 13 s
+ExecutionTime = 10.85 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.16985e-05 max: 0.00364081
 Region: sphere Diffusion Number mean: 0.313415 max: 10.2593
@@ -2879,7 +2879,7 @@ time step continuity errors (oil): sum local = 4.44825e-08, global = 4.44821e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144696, Final residual = 3.97938e-07, No Iterations 5
 Min/max T:497.183 497.433
-ExecutionTime = 13.17 s  ClockTime = 13 s
+ExecutionTime = 11.05 s  ClockTime = 11 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -2911,7 +2911,7 @@ time step continuity errors (oil): sum local = 4.44544e-08, global = 4.44539e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144704, Final residual = 3.97994e-07, No Iterations 5
 Min/max T:497.158 497.408
-ExecutionTime = 13.3 s  ClockTime = 14 s
+ExecutionTime = 11.13 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.19902e-05 max: 0.00365209
 Region: sphere Diffusion Number mean: 0.313426 max: 10.2596
@@ -2934,7 +2934,7 @@ time step continuity errors (oil): sum local = 4.44262e-08, global = 4.44258e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144712, Final residual = 3.98049e-07, No Iterations 5
 Min/max T:497.134 497.383
-ExecutionTime = 13.41 s  ClockTime = 14 s
+ExecutionTime = 11.21 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.21446e-05 max: 0.00365771
 Region: sphere Diffusion Number mean: 0.313431 max: 10.2598
@@ -2957,7 +2957,7 @@ time step continuity errors (oil): sum local = 4.43981e-08, global = 4.43977e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144721, Final residual = 3.98105e-07, No Iterations 5
 Min/max T:497.109 497.358
-ExecutionTime = 13.52 s  ClockTime = 14 s
+ExecutionTime = 11.3 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.23044e-05 max: 0.00366331
 Region: sphere Diffusion Number mean: 0.313436 max: 10.26
@@ -2980,7 +2980,7 @@ time step continuity errors (oil): sum local = 4.43701e-08, global = 4.43697e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144729, Final residual = 3.9816e-07, No Iterations 5
 Min/max T:497.085 497.334
-ExecutionTime = 13.63 s  ClockTime = 14 s
+ExecutionTime = 11.36 s  ClockTime = 11 s
 
 Region: oil Courant Number mean: 1.24691e-05 max: 0.00366891
 Region: sphere Diffusion Number mean: 0.313442 max: 10.2602
@@ -3003,7 +3003,7 @@ time step continuity errors (oil): sum local = 4.43421e-08, global = 4.43417e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144737, Final residual = 3.98216e-07, No Iterations 5
 Min/max T:497.06 497.309
-ExecutionTime = 13.74 s  ClockTime = 14 s
+ExecutionTime = 11.44 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.26384e-05 max: 0.00367449
 Region: sphere Diffusion Number mean: 0.313447 max: 10.2603
@@ -3026,7 +3026,7 @@ time step continuity errors (oil): sum local = 4.43142e-08, global = 4.43138e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144745, Final residual = 3.98271e-07, No Iterations 5
 Min/max T:497.035 497.284
-ExecutionTime = 13.86 s  ClockTime = 14 s
+ExecutionTime = 11.52 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.28113e-05 max: 0.00368005
 Region: sphere Diffusion Number mean: 0.313452 max: 10.2605
@@ -3049,7 +3049,7 @@ time step continuity errors (oil): sum local = 4.42864e-08, global = 4.42859e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144753, Final residual = 3.98327e-07, No Iterations 5
 Min/max T:497.011 497.259
-ExecutionTime = 13.95 s  ClockTime = 14 s
+ExecutionTime = 11.6 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.29875e-05 max: 0.00368561
 Region: sphere Diffusion Number mean: 0.313458 max: 10.2607
@@ -3072,7 +3072,7 @@ time step continuity errors (oil): sum local = 4.42586e-08, global = 4.42581e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144761, Final residual = 3.98382e-07, No Iterations 5
 Min/max T:496.986 497.234
-ExecutionTime = 14.03 s  ClockTime = 14 s
+ExecutionTime = 11.68 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.31663e-05 max: 0.00369115
 Region: sphere Diffusion Number mean: 0.313463 max: 10.2609
@@ -3095,7 +3095,7 @@ time step continuity errors (oil): sum local = 4.42308e-08, global = 4.42304e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144769, Final residual = 3.98437e-07, No Iterations 5
 Min/max T:496.962 497.21
-ExecutionTime = 14.13 s  ClockTime = 14 s
+ExecutionTime = 11.74 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.33473e-05 max: 0.00369669
 Region: sphere Diffusion Number mean: 0.313469 max: 10.261
@@ -3118,7 +3118,7 @@ time step continuity errors (oil): sum local = 4.42031e-08, global = 4.42027e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144777, Final residual = 3.98492e-07, No Iterations 5
 Min/max T:496.937 497.185
-ExecutionTime = 14.2 s  ClockTime = 14 s
+ExecutionTime = 11.82 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.35304e-05 max: 0.0037022
 Region: sphere Diffusion Number mean: 0.313474 max: 10.2612
@@ -3141,7 +3141,7 @@ time step continuity errors (oil): sum local = 4.41755e-08, global = 4.4175e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144785, Final residual = 3.98547e-07, No Iterations 5
 Min/max T:496.913 497.16
-ExecutionTime = 14.3 s  ClockTime = 15 s
+ExecutionTime = 11.89 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.37152e-05 max: 0.00370771
 Region: sphere Diffusion Number mean: 0.313479 max: 10.2614
@@ -3164,7 +3164,7 @@ time step continuity errors (oil): sum local = 4.41479e-08, global = 4.41474e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144793, Final residual = 3.98601e-07, No Iterations 5
 Min/max T:496.888 497.135
-ExecutionTime = 14.39 s  ClockTime = 15 s
+ExecutionTime = 11.97 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.3902e-05 max: 0.00371321
 Region: sphere Diffusion Number mean: 0.313485 max: 10.2616
@@ -3187,7 +3187,7 @@ time step continuity errors (oil): sum local = 4.41203e-08, global = 4.41199e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144801, Final residual = 3.98655e-07, No Iterations 5
 Min/max T:496.864 497.111
-ExecutionTime = 14.61 s  ClockTime = 15 s
+ExecutionTime = 12.19 s  ClockTime = 12 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -3219,7 +3219,7 @@ time step continuity errors (oil): sum local = 4.40928e-08, global = 4.40924e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144808, Final residual = 3.9871e-07, No Iterations 5
 Min/max T:496.839 497.086
-ExecutionTime = 14.7 s  ClockTime = 15 s
+ExecutionTime = 12.27 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.42798e-05 max: 0.00372417
 Region: sphere Diffusion Number mean: 0.313495 max: 10.2619
@@ -3242,7 +3242,7 @@ time step continuity errors (oil): sum local = 4.40654e-08, global = 4.4065e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144816, Final residual = 3.98764e-07, No Iterations 5
 Min/max T:496.815 497.061
-ExecutionTime = 14.79 s  ClockTime = 15 s
+ExecutionTime = 12.35 s  ClockTime = 12 s
 
 Region: oil Courant Number mean: 1.44708e-05 max: 0.00372963
 Region: sphere Diffusion Number mean: 0.313501 max: 10.2621
@@ -3265,7 +3265,7 @@ time step continuity errors (oil): sum local = 4.4038e-08, global = 4.40376e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144824, Final residual = 3.98818e-07, No Iterations 5
 Min/max T:496.79 497.037
-ExecutionTime = 14.87 s  ClockTime = 15 s
+ExecutionTime = 12.42 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.4663e-05 max: 0.00373508
 Region: sphere Diffusion Number mean: 0.313506 max: 10.2623
@@ -3288,7 +3288,7 @@ time step continuity errors (oil): sum local = 4.40107e-08, global = 4.40102e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144832, Final residual = 3.98873e-07, No Iterations 5
 Min/max T:496.766 497.012
-ExecutionTime = 14.96 s  ClockTime = 15 s
+ExecutionTime = 12.5 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.48562e-05 max: 0.00374052
 Region: sphere Diffusion Number mean: 0.313512 max: 10.2624
@@ -3311,7 +3311,7 @@ time step continuity errors (oil): sum local = 4.39834e-08, global = 4.3983e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144839, Final residual = 3.98927e-07, No Iterations 5
 Min/max T:496.742 496.987
-ExecutionTime = 15.06 s  ClockTime = 15 s
+ExecutionTime = 12.58 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.50505e-05 max: 0.00374594
 Region: sphere Diffusion Number mean: 0.313517 max: 10.2626
@@ -3334,7 +3334,7 @@ time step continuity errors (oil): sum local = 4.39562e-08, global = 4.39557e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144847, Final residual = 3.98981e-07, No Iterations 5
 Min/max T:496.717 496.963
-ExecutionTime = 15.18 s  ClockTime = 15 s
+ExecutionTime = 12.66 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.52456e-05 max: 0.00375136
 Region: sphere Diffusion Number mean: 0.313522 max: 10.2628
@@ -3357,7 +3357,7 @@ time step continuity errors (oil): sum local = 4.3929e-08, global = 4.39286e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144855, Final residual = 3.99035e-07, No Iterations 5
 Min/max T:496.693 496.938
-ExecutionTime = 15.3 s  ClockTime = 16 s
+ExecutionTime = 12.75 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.54414e-05 max: 0.00375677
 Region: sphere Diffusion Number mean: 0.313528 max: 10.263
@@ -3380,7 +3380,7 @@ time step continuity errors (oil): sum local = 4.39019e-08, global = 4.39014e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144862, Final residual = 3.99088e-07, No Iterations 5
 Min/max T:496.669 496.914
-ExecutionTime = 15.41 s  ClockTime = 16 s
+ExecutionTime = 12.83 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.56378e-05 max: 0.00376216
 Region: sphere Diffusion Number mean: 0.313533 max: 10.2631
@@ -3403,7 +3403,7 @@ time step continuity errors (oil): sum local = 4.38748e-08, global = 4.38744e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14487, Final residual = 3.99142e-07, No Iterations 5
 Min/max T:496.644 496.889
-ExecutionTime = 15.5 s  ClockTime = 16 s
+ExecutionTime = 12.91 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.58349e-05 max: 0.00376754
 Region: sphere Diffusion Number mean: 0.313538 max: 10.2633
@@ -3426,7 +3426,7 @@ time step continuity errors (oil): sum local = 4.38478e-08, global = 4.38473e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144877, Final residual = 3.99195e-07, No Iterations 5
 Min/max T:496.62 496.865
-ExecutionTime = 15.59 s  ClockTime = 16 s
+ExecutionTime = 12.99 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.60325e-05 max: 0.00377292
 Region: sphere Diffusion Number mean: 0.313544 max: 10.2635
@@ -3449,7 +3449,7 @@ time step continuity errors (oil): sum local = 4.38208e-08, global = 4.38204e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144885, Final residual = 3.99249e-07, No Iterations 5
 Min/max T:496.596 496.84
-ExecutionTime = 15.7 s  ClockTime = 16 s
+ExecutionTime = 13.06 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.62307e-05 max: 0.00377828
 Region: sphere Diffusion Number mean: 0.313549 max: 10.2637
@@ -3472,7 +3472,7 @@ time step continuity errors (oil): sum local = 4.37943e-08, global = 4.37935e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144892, Final residual = 3.99302e-07, No Iterations 5
 Min/max T:496.571 496.815
-ExecutionTime = 15.81 s  ClockTime = 16 s
+ExecutionTime = 13.14 s  ClockTime = 13 s
 
 Region: oil Courant Number mean: 1.64293e-05 max: 0.00378363
 Region: sphere Diffusion Number mean: 0.313554 max: 10.2638
@@ -3495,7 +3495,7 @@ time step continuity errors (oil): sum local = 4.37675e-08, global = 4.37666e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.1449, Final residual = 3.99356e-07, No Iterations 5
 Min/max T:496.547 496.791
-ExecutionTime = 16.11 s  ClockTime = 16 s
+ExecutionTime = 13.34 s  ClockTime = 13 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -3527,7 +3527,7 @@ time step continuity errors (oil): sum local = 4.37406e-08, global = 4.37398e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144907, Final residual = 3.99409e-07, No Iterations 5
 Min/max T:496.523 496.766
-ExecutionTime = 16.24 s  ClockTime = 16 s
+ExecutionTime = 13.44 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.68279e-05 max: 0.00379431
 Region: sphere Diffusion Number mean: 0.313565 max: 10.2642
@@ -3550,7 +3550,7 @@ time step continuity errors (oil): sum local = 4.37139e-08, global = 4.3713e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144915, Final residual = 3.99462e-07, No Iterations 5
 Min/max T:496.498 496.742
-ExecutionTime = 16.34 s  ClockTime = 17 s
+ExecutionTime = 13.52 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.70277e-05 max: 0.00379963
 Region: sphere Diffusion Number mean: 0.31357 max: 10.2644
@@ -3573,7 +3573,7 @@ time step continuity errors (oil): sum local = 4.36872e-08, global = 4.36863e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144922, Final residual = 3.99515e-07, No Iterations 5
 Min/max T:496.474 496.718
-ExecutionTime = 16.43 s  ClockTime = 17 s
+ExecutionTime = 13.58 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.72281e-05 max: 0.00380494
 Region: sphere Diffusion Number mean: 0.313575 max: 10.2645
@@ -3596,7 +3596,7 @@ time step continuity errors (oil): sum local = 4.36605e-08, global = 4.36597e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14493, Final residual = 3.99569e-07, No Iterations 5
 Min/max T:496.45 496.693
-ExecutionTime = 16.52 s  ClockTime = 17 s
+ExecutionTime = 13.66 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.74288e-05 max: 0.00381024
 Region: sphere Diffusion Number mean: 0.313581 max: 10.2647
@@ -3619,7 +3619,7 @@ time step continuity errors (oil): sum local = 4.36339e-08, global = 4.36331e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144937, Final residual = 3.99622e-07, No Iterations 5
 Min/max T:496.426 496.669
-ExecutionTime = 16.6 s  ClockTime = 17 s
+ExecutionTime = 13.74 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.76298e-05 max: 0.00381552
 Region: sphere Diffusion Number mean: 0.313586 max: 10.2649
@@ -3642,7 +3642,7 @@ time step continuity errors (oil): sum local = 4.36073e-08, global = 4.36065e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144944, Final residual = 3.99675e-07, No Iterations 5
 Min/max T:496.402 496.644
-ExecutionTime = 16.68 s  ClockTime = 17 s
+ExecutionTime = 13.82 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.78315e-05 max: 0.0038208
 Region: sphere Diffusion Number mean: 0.313591 max: 10.2651
@@ -3665,7 +3665,7 @@ time step continuity errors (oil): sum local = 4.35808e-08, global = 4.358e-08, 
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144952, Final residual = 3.99728e-07, No Iterations 5
 Min/max T:496.377 496.62
-ExecutionTime = 16.76 s  ClockTime = 17 s
+ExecutionTime = 13.91 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.80335e-05 max: 0.00382607
 Region: sphere Diffusion Number mean: 0.313597 max: 10.2652
@@ -3688,7 +3688,7 @@ time step continuity errors (oil): sum local = 4.35544e-08, global = 4.35535e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144959, Final residual = 3.99781e-07, No Iterations 5
 Min/max T:496.353 496.595
-ExecutionTime = 16.84 s  ClockTime = 17 s
+ExecutionTime = 13.99 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.8236e-05 max: 0.00383133
 Region: sphere Diffusion Number mean: 0.313602 max: 10.2654
@@ -3711,7 +3711,7 @@ time step continuity errors (oil): sum local = 4.3528e-08, global = 4.35271e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144967, Final residual = 3.99834e-07, No Iterations 5
 Min/max T:496.329 496.571
-ExecutionTime = 16.93 s  ClockTime = 17 s
+ExecutionTime = 14.07 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.84388e-05 max: 0.00383658
 Region: sphere Diffusion Number mean: 0.313607 max: 10.2656
@@ -3734,7 +3734,7 @@ time step continuity errors (oil): sum local = 4.35016e-08, global = 4.35008e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144974, Final residual = 3.99887e-07, No Iterations 5
 Min/max T:496.305 496.547
-ExecutionTime = 17.01 s  ClockTime = 17 s
+ExecutionTime = 14.15 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.86421e-05 max: 0.00384182
 Region: sphere Diffusion Number mean: 0.313613 max: 10.2657
@@ -3757,7 +3757,7 @@ time step continuity errors (oil): sum local = 4.34753e-08, global = 4.34745e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144981, Final residual = 3.9994e-07, No Iterations 5
 Min/max T:496.281 496.522
-ExecutionTime = 17.11 s  ClockTime = 17 s
+ExecutionTime = 14.22 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.88458e-05 max: 0.00384705
 Region: sphere Diffusion Number mean: 0.313618 max: 10.2659
@@ -3780,7 +3780,7 @@ time step continuity errors (oil): sum local = 4.3449e-08, global = 4.34482e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144989, Final residual = 3.99993e-07, No Iterations 5
 Min/max T:496.257 496.498
-ExecutionTime = 17.2 s  ClockTime = 17 s
+ExecutionTime = 14.3 s  ClockTime = 14 s
 
 Region: oil Courant Number mean: 1.90497e-05 max: 0.00385227
 Region: sphere Diffusion Number mean: 0.313623 max: 10.2661
@@ -3803,7 +3803,7 @@ time step continuity errors (oil): sum local = 4.34228e-08, global = 4.3422e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.144996, Final residual = 4.00045e-07, No Iterations 5
 Min/max T:496.232 496.474
-ExecutionTime = 17.42 s  ClockTime = 18 s
+ExecutionTime = 14.52 s  ClockTime = 15 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -3835,7 +3835,7 @@ time step continuity errors (oil): sum local = 4.33967e-08, global = 4.33959e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145003, Final residual = 4.00098e-07, No Iterations 5
 Min/max T:496.208 496.449
-ExecutionTime = 17.5 s  ClockTime = 18 s
+ExecutionTime = 14.59 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 1.94587e-05 max: 0.00386268
 Region: sphere Diffusion Number mean: 0.313634 max: 10.2664
@@ -3858,7 +3858,7 @@ time step continuity errors (oil): sum local = 4.33706e-08, global = 4.33697e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145011, Final residual = 4.00151e-07, No Iterations 5
 Min/max T:496.184 496.425
-ExecutionTime = 17.59 s  ClockTime = 18 s
+ExecutionTime = 14.67 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 1.96637e-05 max: 0.00386788
 Region: sphere Diffusion Number mean: 0.313639 max: 10.2666
@@ -3881,7 +3881,7 @@ time step continuity errors (oil): sum local = 4.33445e-08, global = 4.33437e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145018, Final residual = 4.00203e-07, No Iterations 5
 Min/max T:496.16 496.401
-ExecutionTime = 17.68 s  ClockTime = 18 s
+ExecutionTime = 14.73 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 1.9869e-05 max: 0.00387306
 Region: sphere Diffusion Number mean: 0.313644 max: 10.2668
@@ -3904,7 +3904,7 @@ time step continuity errors (oil): sum local = 4.33185e-08, global = 4.33177e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145025, Final residual = 4.00256e-07, No Iterations 5
 Min/max T:496.136 496.377
-ExecutionTime = 17.78 s  ClockTime = 18 s
+ExecutionTime = 14.81 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.00747e-05 max: 0.00387823
 Region: sphere Diffusion Number mean: 0.313649 max: 10.267
@@ -3927,7 +3927,7 @@ time step continuity errors (oil): sum local = 4.32925e-08, global = 4.32917e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145032, Final residual = 4.00309e-07, No Iterations 5
 Min/max T:496.112 496.352
-ExecutionTime = 17.92 s  ClockTime = 18 s
+ExecutionTime = 14.89 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.02807e-05 max: 0.00388339
 Region: sphere Diffusion Number mean: 0.313655 max: 10.2671
@@ -3950,7 +3950,7 @@ time step continuity errors (oil): sum local = 4.32666e-08, global = 4.32658e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14504, Final residual = 4.00361e-07, No Iterations 5
 Min/max T:496.088 496.328
-ExecutionTime = 18.05 s  ClockTime = 18 s
+ExecutionTime = 14.97 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.0487e-05 max: 0.00388855
 Region: sphere Diffusion Number mean: 0.31366 max: 10.2673
@@ -3973,7 +3973,7 @@ time step continuity errors (oil): sum local = 4.32408e-08, global = 4.32399e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145047, Final residual = 4.00414e-07, No Iterations 5
 Min/max T:496.064 496.304
-ExecutionTime = 18.14 s  ClockTime = 18 s
+ExecutionTime = 15.03 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.06936e-05 max: 0.00389369
 Region: sphere Diffusion Number mean: 0.313665 max: 10.2675
@@ -3996,7 +3996,7 @@ time step continuity errors (oil): sum local = 4.32149e-08, global = 4.32141e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145054, Final residual = 4.00466e-07, No Iterations 5
 Min/max T:496.04 496.28
-ExecutionTime = 18.22 s  ClockTime = 18 s
+ExecutionTime = 15.11 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.09006e-05 max: 0.00389883
 Region: sphere Diffusion Number mean: 0.313671 max: 10.2676
@@ -4019,7 +4019,7 @@ time step continuity errors (oil): sum local = 4.31892e-08, global = 4.31884e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145061, Final residual = 4.00518e-07, No Iterations 5
 Min/max T:496.016 496.255
-ExecutionTime = 18.31 s  ClockTime = 19 s
+ExecutionTime = 15.19 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.11081e-05 max: 0.00390396
 Region: sphere Diffusion Number mean: 0.313676 max: 10.2678
@@ -4042,7 +4042,7 @@ time step continuity errors (oil): sum local = 4.31635e-08, global = 4.31627e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145069, Final residual = 4.00571e-07, No Iterations 5
 Min/max T:495.992 496.231
-ExecutionTime = 18.39 s  ClockTime = 19 s
+ExecutionTime = 15.26 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.13158e-05 max: 0.00390907
 Region: sphere Diffusion Number mean: 0.313681 max: 10.268
@@ -4065,7 +4065,7 @@ time step continuity errors (oil): sum local = 4.31378e-08, global = 4.3137e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145076, Final residual = 4.00623e-07, No Iterations 5
 Min/max T:495.968 496.207
-ExecutionTime = 18.47 s  ClockTime = 19 s
+ExecutionTime = 15.34 s  ClockTime = 15 s
 
 Region: oil Courant Number mean: 2.15239e-05 max: 0.00391418
 Region: sphere Diffusion Number mean: 0.313686 max: 10.2682
@@ -4088,7 +4088,7 @@ time step continuity errors (oil): sum local = 4.31122e-08, global = 4.31114e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145083, Final residual = 4.00675e-07, No Iterations 5
 Min/max T:495.944 496.183
-ExecutionTime = 18.56 s  ClockTime = 19 s
+ExecutionTime = 15.42 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.17322e-05 max: 0.00391928
 Region: sphere Diffusion Number mean: 0.313692 max: 10.2683
@@ -4111,7 +4111,7 @@ time step continuity errors (oil): sum local = 4.30866e-08, global = 4.30858e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14509, Final residual = 4.00727e-07, No Iterations 5
 Min/max T:495.92 496.159
-ExecutionTime = 18.81 s  ClockTime = 19 s
+ExecutionTime = 15.63 s  ClockTime = 16 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -4143,7 +4143,7 @@ time step continuity errors (oil): sum local = 4.30611e-08, global = 4.30603e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145097, Final residual = 4.00779e-07, No Iterations 5
 Min/max T:495.896 496.135
-ExecutionTime = 18.9 s  ClockTime = 19 s
+ExecutionTime = 15.72 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.21499e-05 max: 0.00392945
 Region: sphere Diffusion Number mean: 0.313702 max: 10.2687
@@ -4166,7 +4166,7 @@ time step continuity errors (oil): sum local = 4.30356e-08, global = 4.30348e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145105, Final residual = 4.00832e-07, No Iterations 5
 Min/max T:495.873 496.111
-ExecutionTime = 19 s  ClockTime = 19 s
+ExecutionTime = 15.8 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.23592e-05 max: 0.00393452
 Region: sphere Diffusion Number mean: 0.313707 max: 10.2688
@@ -4189,7 +4189,7 @@ time step continuity errors (oil): sum local = 4.30102e-08, global = 4.30094e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145112, Final residual = 4.00884e-07, No Iterations 5
 Min/max T:495.849 496.087
-ExecutionTime = 19.09 s  ClockTime = 19 s
+ExecutionTime = 15.87 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.25689e-05 max: 0.00393973
 Region: sphere Diffusion Number mean: 0.313712 max: 10.269
@@ -4212,7 +4212,7 @@ time step continuity errors (oil): sum local = 4.29848e-08, global = 4.2984e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145119, Final residual = 4.00936e-07, No Iterations 5
 Min/max T:495.825 496.062
-ExecutionTime = 19.17 s  ClockTime = 19 s
+ExecutionTime = 15.94 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.27789e-05 max: 0.00394549
 Region: sphere Diffusion Number mean: 0.313718 max: 10.2692
@@ -4235,7 +4235,7 @@ time step continuity errors (oil): sum local = 4.29595e-08, global = 4.29587e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145126, Final residual = 4.00988e-07, No Iterations 5
 Min/max T:495.801 496.038
-ExecutionTime = 19.26 s  ClockTime = 20 s
+ExecutionTime = 16.02 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.29891e-05 max: 0.00395125
 Region: sphere Diffusion Number mean: 0.313723 max: 10.2694
@@ -4258,7 +4258,7 @@ time step continuity errors (oil): sum local = 4.29342e-08, global = 4.29334e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145133, Final residual = 4.01039e-07, No Iterations 5
 Min/max T:495.777 496.014
-ExecutionTime = 19.34 s  ClockTime = 20 s
+ExecutionTime = 16.1 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.31997e-05 max: 0.00395701
 Region: sphere Diffusion Number mean: 0.313728 max: 10.2695
@@ -4281,7 +4281,7 @@ time step continuity errors (oil): sum local = 4.2909e-08, global = 4.29082e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14514, Final residual = 4.01091e-07, No Iterations 5
 Min/max T:495.753 495.99
-ExecutionTime = 19.44 s  ClockTime = 20 s
+ExecutionTime = 16.18 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.34106e-05 max: 0.00396275
 Region: sphere Diffusion Number mean: 0.313733 max: 10.2697
@@ -4304,7 +4304,7 @@ time step continuity errors (oil): sum local = 4.28838e-08, global = 4.2883e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145147, Final residual = 4.01142e-07, No Iterations 5
 Min/max T:495.729 495.966
-ExecutionTime = 19.51 s  ClockTime = 20 s
+ExecutionTime = 16.26 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.36219e-05 max: 0.00396849
 Region: sphere Diffusion Number mean: 0.313739 max: 10.2699
@@ -4327,7 +4327,7 @@ time step continuity errors (oil): sum local = 4.28587e-08, global = 4.28578e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145154, Final residual = 4.01193e-07, No Iterations 5
 Min/max T:495.706 495.942
-ExecutionTime = 19.59 s  ClockTime = 20 s
+ExecutionTime = 16.33 s  ClockTime = 16 s
 
 Region: oil Courant Number mean: 2.38335e-05 max: 0.00397423
 Region: sphere Diffusion Number mean: 0.313744 max: 10.27
@@ -4350,7 +4350,7 @@ time step continuity errors (oil): sum local = 4.28336e-08, global = 4.28327e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145161, Final residual = 4.01245e-07, No Iterations 5
 Min/max T:495.682 495.918
-ExecutionTime = 19.69 s  ClockTime = 20 s
+ExecutionTime = 16.41 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.40453e-05 max: 0.00397996
 Region: sphere Diffusion Number mean: 0.313749 max: 10.2702
@@ -4373,7 +4373,7 @@ time step continuity errors (oil): sum local = 4.28085e-08, global = 4.28077e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145168, Final residual = 4.01296e-07, No Iterations 5
 Min/max T:495.658 495.894
-ExecutionTime = 19.76 s  ClockTime = 20 s
+ExecutionTime = 16.47 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.42575e-05 max: 0.00398568
 Region: sphere Diffusion Number mean: 0.313754 max: 10.2704
@@ -4396,7 +4396,7 @@ time step continuity errors (oil): sum local = 4.27835e-08, global = 4.27827e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145175, Final residual = 4.01347e-07, No Iterations 5
 Min/max T:495.634 495.87
-ExecutionTime = 19.84 s  ClockTime = 20 s
+ExecutionTime = 16.55 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.44699e-05 max: 0.0039914
 Region: sphere Diffusion Number mean: 0.313759 max: 10.2706
@@ -4419,7 +4419,7 @@ time step continuity errors (oil): sum local = 4.27585e-08, global = 4.27578e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145181, Final residual = 4.01398e-07, No Iterations 5
 Min/max T:495.611 495.846
-ExecutionTime = 20.09 s  ClockTime = 20 s
+ExecutionTime = 16.8 s  ClockTime = 17 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -4451,7 +4451,7 @@ time step continuity errors (oil): sum local = 4.27337e-08, global = 4.27329e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145188, Final residual = 4.01449e-07, No Iterations 5
 Min/max T:495.587 495.822
-ExecutionTime = 20.22 s  ClockTime = 20 s
+ExecutionTime = 16.88 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.48955e-05 max: 0.00400283
 Region: sphere Diffusion Number mean: 0.31377 max: 10.2709
@@ -4474,7 +4474,7 @@ time step continuity errors (oil): sum local = 4.27088e-08, global = 4.2708e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145195, Final residual = 4.015e-07, No Iterations 5
 Min/max T:495.563 495.798
-ExecutionTime = 20.31 s  ClockTime = 21 s
+ExecutionTime = 16.95 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.51087e-05 max: 0.00400853
 Region: sphere Diffusion Number mean: 0.313775 max: 10.2711
@@ -4497,7 +4497,7 @@ time step continuity errors (oil): sum local = 4.2684e-08, global = 4.26832e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145202, Final residual = 4.01551e-07, No Iterations 5
 Min/max T:495.539 495.775
-ExecutionTime = 20.42 s  ClockTime = 21 s
+ExecutionTime = 17.03 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.53221e-05 max: 0.00401422
 Region: sphere Diffusion Number mean: 0.31378 max: 10.2712
@@ -4520,7 +4520,7 @@ time step continuity errors (oil): sum local = 4.26592e-08, global = 4.26584e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145209, Final residual = 4.01602e-07, No Iterations 5
 Min/max T:495.516 495.751
-ExecutionTime = 20.5 s  ClockTime = 21 s
+ExecutionTime = 17.11 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.55357e-05 max: 0.00401992
 Region: sphere Diffusion Number mean: 0.313785 max: 10.2714
@@ -4543,7 +4543,7 @@ time step continuity errors (oil): sum local = 4.26345e-08, global = 4.26337e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145216, Final residual = 4.01653e-07, No Iterations 5
 Min/max T:495.492 495.727
-ExecutionTime = 20.58 s  ClockTime = 21 s
+ExecutionTime = 17.19 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.57495e-05 max: 0.0040256
 Region: sphere Diffusion Number mean: 0.313791 max: 10.2716
@@ -4566,7 +4566,7 @@ time step continuity errors (oil): sum local = 4.26099e-08, global = 4.26091e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145222, Final residual = 4.01704e-07, No Iterations 5
 Min/max T:495.468 495.703
-ExecutionTime = 20.68 s  ClockTime = 21 s
+ExecutionTime = 17.27 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.59636e-05 max: 0.00403128
 Region: sphere Diffusion Number mean: 0.313796 max: 10.2717
@@ -4589,7 +4589,7 @@ time step continuity errors (oil): sum local = 4.25852e-08, global = 4.25844e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145229, Final residual = 4.01755e-07, No Iterations 5
 Min/max T:495.445 495.679
-ExecutionTime = 20.76 s  ClockTime = 21 s
+ExecutionTime = 17.34 s  ClockTime = 17 s
 
 Region: oil Courant Number mean: 2.61779e-05 max: 0.00403695
 Region: sphere Diffusion Number mean: 0.313801 max: 10.2719
@@ -4612,7 +4612,7 @@ time step continuity errors (oil): sum local = 4.25607e-08, global = 4.25599e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145236, Final residual = 4.01806e-07, No Iterations 5
 Min/max T:495.421 495.655
-ExecutionTime = 20.84 s  ClockTime = 21 s
+ExecutionTime = 17.42 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.63926e-05 max: 0.00404262
 Region: sphere Diffusion Number mean: 0.313806 max: 10.2721
@@ -4635,7 +4635,7 @@ time step continuity errors (oil): sum local = 4.25361e-08, global = 4.25353e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145243, Final residual = 4.01856e-07, No Iterations 5
 Min/max T:495.397 495.631
-ExecutionTime = 20.93 s  ClockTime = 21 s
+ExecutionTime = 17.5 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.66076e-05 max: 0.00404829
 Region: sphere Diffusion Number mean: 0.313811 max: 10.2722
@@ -4658,7 +4658,7 @@ time step continuity errors (oil): sum local = 4.25117e-08, global = 4.25109e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145249, Final residual = 4.01907e-07, No Iterations 5
 Min/max T:495.374 495.608
-ExecutionTime = 21.01 s  ClockTime = 21 s
+ExecutionTime = 17.58 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.68228e-05 max: 0.00405395
 Region: sphere Diffusion Number mean: 0.313816 max: 10.2724
@@ -4681,7 +4681,7 @@ time step continuity errors (oil): sum local = 4.24872e-08, global = 4.24864e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145256, Final residual = 4.01957e-07, No Iterations 5
 Min/max T:495.35 495.584
-ExecutionTime = 21.11 s  ClockTime = 21 s
+ExecutionTime = 17.64 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.70383e-05 max: 0.0040596
 Region: sphere Diffusion Number mean: 0.313822 max: 10.2726
@@ -4704,7 +4704,7 @@ time step continuity errors (oil): sum local = 4.24628e-08, global = 4.2462e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145263, Final residual = 4.02007e-07, No Iterations 5
 Min/max T:495.326 495.56
-ExecutionTime = 21.18 s  ClockTime = 21 s
+ExecutionTime = 17.72 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.72539e-05 max: 0.00406525
 Region: sphere Diffusion Number mean: 0.313827 max: 10.2728
@@ -4727,7 +4727,7 @@ time step continuity errors (oil): sum local = 4.24385e-08, global = 4.24377e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145269, Final residual = 4.02058e-07, No Iterations 5
 Min/max T:495.303 495.536
-ExecutionTime = 21.42 s  ClockTime = 22 s
+ExecutionTime = 17.91 s  ClockTime = 18 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -4759,7 +4759,7 @@ time step continuity errors (oil): sum local = 4.24142e-08, global = 4.24134e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145276, Final residual = 4.02108e-07, No Iterations 5
 Min/max T:495.279 495.512
-ExecutionTime = 21.53 s  ClockTime = 22 s
+ExecutionTime = 17.99 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.76858e-05 max: 0.00407653
 Region: sphere Diffusion Number mean: 0.313837 max: 10.2731
@@ -4782,7 +4782,7 @@ time step continuity errors (oil): sum local = 4.23899e-08, global = 4.23892e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145282, Final residual = 4.02157e-07, No Iterations 5
 Min/max T:495.256 495.489
-ExecutionTime = 21.62 s  ClockTime = 22 s
+ExecutionTime = 18.07 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.79021e-05 max: 0.00408216
 Region: sphere Diffusion Number mean: 0.313842 max: 10.2733
@@ -4805,7 +4805,7 @@ time step continuity errors (oil): sum local = 4.23657e-08, global = 4.2365e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145289, Final residual = 4.02207e-07, No Iterations 5
 Min/max T:495.232 495.465
-ExecutionTime = 21.73 s  ClockTime = 22 s
+ExecutionTime = 18.15 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.81187e-05 max: 0.00408779
 Region: sphere Diffusion Number mean: 0.313847 max: 10.2734
@@ -4828,7 +4828,7 @@ time step continuity errors (oil): sum local = 4.23416e-08, global = 4.23408e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145295, Final residual = 4.02256e-07, No Iterations 5
 Min/max T:495.209 495.441
-ExecutionTime = 21.81 s  ClockTime = 22 s
+ExecutionTime = 18.21 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.83355e-05 max: 0.00409341
 Region: sphere Diffusion Number mean: 0.313853 max: 10.2736
@@ -4851,7 +4851,7 @@ time step continuity errors (oil): sum local = 4.23175e-08, global = 4.23167e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145301, Final residual = 4.02306e-07, No Iterations 5
 Min/max T:495.185 495.417
-ExecutionTime = 21.89 s  ClockTime = 22 s
+ExecutionTime = 18.29 s  ClockTime = 18 s
 
 Region: oil Courant Number mean: 2.85526e-05 max: 0.00409903
 Region: sphere Diffusion Number mean: 0.313858 max: 10.2738
@@ -4874,7 +4874,7 @@ time step continuity errors (oil): sum local = 4.22934e-08, global = 4.22926e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145308, Final residual = 4.02356e-07, No Iterations 5
 Min/max T:495.162 495.394
-ExecutionTime = 21.98 s  ClockTime = 22 s
+ExecutionTime = 18.36 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.87699e-05 max: 0.00410464
 Region: sphere Diffusion Number mean: 0.313863 max: 10.2739
@@ -4897,7 +4897,7 @@ time step continuity errors (oil): sum local = 4.22694e-08, global = 4.22686e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145314, Final residual = 4.02405e-07, No Iterations 5
 Min/max T:495.138 495.37
-ExecutionTime = 22.07 s  ClockTime = 22 s
+ExecutionTime = 18.43 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.89874e-05 max: 0.00411024
 Region: sphere Diffusion Number mean: 0.313868 max: 10.2741
@@ -4920,7 +4920,7 @@ time step continuity errors (oil): sum local = 4.22454e-08, global = 4.22446e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14532, Final residual = 4.02454e-07, No Iterations 5
 Min/max T:495.115 495.346
-ExecutionTime = 22.15 s  ClockTime = 22 s
+ExecutionTime = 18.5 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.92051e-05 max: 0.00411585
 Region: sphere Diffusion Number mean: 0.313873 max: 10.2743
@@ -4943,7 +4943,7 @@ time step continuity errors (oil): sum local = 4.22215e-08, global = 4.22207e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145326, Final residual = 4.02502e-07, No Iterations 5
 Min/max T:495.091 495.323
-ExecutionTime = 22.23 s  ClockTime = 23 s
+ExecutionTime = 18.58 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.9423e-05 max: 0.00412144
 Region: sphere Diffusion Number mean: 0.313878 max: 10.2744
@@ -4966,7 +4966,7 @@ time step continuity errors (oil): sum local = 4.21976e-08, global = 4.21968e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145332, Final residual = 4.02551e-07, No Iterations 5
 Min/max T:495.068 495.299
-ExecutionTime = 22.32 s  ClockTime = 23 s
+ExecutionTime = 18.66 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.96411e-05 max: 0.00412704
 Region: sphere Diffusion Number mean: 0.313883 max: 10.2746
@@ -4989,7 +4989,7 @@ time step continuity errors (oil): sum local = 4.21737e-08, global = 4.2173e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145339, Final residual = 4.026e-07, No Iterations 5
 Min/max T:495.044 495.275
-ExecutionTime = 22.4 s  ClockTime = 23 s
+ExecutionTime = 18.73 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 2.98595e-05 max: 0.00413262
 Region: sphere Diffusion Number mean: 0.313889 max: 10.2748
@@ -5012,7 +5012,7 @@ time step continuity errors (oil): sum local = 4.21499e-08, global = 4.21492e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145345, Final residual = 4.02648e-07, No Iterations 5
 Min/max T:495.021 495.252
-ExecutionTime = 22.48 s  ClockTime = 23 s
+ExecutionTime = 18.79 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 3.0078e-05 max: 0.0041382
 Region: sphere Diffusion Number mean: 0.313894 max: 10.2749
@@ -5035,7 +5035,7 @@ time step continuity errors (oil): sum local = 4.21262e-08, global = 4.21254e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145351, Final residual = 4.02697e-07, No Iterations 5
 Min/max T:494.997 495.228
-ExecutionTime = 22.71 s  ClockTime = 23 s
+ExecutionTime = 19.02 s  ClockTime = 19 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -5067,7 +5067,7 @@ time step continuity errors (oil): sum local = 4.21025e-08, global = 4.21017e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145357, Final residual = 4.02746e-07, No Iterations 5
 Min/max T:494.974 495.205
-ExecutionTime = 22.79 s  ClockTime = 23 s
+ExecutionTime = 19.1 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 3.05157e-05 max: 0.00414936
 Region: sphere Diffusion Number mean: 0.313904 max: 10.2753
@@ -5090,7 +5090,7 @@ time step continuity errors (oil): sum local = 4.20788e-08, global = 4.2078e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145363, Final residual = 4.02794e-07, No Iterations 5
 Min/max T:494.951 495.181
-ExecutionTime = 22.89 s  ClockTime = 23 s
+ExecutionTime = 19.17 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 3.07349e-05 max: 0.00415492
 Region: sphere Diffusion Number mean: 0.313909 max: 10.2754
@@ -5113,7 +5113,7 @@ time step continuity errors (oil): sum local = 4.20552e-08, global = 4.20544e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145369, Final residual = 4.02842e-07, No Iterations 5
 Min/max T:494.927 495.157
-ExecutionTime = 22.98 s  ClockTime = 23 s
+ExecutionTime = 19.25 s  ClockTime = 19 s
 
 Region: oil Courant Number mean: 3.09542e-05 max: 0.00416049
 Region: sphere Diffusion Number mean: 0.313914 max: 10.2756
@@ -5136,7 +5136,7 @@ time step continuity errors (oil): sum local = 4.20316e-08, global = 4.20308e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145375, Final residual = 4.02891e-07, No Iterations 5
 Min/max T:494.904 495.134
-ExecutionTime = 23.1 s  ClockTime = 23 s
+ExecutionTime = 19.33 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.11738e-05 max: 0.00416604
 Region: sphere Diffusion Number mean: 0.313919 max: 10.2758
@@ -5159,7 +5159,7 @@ time step continuity errors (oil): sum local = 4.20081e-08, global = 4.20073e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145381, Final residual = 4.02939e-07, No Iterations 5
 Min/max T:494.88 495.11
-ExecutionTime = 23.21 s  ClockTime = 23 s
+ExecutionTime = 19.41 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.13936e-05 max: 0.0041716
 Region: sphere Diffusion Number mean: 0.313924 max: 10.2759
@@ -5182,7 +5182,7 @@ time step continuity errors (oil): sum local = 4.19846e-08, global = 4.19838e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145387, Final residual = 4.02988e-07, No Iterations 5
 Min/max T:494.857 495.087
-ExecutionTime = 23.32 s  ClockTime = 24 s
+ExecutionTime = 19.49 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.16136e-05 max: 0.00417715
 Region: sphere Diffusion Number mean: 0.31393 max: 10.2761
@@ -5205,7 +5205,7 @@ time step continuity errors (oil): sum local = 4.19612e-08, global = 4.19604e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145393, Final residual = 4.03036e-07, No Iterations 5
 Min/max T:494.834 495.063
-ExecutionTime = 23.43 s  ClockTime = 24 s
+ExecutionTime = 19.56 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.18338e-05 max: 0.00418269
 Region: sphere Diffusion Number mean: 0.313935 max: 10.2763
@@ -5228,7 +5228,7 @@ time step continuity errors (oil): sum local = 4.19378e-08, global = 4.1937e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145399, Final residual = 4.03084e-07, No Iterations 5
 Min/max T:494.81 495.04
-ExecutionTime = 23.54 s  ClockTime = 24 s
+ExecutionTime = 19.64 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.20543e-05 max: 0.00418823
 Region: sphere Diffusion Number mean: 0.31394 max: 10.2765
@@ -5251,7 +5251,7 @@ time step continuity errors (oil): sum local = 4.19144e-08, global = 4.19137e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145405, Final residual = 4.03132e-07, No Iterations 5
 Min/max T:494.787 495.016
-ExecutionTime = 23.62 s  ClockTime = 24 s
+ExecutionTime = 19.72 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.2275e-05 max: 0.00419376
 Region: sphere Diffusion Number mean: 0.313945 max: 10.2766
@@ -5274,7 +5274,7 @@ time step continuity errors (oil): sum local = 4.18911e-08, global = 4.18904e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145411, Final residual = 4.0318e-07, No Iterations 5
 Min/max T:494.764 494.993
-ExecutionTime = 23.7 s  ClockTime = 24 s
+ExecutionTime = 19.8 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.24958e-05 max: 0.00419929
 Region: sphere Diffusion Number mean: 0.31395 max: 10.2768
@@ -5297,7 +5297,7 @@ time step continuity errors (oil): sum local = 4.18679e-08, global = 4.18671e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145417, Final residual = 4.03228e-07, No Iterations 5
 Min/max T:494.74 494.969
-ExecutionTime = 23.79 s  ClockTime = 24 s
+ExecutionTime = 19.86 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.27168e-05 max: 0.00420482
 Region: sphere Diffusion Number mean: 0.313955 max: 10.277
@@ -5320,7 +5320,7 @@ time step continuity errors (oil): sum local = 4.18446e-08, global = 4.18439e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145423, Final residual = 4.03276e-07, No Iterations 5
 Min/max T:494.717 494.946
-ExecutionTime = 23.88 s  ClockTime = 24 s
+ExecutionTime = 19.94 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.29379e-05 max: 0.00421034
 Region: sphere Diffusion Number mean: 0.31396 max: 10.2771
@@ -5343,7 +5343,7 @@ time step continuity errors (oil): sum local = 4.18215e-08, global = 4.18207e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145429, Final residual = 4.03324e-07, No Iterations 5
 Min/max T:494.694 494.922
-ExecutionTime = 24.12 s  ClockTime = 24 s
+ExecutionTime = 20.15 s  ClockTime = 20 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -5375,7 +5375,7 @@ time step continuity errors (oil): sum local = 4.17983e-08, global = 4.17976e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145435, Final residual = 4.03372e-07, No Iterations 5
 Min/max T:494.671 494.899
-ExecutionTime = 24.22 s  ClockTime = 24 s
+ExecutionTime = 20.23 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.33807e-05 max: 0.00422137
 Region: sphere Diffusion Number mean: 0.31397 max: 10.2775
@@ -5398,7 +5398,7 @@ time step continuity errors (oil): sum local = 4.17753e-08, global = 4.17745e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14544, Final residual = 4.0342e-07, No Iterations 5
 Min/max T:494.647 494.875
-ExecutionTime = 24.3 s  ClockTime = 25 s
+ExecutionTime = 20.31 s  ClockTime = 20 s
 
 Region: oil Courant Number mean: 3.36023e-05 max: 0.00422687
 Region: sphere Diffusion Number mean: 0.313975 max: 10.2776
@@ -5421,7 +5421,7 @@ time step continuity errors (oil): sum local = 4.17522e-08, global = 4.17515e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145446, Final residual = 4.03467e-07, No Iterations 5
 Min/max T:494.624 494.852
-ExecutionTime = 24.39 s  ClockTime = 25 s
+ExecutionTime = 20.39 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.38242e-05 max: 0.00423238
 Region: sphere Diffusion Number mean: 0.31398 max: 10.2778
@@ -5444,7 +5444,7 @@ time step continuity errors (oil): sum local = 4.17293e-08, global = 4.17285e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145452, Final residual = 4.03515e-07, No Iterations 5
 Min/max T:494.601 494.829
-ExecutionTime = 24.48 s  ClockTime = 25 s
+ExecutionTime = 20.47 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.40463e-05 max: 0.00423788
 Region: sphere Diffusion Number mean: 0.313986 max: 10.2779
@@ -5467,7 +5467,7 @@ time step continuity errors (oil): sum local = 4.17063e-08, global = 4.17055e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145458, Final residual = 4.03562e-07, No Iterations 5
 Min/max T:494.578 494.805
-ExecutionTime = 24.57 s  ClockTime = 25 s
+ExecutionTime = 20.53 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.42686e-05 max: 0.00424337
 Region: sphere Diffusion Number mean: 0.313991 max: 10.2781
@@ -5490,7 +5490,7 @@ time step continuity errors (oil): sum local = 4.16834e-08, global = 4.16826e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145463, Final residual = 4.0361e-07, No Iterations 5
 Min/max T:494.554 494.782
-ExecutionTime = 24.67 s  ClockTime = 25 s
+ExecutionTime = 20.61 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.44911e-05 max: 0.00424886
 Region: sphere Diffusion Number mean: 0.313996 max: 10.2783
@@ -5513,7 +5513,7 @@ time step continuity errors (oil): sum local = 4.16606e-08, global = 4.16598e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145469, Final residual = 4.03657e-07, No Iterations 5
 Min/max T:494.531 494.759
-ExecutionTime = 24.75 s  ClockTime = 25 s
+ExecutionTime = 20.68 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.47138e-05 max: 0.00425435
 Region: sphere Diffusion Number mean: 0.314001 max: 10.2784
@@ -5536,7 +5536,7 @@ time step continuity errors (oil): sum local = 4.16377e-08, global = 4.1637e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145475, Final residual = 4.03704e-07, No Iterations 5
 Min/max T:494.508 494.735
-ExecutionTime = 24.84 s  ClockTime = 25 s
+ExecutionTime = 20.76 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.49366e-05 max: 0.00425983
 Region: sphere Diffusion Number mean: 0.314006 max: 10.2786
@@ -5559,7 +5559,7 @@ time step continuity errors (oil): sum local = 4.1615e-08, global = 4.16142e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145481, Final residual = 4.03751e-07, No Iterations 5
 Min/max T:494.485 494.712
-ExecutionTime = 24.92 s  ClockTime = 25 s
+ExecutionTime = 20.84 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.51597e-05 max: 0.0042653
 Region: sphere Diffusion Number mean: 0.314011 max: 10.2788
@@ -5582,7 +5582,7 @@ time step continuity errors (oil): sum local = 4.15922e-08, global = 4.15915e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145486, Final residual = 4.03799e-07, No Iterations 5
 Min/max T:494.462 494.688
-ExecutionTime = 25 s  ClockTime = 25 s
+ExecutionTime = 20.9 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.5383e-05 max: 0.00427078
 Region: sphere Diffusion Number mean: 0.314016 max: 10.2789
@@ -5605,7 +5605,7 @@ time step continuity errors (oil): sum local = 4.15695e-08, global = 4.15688e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145492, Final residual = 4.03846e-07, No Iterations 5
 Min/max T:494.439 494.665
-ExecutionTime = 25.07 s  ClockTime = 25 s
+ExecutionTime = 20.98 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.56065e-05 max: 0.00427625
 Region: sphere Diffusion Number mean: 0.314021 max: 10.2791
@@ -5628,7 +5628,7 @@ time step continuity errors (oil): sum local = 4.15469e-08, global = 4.15461e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145497, Final residual = 4.03892e-07, No Iterations 5
 Min/max T:494.415 494.642
-ExecutionTime = 25.15 s  ClockTime = 25 s
+ExecutionTime = 21.06 s  ClockTime = 21 s
 
 Region: oil Courant Number mean: 3.58303e-05 max: 0.00428171
 Region: sphere Diffusion Number mean: 0.314026 max: 10.2793
@@ -5651,7 +5651,7 @@ time step continuity errors (oil): sum local = 4.15243e-08, global = 4.15235e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145503, Final residual = 4.03939e-07, No Iterations 5
 Min/max T:494.392 494.619
-ExecutionTime = 25.37 s  ClockTime = 26 s
+ExecutionTime = 21.28 s  ClockTime = 21 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -5683,7 +5683,7 @@ time step continuity errors (oil): sum local = 4.15017e-08, global = 4.1501e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145508, Final residual = 4.03986e-07, No Iterations 5
 Min/max T:494.369 494.595
-ExecutionTime = 25.47 s  ClockTime = 26 s
+ExecutionTime = 21.36 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.62785e-05 max: 0.00429263
 Region: sphere Diffusion Number mean: 0.314036 max: 10.2796
@@ -5706,7 +5706,7 @@ time step continuity errors (oil): sum local = 4.14792e-08, global = 4.14785e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145514, Final residual = 4.04032e-07, No Iterations 5
 Min/max T:494.346 494.572
-ExecutionTime = 25.56 s  ClockTime = 26 s
+ExecutionTime = 21.43 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.65029e-05 max: 0.00429808
 Region: sphere Diffusion Number mean: 0.314041 max: 10.2798
@@ -5729,7 +5729,7 @@ time step continuity errors (oil): sum local = 4.14567e-08, global = 4.1456e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145519, Final residual = 4.04079e-07, No Iterations 5
 Min/max T:494.323 494.549
-ExecutionTime = 25.65 s  ClockTime = 26 s
+ExecutionTime = 21.51 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.67276e-05 max: 0.00430353
 Region: sphere Diffusion Number mean: 0.314046 max: 10.2799
@@ -5752,7 +5752,7 @@ time step continuity errors (oil): sum local = 4.14343e-08, global = 4.14336e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145525, Final residual = 4.04125e-07, No Iterations 5
 Min/max T:494.3 494.526
-ExecutionTime = 25.73 s  ClockTime = 26 s
+ExecutionTime = 21.59 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.69525e-05 max: 0.00430897
 Region: sphere Diffusion Number mean: 0.314051 max: 10.2801
@@ -5775,7 +5775,7 @@ time step continuity errors (oil): sum local = 4.14119e-08, global = 4.14112e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.14553, Final residual = 4.04171e-07, No Iterations 5
 Min/max T:494.277 494.502
-ExecutionTime = 25.83 s  ClockTime = 26 s
+ExecutionTime = 21.67 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.71776e-05 max: 0.00431441
 Region: sphere Diffusion Number mean: 0.314056 max: 10.2803
@@ -5798,7 +5798,7 @@ time step continuity errors (oil): sum local = 4.13896e-08, global = 4.13889e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145535, Final residual = 4.04217e-07, No Iterations 5
 Min/max T:494.254 494.479
-ExecutionTime = 25.9 s  ClockTime = 26 s
+ExecutionTime = 21.75 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.74029e-05 max: 0.00431984
 Region: sphere Diffusion Number mean: 0.314061 max: 10.2804
@@ -5821,7 +5821,7 @@ time step continuity errors (oil): sum local = 4.13673e-08, global = 4.13666e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145541, Final residual = 4.04263e-07, No Iterations 5
 Min/max T:494.231 494.456
-ExecutionTime = 25.98 s  ClockTime = 26 s
+ExecutionTime = 21.83 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.76284e-05 max: 0.00432527
 Region: sphere Diffusion Number mean: 0.314066 max: 10.2806
@@ -5844,7 +5844,7 @@ time step continuity errors (oil): sum local = 4.13451e-08, global = 4.13443e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145546, Final residual = 4.04309e-07, No Iterations 5
 Min/max T:494.208 494.433
-ExecutionTime = 26.11 s  ClockTime = 26 s
+ExecutionTime = 21.91 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.78541e-05 max: 0.00433069
 Region: sphere Diffusion Number mean: 0.314072 max: 10.2808
@@ -5867,7 +5867,7 @@ time step continuity errors (oil): sum local = 4.13228e-08, global = 4.13221e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145551, Final residual = 4.04355e-07, No Iterations 5
 Min/max T:494.185 494.409
-ExecutionTime = 26.18 s  ClockTime = 26 s
+ExecutionTime = 21.99 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.80801e-05 max: 0.00433611
 Region: sphere Diffusion Number mean: 0.314077 max: 10.2809
@@ -5890,7 +5890,7 @@ time step continuity errors (oil): sum local = 4.13006e-08, global = 4.12999e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145557, Final residual = 4.04401e-07, No Iterations 5
 Min/max T:494.162 494.386
-ExecutionTime = 26.27 s  ClockTime = 27 s
+ExecutionTime = 22.06 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.83063e-05 max: 0.00434153
 Region: sphere Diffusion Number mean: 0.314082 max: 10.2811
@@ -5913,7 +5913,7 @@ time step continuity errors (oil): sum local = 4.12785e-08, global = 4.12778e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145562, Final residual = 4.04446e-07, No Iterations 5
 Min/max T:494.139 494.363
-ExecutionTime = 26.36 s  ClockTime = 27 s
+ExecutionTime = 22.14 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.85326e-05 max: 0.00434694
 Region: sphere Diffusion Number mean: 0.314087 max: 10.2813
@@ -5936,7 +5936,7 @@ time step continuity errors (oil): sum local = 4.12564e-08, global = 4.12557e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145567, Final residual = 4.04492e-07, No Iterations 5
 Min/max T:494.116 494.34
-ExecutionTime = 26.44 s  ClockTime = 27 s
+ExecutionTime = 22.22 s  ClockTime = 22 s
 
 Region: oil Courant Number mean: 3.87593e-05 max: 0.00435235
 Region: sphere Diffusion Number mean: 0.314092 max: 10.2814
@@ -5959,7 +5959,7 @@ time step continuity errors (oil): sum local = 4.12344e-08, global = 4.12337e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145572, Final residual = 4.04538e-07, No Iterations 5
 Min/max T:494.093 494.317
-ExecutionTime = 26.67 s  ClockTime = 27 s
+ExecutionTime = 22.44 s  ClockTime = 23 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -5991,7 +5991,7 @@ time step continuity errors (oil): sum local = 4.12124e-08, global = 4.12117e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145578, Final residual = 4.04584e-07, No Iterations 5
 Min/max T:494.07 494.294
-ExecutionTime = 26.78 s  ClockTime = 27 s
+ExecutionTime = 22.52 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 3.92132e-05 max: 0.00436316
 Region: sphere Diffusion Number mean: 0.314102 max: 10.2817
@@ -6014,7 +6014,7 @@ time step continuity errors (oil): sum local = 4.11905e-08, global = 4.11897e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145583, Final residual = 4.04629e-07, No Iterations 5
 Min/max T:494.047 494.271
-ExecutionTime = 26.88 s  ClockTime = 27 s
+ExecutionTime = 22.59 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 3.94405e-05 max: 0.00436856
 Region: sphere Diffusion Number mean: 0.314107 max: 10.2819
@@ -6037,7 +6037,7 @@ time step continuity errors (oil): sum local = 4.11685e-08, global = 4.11678e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145588, Final residual = 4.04675e-07, No Iterations 5
 Min/max T:494.024 494.248
-ExecutionTime = 26.97 s  ClockTime = 27 s
+ExecutionTime = 22.67 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 3.96681e-05 max: 0.00437395
 Region: sphere Diffusion Number mean: 0.314112 max: 10.2821
@@ -6060,7 +6060,7 @@ time step continuity errors (oil): sum local = 4.11467e-08, global = 4.11459e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145593, Final residual = 4.0472e-07, No Iterations 5
 Min/max T:494.001 494.224
-ExecutionTime = 27.06 s  ClockTime = 27 s
+ExecutionTime = 22.73 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 3.98959e-05 max: 0.00437934
 Region: sphere Diffusion Number mean: 0.314117 max: 10.2822
@@ -6083,7 +6083,7 @@ time step continuity errors (oil): sum local = 4.11248e-08, global = 4.11241e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145598, Final residual = 4.04766e-07, No Iterations 5
 Min/max T:493.978 494.201
-ExecutionTime = 27.16 s  ClockTime = 27 s
+ExecutionTime = 22.81 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.01239e-05 max: 0.00438473
 Region: sphere Diffusion Number mean: 0.314122 max: 10.2824
@@ -6106,7 +6106,7 @@ time step continuity errors (oil): sum local = 4.1103e-08, global = 4.11023e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145604, Final residual = 4.04812e-07, No Iterations 5
 Min/max T:493.955 494.178
-ExecutionTime = 27.24 s  ClockTime = 28 s
+ExecutionTime = 22.89 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.03522e-05 max: 0.00439011
 Region: sphere Diffusion Number mean: 0.314127 max: 10.2826
@@ -6129,7 +6129,7 @@ time step continuity errors (oil): sum local = 4.10813e-08, global = 4.10806e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145609, Final residual = 4.04857e-07, No Iterations 5
 Min/max T:493.932 494.155
-ExecutionTime = 27.33 s  ClockTime = 28 s
+ExecutionTime = 22.97 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.05807e-05 max: 0.00439549
 Region: sphere Diffusion Number mean: 0.314132 max: 10.2827
@@ -6152,7 +6152,7 @@ time step continuity errors (oil): sum local = 4.10596e-08, global = 4.10589e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145614, Final residual = 4.04902e-07, No Iterations 5
 Min/max T:493.909 494.132
-ExecutionTime = 27.44 s  ClockTime = 28 s
+ExecutionTime = 23.05 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.08095e-05 max: 0.00440086
 Region: sphere Diffusion Number mean: 0.314137 max: 10.2829
@@ -6175,7 +6175,7 @@ time step continuity errors (oil): sum local = 4.10379e-08, global = 4.10372e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145619, Final residual = 4.04948e-07, No Iterations 5
 Min/max T:493.886 494.109
-ExecutionTime = 27.53 s  ClockTime = 28 s
+ExecutionTime = 23.14 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.10385e-05 max: 0.00440623
 Region: sphere Diffusion Number mean: 0.314142 max: 10.2831
@@ -6198,7 +6198,7 @@ time step continuity errors (oil): sum local = 4.10163e-08, global = 4.10156e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145624, Final residual = 4.04993e-07, No Iterations 5
 Min/max T:493.863 494.086
-ExecutionTime = 27.62 s  ClockTime = 28 s
+ExecutionTime = 23.22 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.12677e-05 max: 0.0044116
 Region: sphere Diffusion Number mean: 0.314147 max: 10.2832
@@ -6221,7 +6221,7 @@ time step continuity errors (oil): sum local = 4.09947e-08, global = 4.0994e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145629, Final residual = 4.05038e-07, No Iterations 5
 Min/max T:493.841 494.063
-ExecutionTime = 27.71 s  ClockTime = 28 s
+ExecutionTime = 23.28 s  ClockTime = 23 s
 
 Region: oil Courant Number mean: 4.14972e-05 max: 0.00441696
 Region: sphere Diffusion Number mean: 0.314152 max: 10.2834
@@ -6244,7 +6244,7 @@ time step continuity errors (oil): sum local = 4.09732e-08, global = 4.09725e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145634, Final residual = 4.05083e-07, No Iterations 5
 Min/max T:493.818 494.04
-ExecutionTime = 27.79 s  ClockTime = 28 s
+ExecutionTime = 23.36 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.17269e-05 max: 0.00442232
 Region: sphere Diffusion Number mean: 0.314157 max: 10.2835
@@ -6267,7 +6267,7 @@ time step continuity errors (oil): sum local = 4.09517e-08, global = 4.0951e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145639, Final residual = 4.05128e-07, No Iterations 5
 Min/max T:493.795 494.017
-ExecutionTime = 28.03 s  ClockTime = 28 s
+ExecutionTime = 23.58 s  ClockTime = 24 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux
@@ -6299,7 +6299,7 @@ time step continuity errors (oil): sum local = 4.09303e-08, global = 4.09295e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145644, Final residual = 4.05173e-07, No Iterations 5
 Min/max T:493.772 493.994
-ExecutionTime = 28.12 s  ClockTime = 28 s
+ExecutionTime = 23.65 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.21871e-05 max: 0.00443303
 Region: sphere Diffusion Number mean: 0.314167 max: 10.2839
@@ -6322,7 +6322,7 @@ time step continuity errors (oil): sum local = 4.09088e-08, global = 4.09081e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145649, Final residual = 4.05217e-07, No Iterations 5
 Min/max T:493.749 493.971
-ExecutionTime = 28.21 s  ClockTime = 29 s
+ExecutionTime = 23.73 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.24175e-05 max: 0.00443838
 Region: sphere Diffusion Number mean: 0.314172 max: 10.284
@@ -6345,7 +6345,7 @@ time step continuity errors (oil): sum local = 4.08874e-08, global = 4.08867e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145654, Final residual = 4.05262e-07, No Iterations 5
 Min/max T:493.726 493.948
-ExecutionTime = 28.31 s  ClockTime = 29 s
+ExecutionTime = 23.81 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.26482e-05 max: 0.00444372
 Region: sphere Diffusion Number mean: 0.314177 max: 10.2842
@@ -6368,7 +6368,7 @@ time step continuity errors (oil): sum local = 4.08661e-08, global = 4.08654e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145659, Final residual = 4.05306e-07, No Iterations 5
 Min/max T:493.704 493.925
-ExecutionTime = 28.41 s  ClockTime = 29 s
+ExecutionTime = 23.89 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.28792e-05 max: 0.00444906
 Region: sphere Diffusion Number mean: 0.314182 max: 10.2844
@@ -6391,7 +6391,7 @@ time step continuity errors (oil): sum local = 4.08448e-08, global = 4.08441e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145664, Final residual = 4.0535e-07, No Iterations 5
 Min/max T:493.681 493.902
-ExecutionTime = 28.5 s  ClockTime = 29 s
+ExecutionTime = 23.97 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.31104e-05 max: 0.0044544
 Region: sphere Diffusion Number mean: 0.314187 max: 10.2845
@@ -6414,7 +6414,7 @@ time step continuity errors (oil): sum local = 4.08236e-08, global = 4.08229e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145668, Final residual = 4.05394e-07, No Iterations 5
 Min/max T:493.658 493.879
-ExecutionTime = 28.59 s  ClockTime = 29 s
+ExecutionTime = 24.05 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.33419e-05 max: 0.00445973
 Region: sphere Diffusion Number mean: 0.314192 max: 10.2847
@@ -6437,7 +6437,7 @@ time step continuity errors (oil): sum local = 4.08024e-08, global = 4.08017e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145673, Final residual = 4.05438e-07, No Iterations 5
 Min/max T:493.635 493.857
-ExecutionTime = 28.69 s  ClockTime = 29 s
+ExecutionTime = 24.12 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.35736e-05 max: 0.00446506
 Region: sphere Diffusion Number mean: 0.314197 max: 10.2849
@@ -6460,7 +6460,7 @@ time step continuity errors (oil): sum local = 4.07812e-08, global = 4.07805e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145678, Final residual = 4.05482e-07, No Iterations 5
 Min/max T:493.613 493.834
-ExecutionTime = 28.78 s  ClockTime = 29 s
+ExecutionTime = 24.2 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.38055e-05 max: 0.00447039
 Region: sphere Diffusion Number mean: 0.314202 max: 10.285
@@ -6483,7 +6483,7 @@ time step continuity errors (oil): sum local = 4.07601e-08, global = 4.07594e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145682, Final residual = 4.05525e-07, No Iterations 5
 Min/max T:493.59 493.811
-ExecutionTime = 28.88 s  ClockTime = 29 s
+ExecutionTime = 24.28 s  ClockTime = 24 s
 
 Region: oil Courant Number mean: 4.40377e-05 max: 0.00447571
 Region: sphere Diffusion Number mean: 0.314207 max: 10.2852
@@ -6506,7 +6506,7 @@ time step continuity errors (oil): sum local = 4.07396e-08, global = 4.07383e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145687, Final residual = 4.05569e-07, No Iterations 5
 Min/max T:493.567 493.788
-ExecutionTime = 28.97 s  ClockTime = 29 s
+ExecutionTime = 24.36 s  ClockTime = 25 s
 
 Region: oil Courant Number mean: 4.42701e-05 max: 0.00448103
 Region: sphere Diffusion Number mean: 0.314212 max: 10.2853
@@ -6529,7 +6529,7 @@ time step continuity errors (oil): sum local = 4.07179e-08, global = 4.07172e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145691, Final residual = 4.05611e-07, No Iterations 5
 Min/max T:493.544 493.765
-ExecutionTime = 29.06 s  ClockTime = 29 s
+ExecutionTime = 24.42 s  ClockTime = 25 s
 
 Region: oil Courant Number mean: 4.45028e-05 max: 0.00448635
 Region: sphere Diffusion Number mean: 0.314216 max: 10.2855
@@ -6552,7 +6552,7 @@ time step continuity errors (oil): sum local = 4.06976e-08, global = 4.06962e-08
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145695, Final residual = 4.05654e-07, No Iterations 5
 Min/max T:493.522 493.742
-ExecutionTime = 29.16 s  ClockTime = 29 s
+ExecutionTime = 24.5 s  ClockTime = 25 s
 
 Region: oil Courant Number mean: 4.47358e-05 max: 0.00449166
 Region: sphere Diffusion Number mean: 0.314221 max: 10.2857
@@ -6575,7 +6575,7 @@ time step continuity errors (oil): sum local = 4.0676e-08, global = 4.06753e-08,
 Solving for solid region sphere
 DICPCG:  Solving for h, Initial residual = 0.145699, Final residual = 4.05696e-07, No Iterations 5
 Min/max T:493.499 493.719
-ExecutionTime = 29.39 s  ClockTime = 30 s
+ExecutionTime = 24.67 s  ClockTime = 25 s
 
 wallHeatFlux wallHeatFlux1 write:
     writing field wallHeatFlux

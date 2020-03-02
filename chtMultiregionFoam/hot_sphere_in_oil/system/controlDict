@@ -23,13 +23,13 @@ startTime       0.001;
 
 stopAt          endTime;
 
-endTime         100;
+endTime         10;
 
 deltaT          0.001;
 
 writeControl    adjustableRunTime;
 
-writeInterval   0.2;
+writeInterval   0.5;
 
 purgeWrite      0;
 
@@ -50,5 +50,18 @@ maxCo           1.5;
 maxDi           10.0;
 
 adjustTimeStep  yes;
+
+functions
+{
+    wallHeatFlux1
+	{
+	type 		wallHeatFlux;
+	libs		("libfieldFunctionObjects.so");
+	executeControl	writeTime;
+	writeControl	writeTime;
+	region		oil;
+		
+	}
+}
 
 // ************************************************************************* //
