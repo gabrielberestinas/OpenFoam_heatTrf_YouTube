@@ -18,34 +18,42 @@ thermoType
 {
     type            heRhoThermo;
     mixture         pureMixture;
-    transport       const;
-    thermo          hConst;
-    equationOfState rhoConst;
+    transport       polynomial;
+    thermo          hPolynomial;
+    equationOfState icoPolynomial;
     specie          specie;
     energy          sensibleEnthalpy;
 }
 
+
 mixture
 {
+    // coefficients for DowThermA oil
+
     specie
     {
-        molWeight       28.9;
-    }
-    thermodynamics
-    {
-        Cp              1000;
-        Hf              0;
-    }
-    transport
-    {
-        mu              1.8e-05;
-        Pr              0.7;
+        molWeight       166.0;
     }
     equationOfState
     {
-	rho 		900;
+        rhoCoeffs<8>    ( 1363.3 -1.3939 0.0017 -2e-6 0 0 0 0 );
+    // valid from 15C to 405C
+    }
+    thermodynamics
+    {
+        Hf              0;
+        Sf              0;
+        CpCoeffs<8>     ( 1666.5 -6.4879 0.0344 -6e-5 3e-8 0 0 0 );
+    
+    // valid from 15C to 405C
+    }
+    transport
+    {
+	// valid from 15C to 405C
+
+        muCoeffs<8>     ( 0.7894 -0.0095 5E-05 -1E-07 2E-10 -1E-13 5E-17 0 );
+        kappaCoeffs<8>  ( 0.1856 -0.0002 0 0 0 0 0 0 );
     }
 }
-
 
 // ************************************************************************* //
