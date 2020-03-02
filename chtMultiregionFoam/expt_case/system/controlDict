@@ -62,6 +62,19 @@ functions
 	writeControl	writeTime;
 	region		oil;
 	}
+   sphereHeatTrfCoeff
+	{
+	type 		heatTransferCoeff;
+	libs		("libfieldFunctionObjects.so");
+	executeControl  writeTime;
+        writeControl    writeTime;
+	region		oil;
+	patches		("oil_to_sphere");
+	field		T;
+	
+	htcModel	fixedReferenceTemperature;
+	TRef		300;		
+	}
 }
 
 
