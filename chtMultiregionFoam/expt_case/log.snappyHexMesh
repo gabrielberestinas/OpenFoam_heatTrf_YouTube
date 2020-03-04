@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : snappyHexMesh -overwrite
-Date   : Mar 02 2020
-Time   : 13:16:45
-Host   : DESKTOP-9S60IA4
-PID    : 4354
+Date   : Mar 03 2020
+Time   : 16:50:35
+Host   : LAPTOP-FK3MEHTI
+PID    : 1833
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -24,7 +24,7 @@ Create time
 
 Create mesh for time = 0
 
-Read mesh in = 0.14 s
+Read mesh in = 0.08 s
 
 Overall mesh bounding box  : (-0.1 -0.1 -0.1) (0.1 0.1 0.1)
 Relative tolerance         : 1e-06
@@ -73,7 +73,7 @@ Edge intersection testing:
     Number of edges             : 83700
     Number of edges to retest   : 83700
     Number of intersected edges : 96
-Calculated surface intersections in = 0.1 s
+Calculated surface intersections in = 0.07 s
 
 Initial mesh : cells:27000  faces:83700  points:29791
 Cells per refinement level:
@@ -106,13 +106,13 @@ Feature refinement iteration 0
 ------------------------------
 
 Marked for refinement due to explicit features             : 3 cells.
-Determined cells to refine in = 0.18 s
+Determined cells to refine in = 0.15 s
 Selected for feature refinement : 3 cells (out of 27000)
 Edge intersection testing:
     Number of edges             : 83787
     Number of edges to retest   : 180
     Number of intersected edges : 105
-Refined mesh in = 0.08 s
+Refined mesh in = 0.07 s
 After refinement feature refinement iteration 0 : cells:27021  faces:83787  points:29843
 Cells per refinement level:
     0	26997
@@ -122,7 +122,7 @@ Feature refinement iteration 1
 ------------------------------
 
 Marked for refinement due to explicit features             : 0 cells.
-Determined cells to refine in = 0.19 s
+Determined cells to refine in = 0.14 s
 Selected for feature refinement : 0 cells (out of 27021)
 Stopping refining since too few cells selected.
 
@@ -137,7 +137,7 @@ Edge intersection testing:
     Number of edges             : 86712
     Number of edges to retest   : 3932
     Number of intersected edges : 360
-Refined mesh in = 0.04 s
+Refined mesh in = 0.05 s
 After refinement surface refinement iteration 0 : cells:27896  faces:86712  points:31023
 Cells per refinement level:
     0	26872
@@ -147,7 +147,7 @@ Surface refinement iteration 1
 ------------------------------
 
 Marked for refinement due to surface intersection          : 0 cells.
-Determined cells to refine in = 0.02 s
+Determined cells to refine in = 0 s
 Selected for refinement : 0 cells (out of 27896)
 Stopping refining since too few cells selected.
 
@@ -189,13 +189,13 @@ Shell refinement iteration 0
 
 Marked for refinement due to distance to explicit features : 0 cells.
 Marked for refinement due to refinement shells             : 0 cells.
-Determined cells to refine in = 0.11 s
+Determined cells to refine in = 0.1 s
 Selected for internal refinement : 24 cells (out of 27896)
 Edge intersection testing:
     Number of edges             : 87216
     Number of edges to retest   : 2016
     Number of intersected edges : 360
-Refined mesh in = 0.06 s
+Refined mesh in = 0.04 s
 After refinement shell refinement iteration 0 : cells:28064  faces:87216  points:31191
 Cells per refinement level:
     0	26848
@@ -214,7 +214,7 @@ Stopping refining since too few cells selected.
 Dangling coarse cells refinement iteration 0
 --------------------------------------------
 
-Determined cells to refine in = 0 s
+Determined cells to refine in = 0.02 s
 Selected for refinement : 0 cells (out of 28064)
 Stopping refining since too few cells selected.
 
@@ -222,7 +222,7 @@ Stopping refining since too few cells selected.
 Dangling coarse cells refinement iteration 0
 --------------------------------------------
 
-Determined cells to refine in = 0.02 s
+Determined cells to refine in = 0 s
 Selected for refinement : 0 cells (out of 28064)
 Stopping refining since too few cells selected.
 
@@ -265,7 +265,7 @@ Introducing baffles to block off problem cells
     Did not visit some faces, e.g. face 0 at (-0.0933333 -0.0966667 -0.0966667)
 Assigning these faces to patch 6
 markFacesOnProblemCells : marked 0 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0.03 s
+Analyzed problem cells in = 0.02 s
 
 
 Introducing baffles to delete problem cells.
@@ -346,7 +346,7 @@ Location : (0.0149 0.0149 0.0149)
 
 For cellZone sphere found point (0.0005 0.0005 0.0005) in global region 1 out of 2 regions.
 For cellZone oil found point (0.0149 0.0149 0.0149) in global region 0 out of 2 regions.
-Created baffles in = 0.08 s
+Created baffles in = 0.06 s
 
 
 After introducing baffles : cells:28064  faces:87216  points:31191
@@ -424,8 +424,8 @@ Cells per refinement level:
     0	26848
     1	1216
 Writing mesh to time constant
-Wrote mesh in = 0.14 s.
-Mesh refined in = 1 s.
+Wrote mesh in = 0.11 s.
+Mesh refined in = 0.81 s.
 
 Morphing phase
 --------------
@@ -477,7 +477,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Detected 0 illegal faces (concave, zero area or negative cell pyramid volume)
-Checked initial mesh in = 0.08 s
+Checked initial mesh in = 0.06 s
 
 
 Smoothing patch points ...
@@ -532,7 +532,7 @@ Checking faces in error :
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
 
-Patch points smoothed in = 0.33 s
+Patch points smoothed in = 0.25 s
 
 
 
@@ -594,7 +594,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.11 s
+Moved mesh in = 0.08 s
 
 
 
@@ -656,7 +656,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.11 s
+Moved mesh in = 0.08 s
 
 
 
@@ -700,7 +700,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.05 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -718,7 +718,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.09 s
+Moved mesh in = 0.08 s
 
 
 
@@ -729,7 +729,7 @@ Calculating patchDisplacement as distance to nearest surface point ...
     zone points     : attract to zone surface only
 
 Wanted displacement : average:0.000527329 min:2.3253e-05 max:0.00139495
-Calculated surface displacement in = 0 s
+Calculated surface displacement in = 0.02 s
 
 
 Detecting near surfaces ...
@@ -762,7 +762,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.07 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -780,7 +780,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.09 s
+Moved mesh in = 0.08 s
 
 
 
@@ -824,7 +824,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.05 s
+Displacement smoothed in = 0.04 s
 
 
 Moving mesh ...
@@ -842,7 +842,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.11 s
+Moved mesh in = 0.08 s
 
 
 
@@ -886,7 +886,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.04 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -904,7 +904,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.1 s
+Moved mesh in = 0.08 s
 
 
 
@@ -966,7 +966,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.11 s
+Moved mesh in = 0.08 s
 
 
 
@@ -1010,7 +1010,7 @@ Smoothing displacement ...
 Iteration 0
 Iteration 10
 Iteration 20
-Displacement smoothed in = 0.05 s
+Displacement smoothed in = 0.03 s
 
 
 Moving mesh ...
@@ -1028,7 +1028,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.09 s
+Moved mesh in = 0.08 s
 
 
 
@@ -1129,7 +1129,7 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Successfully moved mesh
-Moved mesh in = 0.23 s
+Moved mesh in = 0.17 s
 
 
 
@@ -1308,7 +1308,7 @@ Checking faces in error :
     faces with volume ratio of neighbour cells < 0.01      : 0
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
-Moved mesh in = 0.48 s
+Moved mesh in = 0.39 s
 
 
 --> FOAM Warning : 
@@ -1322,7 +1322,7 @@ Edge intersection testing:
     Number of edges to retest   : 360
     Number of intersected edges : 360
 Repatching faces according to nearest surface ...
-Repatched 0 faces in = 0.05 s
+Repatched 0 faces in = 0.03 s
 
 
 Edge intersection testing:
@@ -1343,8 +1343,8 @@ Cells per refinement level:
     0	26848
     1	1216
 Writing mesh to time constant
-Wrote mesh in = 0.14 s.
-Mesh snapped in = 2.64 s.
+Wrote mesh in = 0.12 s.
+Mesh snapped in = 2.1 s.
 Checking final mesh ...
 Checking faces in error :
     non-orthogonality > 65  degrees                        : 1
@@ -1357,6 +1357,6 @@ Checking faces in error :
     faces with face twist < 0.02                           : 0
     faces on cells with determinant < 0.001                : 0
 Finished meshing with 1 illegal faces (concave, zero area or negative cell pyramid volume)
-Finished meshing in = 3.99 s.
+Finished meshing in = 3.15 s.
 End
 

@@ -75,6 +75,29 @@ functions
 	htcModel	fixedReferenceTemperature;
 	TRef		300;		
 	}
+   
+   avgSphereHeatTrfCoeff
+	{
+	type 		surfaceFieldValue;
+	libs            ("libfieldFunctionObjects.so");
+	
+        executeControl  writeTime;
+        writeControl    writeTime;
+	writeFields	yes;
+	fields
+	(
+	heatTransferCoeff(T)
+	T
+	);
+	
+	regionType	patch;
+	name		oil_to_sphere;
+	operation	areaAverage;	
+	region		oil;	
+	surfaceFormat	none;
+
+	}
+
 }
 
 

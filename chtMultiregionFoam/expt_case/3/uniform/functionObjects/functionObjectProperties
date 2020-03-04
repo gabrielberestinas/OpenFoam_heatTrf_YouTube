@@ -15,6 +15,17 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
+results
+{
+    avgSphereHeatTrfCoeff
+    {
+        scalar
+        {
+            areaAverage(oil_to_sphere,heatTransferCoeff(T)) -72.63843635409872;
+            areaAverage(oil_to_sphere,T) 497.8856121193296;
+        }
+    }
+}
 
 
 // ************************************************************************* //
