@@ -69,11 +69,31 @@ functions
 
         executeControl  writeTime;
         writeControl    writeTime;
+	// htcModel	localReferenceTemperature;
 	htcModel	fixedReferenceTemperature;
 	patches		("oil_to_sphere");
 	TRef		300;
 	field		T;
 	region		oil;	
+	}
+
+     areaAverage1
+	{
+        type            surfaceFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        executeControl  writeTime;
+        writeControl    writeTime;
+	fields
+	(
+	T
+	heatTransferCoeff(T)		
+	);
+	writeFields	yes;
+	regionType	patch;
+	name		oil_to_sphere;
+	region		oil;
+	operation	areaAverage;
+	surfaceFormat	none;	
 	}
 }
 
