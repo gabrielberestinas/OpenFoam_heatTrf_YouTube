@@ -9,9 +9,9 @@ Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : changeDictionary -region sphere
 Date   : Mar 06 2020
-Time   : 11:08:26
+Time   : 11:49:13
 Host   : LAPTOP-FK3MEHTI
-PID    : 4210
+PID    : 4937
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1

@@ -9,9 +9,9 @@ Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
 Date   : Mar 06 2020
-Time   : 11:08:21
+Time   : 11:49:08
 Host   : LAPTOP-FK3MEHTI
-PID    : 4195
+PID    : 4929
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
