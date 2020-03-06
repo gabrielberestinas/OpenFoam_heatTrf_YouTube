@@ -71,18 +71,18 @@ PIMPLE
     {
         U
         {
-                tolerance  1e-3;
+                tolerance  1e-5;
                 relTol      0;
         }
         p
         {
-                tolerance  5e-2;
+                tolerance  5e-5;
                 relTol      0;
         }
 
  	h
 	{
-		tolerance 5e-2;
+		tolerance 5e-5;
 		relTol	  0;
 	}
     }
@@ -102,7 +102,7 @@ relaxationFactors
     }
     equations
     {
-        "h.*"           0.4;
+        "h.*"           0.1;
         "U.*"           0.4;
     }
 }
