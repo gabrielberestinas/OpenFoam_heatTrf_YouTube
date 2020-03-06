@@ -1,0 +1,461 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : chtMultiRegionFoam
+Date   : Mar 06 2020
+Time   : 11:28:27
+Host   : LAPTOP-FK3MEHTI
+PID    : 4515
+I/O    : uncollated
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create fluid mesh for region oil for time = 0
+
+Create solid mesh for region sphere for time = 0
+
+*** Reading fluid mesh thermophysical properties for region oil
+
+    Adding to thermoFluid
+
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       polynomial;
+    thermo          hPolynomial;
+    equationOfState icoPolynomial;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+    Adding to rhoFluid
+
+    Adding to UFluid
+
+    Adding to phiFluid
+
+    Adding to hRefFluid
+
+    Adding to ghFluid
+
+    Adding to ghfFluid
+
+    Adding to turbulenceFluid
+
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+    Adding to reactionFluid
+
+Combustion model not active: combustionProperties not found
+Selecting combustion model none
+    Adding to radiationFluid
+
+Selecting radiationModel none
+    Adding to KFluid
+
+    Adding to dpdtFluid
+
+    Adding to fieldsFluid
+
+    Adding to QdotFluid
+
+    Adding MRF
+
+No MRF models present
+
+    Adding fvOptions
+
+*** Reading solid mesh thermophysical properties for region sphere
+
+    Adding to thermos
+
+Selecting thermodynamics package 
+{
+    type            heSolidThermo;
+    mixture         pureMixture;
+    transport       polynomial;
+    thermo          hPolynomial;
+    equationOfState rhoConst;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+    Adding to radiations
+
+Selecting radiationModel none
+    Adding fvOptions
+
+Region: oil Courant Number mean: 0 max: 0
+Region: sphere Diffusion Number mean: 0.450005 max: 109.469
+wallHeatFlux wallHeatFlux1:
+    processing all wall patches
+
+Selecting heat transfer coefficient model fixedReferenceTemperature
+surfaceFieldValue avgSphereHeatTrfCoeff:
+    operation     = areaAverage
+
+
+deltaT = 9.13576e-05
+Region: oil Courant Number mean: 0 max: 0
+Region: sphere Diffusion Number mean: 0.0411113 max: 10.0009
+deltaT = 9.13576e-05
+Time = 9.13576e-05
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 1, Final residual = 6.68781e-09, No Iterations 2
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1, Final residual = 2.69097e-09, No Iterations 2
+DILUPBiCGStab:  Solving for Uz, Initial residual = 1, Final residual = 6.26671e-09, No Iterations 2
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999995, Final residual = 1.79553e-10, No Iterations 1
+Min/max T:300 499.993
+GAMG:  Solving for p_rgh, Initial residual = 0.876436, Final residual = 0.00595622, No Iterations 5
+GAMG:  Solving for p_rgh, Initial residual = 0.796892, Final residual = 9.65282e-08, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 3.76652e-10, global = 3.76648e-10, cumulative = 3.76648e-10
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 1, Final residual = 9.00423e-07, No Iterations 3
+Min/max T:499.815 500
+ExecutionTime = 2.62 s  ClockTime = 3 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62236, 279899, 396.977
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    total faces   = 24344
+    total area    = 0.00282489
+
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.934
+    areaAverage(oil_to_sphere) of T = 499.928
+
+Region: oil Courant Number mean: 3.15894e-08 max: 1.90203e-05
+Region: sphere Diffusion Number mean: 0.0411114 max: 10.0009
+deltaT = 9.13576e-05
+Time = 0.000182715
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.361023, Final residual = 1.75957e-08, No Iterations 2
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.0513036, Final residual = 1.26367e-09, No Iterations 2
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.361254, Final residual = 1.70215e-08, No Iterations 2
+DILUPBiCGStab:  Solving for h, Initial residual = 0.00014952, Final residual = 2.60105e-14, No Iterations 1
+Min/max T:300 499.973
+GAMG:  Solving for p_rgh, Initial residual = 0.593614, Final residual = 0.00528327, No Iterations 6
+GAMG:  Solving for p_rgh, Initial residual = 0.26791, Final residual = 8.61176e-08, No Iterations 19
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 2.644e-10, global = 2.64399e-10, cumulative = 6.41048e-10
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0682788, Final residual = 5.01269e-08, No Iterations 3
+Min/max T:499.807 500
+ExecutionTime = 3.24 s  ClockTime = 3 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62227.4, 279969, 396.988
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.909
+    areaAverage(oil_to_sphere) of T = 499.937
+
+Region: oil Courant Number mean: 2.55022e-08 max: 1.50895e-05
+Region: sphere Diffusion Number mean: 0.0411116 max: 10.0011
+deltaT = 9.13409e-05
+Time = 0.000274056
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.220332, Final residual = 1.40541e-08, No Iterations 2
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.00592483, Final residual = 3.12288e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.222402, Final residual = 1.3644e-08, No Iterations 2
+DILUPBiCGStab:  Solving for h, Initial residual = 0.00217487, Final residual = 1.66757e-14, No Iterations 1
+Min/max T:299.999 499.966
+GAMG:  Solving for p_rgh, Initial residual = 0.784605, Final residual = 0.00767996, No Iterations 9
+GAMG:  Solving for p_rgh, Initial residual = 0.0159191, Final residual = 6.64061e-08, No Iterations 18
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 6.04801e-09, global = -6.04801e-09, cumulative = -5.40696e-09
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0376452, Final residual = 2.39667e-08, No Iterations 3
+Min/max T:499.799 500
+ExecutionTime = 3.88 s  ClockTime = 4 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62219.9, 279938, 396.959
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.897
+    areaAverage(oil_to_sphere) of T = 499.927
+
+Region: oil Courant Number mean: 2.73601e-07 max: 8.15034e-05
+Region: sphere Diffusion Number mean: 0.0411041 max: 9.99952
+deltaT = 9.13409e-05
+Time = 0.000365397
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.419849, Final residual = 7.81845e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.163892, Final residual = 3.81868e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.419877, Final residual = 7.83724e-08, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.0223338, Final residual = 1.09917e-14, No Iterations 1
+Min/max T:299.999 499.959
+GAMG:  Solving for p_rgh, Initial residual = 0.673381, Final residual = 0.00406694, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0123234, Final residual = 6.99491e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 9.54747e-08, global = -9.54746e-08, cumulative = -1.00882e-07
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0267089, Final residual = 1.52774e-08, No Iterations 3
+Min/max T:499.792 500
+ExecutionTime = 4.51 s  ClockTime = 5 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62217, 279908, 396.934
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.884
+    areaAverage(oil_to_sphere) of T = 499.918
+
+Region: oil Courant Number mean: 4.22346e-06 max: 0.00128662
+Region: sphere Diffusion Number mean: 0.0411042 max: 9.9996
+deltaT = 9.13409e-05
+Time = 0.000456738
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.393019, Final residual = 6.9987e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.385417, Final residual = 6.95386e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.393021, Final residual = 7.06676e-08, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.193289, Final residual = 1.24699e-14, No Iterations 1
+Min/max T:299.997 499.953
+GAMG:  Solving for p_rgh, Initial residual = 0.658606, Final residual = 0.00396205, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0122221, Final residual = 6.9587e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 1.28943e-06, global = -1.28943e-06, cumulative = -1.39031e-06
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.020976, Final residual = 1.09698e-08, No Iterations 3
+Min/max T:499.785 500
+ExecutionTime = 5.15 s  ClockTime = 5 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62218.2, 279881, 396.913
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.875
+    areaAverage(oil_to_sphere) of T = 499.91
+
+Region: oil Courant Number mean: 5.70936e-05 max: 0.0173765
+Region: sphere Diffusion Number mean: 0.0411043 max: 9.99957
+deltaT = 9.13409e-05
+Time = 0.000548079
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.390026, Final residual = 8.25719e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.38979, Final residual = 8.26486e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.390026, Final residual = 8.32139e-08, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.723369, Final residual = 5.87445e-13, No Iterations 1
+Min/max T:299.977 499.948
+GAMG:  Solving for p_rgh, Initial residual = 0.658024, Final residual = 0.00394928, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.012218, Final residual = 6.96253e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 1.71479e-05, global = -1.71479e-05, cumulative = -1.85382e-05
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0174175, Final residual = 9.5262e-07, No Iterations 2
+Min/max T:499.779 500
+ExecutionTime = 5.79 s  ClockTime = 6 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62225.8, 279879, 396.928
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -702.928
+    areaAverage(oil_to_sphere) of T = 499.903
+
+Region: oil Courant Number mean: 0.000759338 max: 0.231087
+Region: sphere Diffusion Number mean: 0.0411044 max: 9.99952
+deltaT = 9.13409e-05
+Time = 0.00063942
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.389204, Final residual = 2.22632e-09, No Iterations 2
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.389188, Final residual = 2.22901e-09, No Iterations 2
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.389204, Final residual = 2.26525e-09, No Iterations 2
+DILUPBiCGStab:  Solving for h, Initial residual = 0.967502, Final residual = 8.16278e-11, No Iterations 1
+Min/max T:299.714 499.944
+GAMG:  Solving for p_rgh, Initial residual = 0.668834, Final residual = 0.00667841, No Iterations 9
+GAMG:  Solving for p_rgh, Initial residual = 0.0126918, Final residual = 5.96417e-08, No Iterations 18
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 0.000228646, global = -0.000228646, cumulative = -0.000247184
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0149969, Final residual = 7.57094e-07, No Iterations 2
+Min/max T:499.774 500
+ExecutionTime = 6.43 s  ClockTime = 7 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62305.2, 280208, 397.413
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -703.811
+    areaAverage(oil_to_sphere) of T = 499.896
+
+Region: oil Courant Number mean: 0.010125 max: 3.08127
+Region: sphere Diffusion Number mean: 0.0411045 max: 9.99951
+deltaT = 2.93483e-05
+Time = 0.000668768
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.166376, Final residual = 5.43047e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.166377, Final residual = 5.43406e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.166375, Final residual = 5.49787e-09, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.990823, Final residual = 1.46185e-09, No Iterations 1
+Min/max T:298.512 499.94
+GAMG:  Solving for p_rgh, Initial residual = 0.931729, Final residual = 0.00737307, No Iterations 9
+GAMG:  Solving for p_rgh, Initial residual = 0.0143366, Final residual = 9.04489e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 0.00103717, global = -0.00103717, cumulative = -0.00128436
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.00434116, Final residual = 3.86013e-09, No Iterations 2
+Min/max T:499.768 500
+ExecutionTime = 7.05 s  ClockTime = 7 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 62661.5, 281817, 399.7
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -707.882
+    areaAverage(oil_to_sphere) of T = 499.89
+
+Region: oil Courant Number mean: 0.0460292 max: 13.981
+Region: sphere Diffusion Number mean: 0.0132071 max: 3.2129
+deltaT = 2.07816e-06
+Time = 0.000670846
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.0458773, Final residual = 1.02042e-12, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.0458768, Final residual = 1.02068e-12, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.0458763, Final residual = 1.03289e-12, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.997984, Final residual = 2.09235e-09, No Iterations 1
+Min/max T:284.209 499.938
+GAMG:  Solving for p_rgh, Initial residual = 0.999151, Final residual = 0.00682402, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0164022, Final residual = 5.95408e-08, No Iterations 18
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 0.0123225, global = -0.0123225, cumulative = -0.0136069
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.000317604, Final residual = 1.91679e-09, No Iterations 1
+Min/max T:499.753 500
+ExecutionTime = 7.71 s  ClockTime = 8 s
+
+wallHeatFlux wallHeatFlux1 write:
+    writing field wallHeatFlux
+    min/max/integ(maxY) = 0, 0, 0
+    min/max/integ(minX) = 0, 0, 0
+    min/max/integ(maxX) = 0, 0, 0
+    min/max/integ(minY) = 0, 0, 0
+    min/max/integ(minZ) = 0, 0, 0
+    min/max/integ(maxZ) = 0, 0, 0
+    min/max/integ(oil_to_sphere) = 66854, 300967, 426.795
+    functionObjects::heatTransferCoeff sphereHeatTrfCoeff writing field: heatTransferCoeff(T)
+surfaceFieldValue avgSphereHeatTrfCoeff write:
+    areaAverage(oil_to_sphere) of heatTransferCoeff(T) = -755.879
+    areaAverage(oil_to_sphere) of T = 499.888
+
+Region: oil Courant Number mean: 0.544016 max: 183.587
+Region: sphere Diffusion Number mean: 0.000935197 max: 0.227507
+deltaT = 1.12066e-08
+Time = 0.000670857
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.00885598, Final residual = 4.39084e-10, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.00885538, Final residual = 4.39076e-10, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.0088553, Final residual = 4.39485e-10, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999888, Final residual = 2.40111e-09, No Iterations 1
+Min/max T:-475.471 4453.66
+GAMG:  Solving for p_rgh, Initial residual = 0.999937, Final residual = 1.92471e+95, No Iterations 1000
