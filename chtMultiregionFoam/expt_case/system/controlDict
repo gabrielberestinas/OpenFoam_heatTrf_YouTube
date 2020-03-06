@@ -59,8 +59,8 @@ functions
 	type 		wallHeatFlux;
 	libs		("libfieldFunctionObjects.so");
 	// executeControl	writeTime;
-	writeControl	adjustableRunTime;
-	writeInterval	0.1
+	//writeControl	adjustableRunTime;
+	//writeInterval	0.1
 	region		oil;
 	}
    sphereHeatTrfCoeff
@@ -68,8 +68,8 @@ functions
 	type 		heatTransferCoeff;
 	libs		("libfieldFunctionObjects.so");
 	// executeControl  writeTime;
-        writeControl    adjustableRunTime;
-	writeInterval	0.1;
+        //writeControl    adjustableRunTime;
+	//writeInterval	0.1;
 	region		oil;
 	patches		("oil_to_sphere");
 	field		T;
@@ -84,8 +84,8 @@ functions
 	libs            ("libfieldFunctionObjects.so");
 	
         //executeControl  writeTime;
-        writeControl    adjustableRunTime;
-	writeInterval	0.1;
+        //writeControl    adjustableRunTime;
+	//writeInterval	0.1;
 	writeFields	yes;
 	fields
 	(
