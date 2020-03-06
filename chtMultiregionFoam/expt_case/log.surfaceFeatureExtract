@@ -1,0 +1,85 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1906 OPENFOAM=1906
+Arch   : "LSB;label=32;scalar=64"
+Exec   : surfaceFeatureExtract
+Date   : Mar 06 2020
+Time   : 11:07:49
+Host   : LAPTOP-FK3MEHTI
+PID    : 4190
+I/O    : uncollated
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Note: Feature line extraction only valid on closed manifold surfaces
+
+Reading surfaceFeatureExtractDict
+
+Surfaces     : sphere_OpenFoam.stl
+Output       : sphere_OpenFoam
+Load options : offset
+Write options: writeObj=yes writeVTK=off
+
+Statistics:
+Triangles    : 4450 in 1 region(s)
+Vertices     : 2227
+Bounding Box : (-0.015 -0.0149929 -0.015) (0.0149715 0.0149929 0.015)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 2
+    of which
+        region edges   : 0
+        external edges : 0
+        internal edges : 2
+
+Final Feature set:
+    points : 4
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 4
+    edges  : 2
+    of which
+        external edges     : 0
+        internal edges     : 2
+        flat edges         : 0
+        open edges         : 0
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam"
+Writing 0 convex feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_convexFeaturePts.obj"
+Writing 0 concave feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_concaveFeaturePts.obj"
+Writing 0 mixed feature points to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_mixedFeaturePts.obj"
+Writing 0 mixed feature point structure to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_mixedFeaturePtsStructure.obj"
+Writing 0 external edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_externalEdges.obj"
+Writing 2 internal edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_internalEdges.obj"
+Writing 0 flat edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_flatEdges.obj"
+Writing 0 open edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_openEdges.obj"
+Writing 0 multiple edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_multipleEdges.obj"
+Writing 0 region edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_regionEdges.obj"
+Writing 2 edge directions to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_edgeDirections.obj"
+
+Writing featureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/triSurface/sphere_OpenFoam.eMesh"
+ExecutionTime = 0.02 s  ClockTime = 0 s
+
+End
+
