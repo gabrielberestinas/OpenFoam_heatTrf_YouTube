@@ -1,1 +1,13 @@
 this tests the effect of mesh refinement only to higher levels
+
+high mesh refinement introduces system instabilities...
+
+reducing relaxation factors, tolerances and even timestep doesn't help...
+
+
+next i was looking into the fvSchemes file and studying the interpolation schemes
+
+i found out that for non-orthogonal meshes, correction is required, and sometimes this can cause divergence in solution
+
+this looks good to learn!
+http://www.wolfdynamics.com/wiki/fvm_crash_intro.pdf
