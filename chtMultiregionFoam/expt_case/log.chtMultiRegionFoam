@@ -8,12 +8,12 @@
 Build  : v1906 OPENFOAM=1906
 Arch   : "LSB;label=32;scalar=64"
 Exec   : chtMultiRegionFoam
-Date   : Mar 06 2020
-Time   : 11:50:23
-Host   : LAPTOP-FK3MEHTI
-PID    : 4999
+Date   : Mar 08 2020
+Time   : 13:42:06
+Host   : DESKTOP-9S60IA4
+PID    : 1456
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
+Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -99,7 +99,7 @@ Selecting radiationModel none
     Adding fvOptions
 
 Region: oil Courant Number mean: 0 max: 0
-Region: sphere Diffusion Number mean: 4.8143e-07 max: 0.000117114
+Region: sphere Diffusion Number mean: 0.48143 max: 117.114
 wallHeatFlux wallHeatFlux1:
     processing all wall patches
 
@@ -108,126 +108,178 @@ surfaceFieldValue avgSphereHeatTrfCoeff:
     operation     = areaAverage
 
 
-deltaT = 1e-09
+deltaT = 8.53825e-05
 Region: oil Courant Number mean: 0 max: 0
-Region: sphere Diffusion Number mean: 4.8143e-07 max: 0.000117114
-deltaT = 1.2e-09
-Time = 1.2e-09
+Region: sphere Diffusion Number mean: 0.0411057 max: 9.99947
+deltaT = 8.53825e-05
+Time = 8.53825e-05
 
 
 Solving for fluid region oil
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-DILUPBiCGStab:  Solving for Ux, Initial residual = 1, Final residual = 2.11849e-11, No Iterations 1
-DILUPBiCGStab:  Solving for Uy, Initial residual = 1, Final residual = 2.98153e-14, No Iterations 1
-DILUPBiCGStab:  Solving for Uz, Initial residual = 1, Final residual = 2.10739e-11, No Iterations 1
-DILUPBiCGStab:  Solving for h, Initial residual = 0.557388, Final residual = 4.64074e-15, No Iterations 1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 1, Final residual = 1.23385e-11, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1, Final residual = 1.03905e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 1, Final residual = 1.23275e-11, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999888, Final residual = 1.56875e-12, No Iterations 1
 Min/max T:300 399.997
-GAMG:  Solving for p_rgh, Initial residual = 0.995482, Final residual = 0.00977087, No Iterations 10
-GAMG:  Solving for p_rgh, Initial residual = 0.157276, Final residual = 5.86325e-08, No Iterations 19
+GAMG:  Solving for p_rgh, Initial residual = 0.875962, Final residual = 0.00500464, No Iterations 6
+GAMG:  Solving for p_rgh, Initial residual = 0.759199, Final residual = 8.49954e-08, No Iterations 22
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors (oil): sum local = 2.51526e-15, global = 2.46051e-15, cumulative = 2.46051e-15
+time step continuity errors (oil): sum local = 1.76889e-11, global = 1.76887e-11, cumulative = 1.76887e-11
 
 Solving for solid region sphere
-DICPCG:  Solving for h, Initial residual = 0.982692, Final residual = 4.30614e-12, No Iterations 1
+DICPCG:  Solving for h, Initial residual = 1, Final residual = 8.99805e-07, No Iterations 3
 Min/max T:399.886 400
-ExecutionTime = 2.62 s  ClockTime = 2 s
+ExecutionTime = 1.81 s  ClockTime = 2 s
 
-Region: oil Courant Number mean: 1.56037e-13 max: 7.33109e-11
-Region: sphere Diffusion Number mean: 5.77715e-07 max: 0.000140537
-deltaT = 1.44e-09
-Time = 2.64e-09
+Region: oil Courant Number mean: 1.11908e-09 max: 5.20796e-07
+Region: sphere Diffusion Number mean: 0.0411057 max: 9.99949
+deltaT = 8.53825e-05
+Time = 0.000170765
 
 
 Solving for fluid region oil
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-DILUPBiCGStab:  Solving for Ux, Initial residual = 0.397189, Final residual = 1.57724e-13, No Iterations 1
-DILUPBiCGStab:  Solving for Uy, Initial residual = 0.397544, Final residual = 1.57582e-13, No Iterations 1
-DILUPBiCGStab:  Solving for Uz, Initial residual = 0.397584, Final residual = 1.55926e-13, No Iterations 1
-DILUPBiCGStab:  Solving for h, Initial residual = 0.000204637, Final residual = 2.95733e-19, No Iterations 1
-Min/max T:300 399.997
-GAMG:  Solving for p_rgh, Initial residual = 0.237181, Final residual = 0.00235874, No Iterations 9
-GAMG:  Solving for p_rgh, Initial residual = 0.558723, Final residual = 7.50521e-08, No Iterations 21
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.360453, Final residual = 8.33829e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.348019, Final residual = 8.16364e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.360414, Final residual = 8.2672e-08, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.000170613, Final residual = 2.44916e-16, No Iterations 1
+Min/max T:300 399.983
+GAMG:  Solving for p_rgh, Initial residual = 0.3942, Final residual = 0.00235912, No Iterations 8
+GAMG:  Solving for p_rgh, Initial residual = 0.308939, Final residual = 5.45766e-08, No Iterations 18
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors (oil): sum local = 2.46575e-15, global = 2.34039e-15, cumulative = 4.8009e-15
+time step continuity errors (oil): sum local = 1.42394e-11, global = 1.42394e-11, cumulative = 3.19281e-11
 
 Solving for solid region sphere
-DICPCG:  Solving for h, Initial residual = 0.075854, Final residual = 4.44064e-13, No Iterations 1
-Min/max T:399.886 400
-ExecutionTime = 3.23 s  ClockTime = 3 s
+DICPCG:  Solving for h, Initial residual = 0.0682789, Final residual = 5.01933e-08, No Iterations 3
+Min/max T:399.881 400
+ExecutionTime = 2.37 s  ClockTime = 2 s
 
-Region: oil Courant Number mean: 1.50648e-13 max: 6.54688e-11
-Region: sphere Diffusion Number mean: 6.93259e-07 max: 0.000168644
-deltaT = 1.728e-09
-Time = 4.368e-09
+Region: oil Courant Number mean: 8.97463e-10 max: 3.87626e-07
+Region: sphere Diffusion Number mean: 0.0411058 max: 9.99965
+deltaT = 8.53825e-05
+Time = 0.000256148
 
 
 Solving for fluid region oil
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-DILUPBiCGStab:  Solving for Ux, Initial residual = 0.148278, Final residual = 5.5323e-14, No Iterations 1
-DILUPBiCGStab:  Solving for Uy, Initial residual = 0.148755, Final residual = 5.51825e-14, No Iterations 1
-DILUPBiCGStab:  Solving for Uz, Initial residual = 0.148754, Final residual = 5.48587e-14, No Iterations 1
-DILUPBiCGStab:  Solving for h, Initial residual = 1, Final residual = 1.79072e-16, No Iterations 1
-Min/max T:299.674 399.997
-GAMG:  Solving for p_rgh, Initial residual = 1, Final residual = 0.00694713, No Iterations 10
-GAMG:  Solving for p_rgh, Initial residual = 0.016494, Final residual = 9.10282e-08, No Iterations 17
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.136809, Final residual = 2.54193e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.125695, Final residual = 2.29216e-08, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.137408, Final residual = 2.55729e-08, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.00821865, Final residual = 1.46206e-16, No Iterations 1
+Min/max T:300 399.979
+GAMG:  Solving for p_rgh, Initial residual = 0.964489, Final residual = 0.00624632, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0135947, Final residual = 7.64704e-08, No Iterations 17
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors (oil): sum local = 0.000270383, global = -0.000270383, cumulative = -0.000270383
+time step continuity errors (oil): sum local = 1.22106e-09, global = -1.22106e-09, cumulative = -1.18913e-09
 
 Solving for solid region sphere
-DICPCG:  Solving for h, Initial residual = 0.0442186, Final residual = 3.72828e-13, No Iterations 1
-Min/max T:399.886 400
-ExecutionTime = 3.79 s  ClockTime = 4 s
+DICPCG:  Solving for h, Initial residual = 0.0376255, Final residual = 2.39902e-08, No Iterations 3
+Min/max T:399.876 400
+ExecutionTime = 2.79 s  ClockTime = 3 s
 
-Region: oil Courant Number mean: 0.0120508 max: 3.6437
-Region: sphere Diffusion Number mean: 8.3191e-07 max: 0.000202373
-deltaT = 4.69501e-10
-Time = 4.8375e-09
+Region: oil Courant Number mean: 5.41518e-08 max: 1.6455e-05
+Region: sphere Diffusion Number mean: 0.0411059 max: 9.99978
+deltaT = 8.53825e-05
+Time = 0.00034153
 
 
 Solving for fluid region oil
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-DILUPBiCGStab:  Solving for Ux, Initial residual = 0.134825, Final residual = 7.49481e-09, No Iterations 1
-DILUPBiCGStab:  Solving for Uy, Initial residual = 0.134819, Final residual = 7.49553e-09, No Iterations 1
-DILUPBiCGStab:  Solving for Uz, Initial residual = 0.134813, Final residual = 7.52083e-09, No Iterations 1
-DILUPBiCGStab:  Solving for h, Initial residual = 1, Final residual = 3.94713e-09, No Iterations 1
-Min/max T:-14877.8 399.997
-GAMG:  Solving for p_rgh, Initial residual = 0.99996, Final residual = 0.0068643, No Iterations 11
-GAMG:  Solving for p_rgh, Initial residual = 0.0195793, Final residual = 9.15378e-08, No Iterations 20
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.412225, Final residual = 3.99027e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.412107, Final residual = 3.99037e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.412229, Final residual = 4.00304e-09, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.286994, Final residual = 1.77245e-16, No Iterations 1
+Min/max T:300 399.975
+GAMG:  Solving for p_rgh, Initial residual = 0.907974, Final residual = 0.00585793, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.013356, Final residual = 7.52444e-08, No Iterations 17
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors (oil): sum local = 6625.35, global = -6625.35, cumulative = -6625.35
+time step continuity errors (oil): sum local = 8.65628e-08, global = -8.65627e-08, cumulative = -8.77519e-08
 
 Solving for solid region sphere
-DICPCG:  Solving for h, Initial residual = 0.99999, Final residual = 6.70761e-13, No Iterations 1
-Min/max T:382.841 403.118
-ExecutionTime = 4.53 s  ClockTime = 4 s
+DICPCG:  Solving for h, Initial residual = 0.0266905, Final residual = 1.52771e-08, No Iterations 3
+Min/max T:399.872 400
+ExecutionTime = 3.22 s  ClockTime = 3 s
 
-Region: oil Courant Number mean: 51.7069 max: 113522
-Region: sphere Diffusion Number mean: 2.26003e-07 max: 5.50004e-05
-deltaT = 4.09441e-15
-Time = 4.83751e-09
+Region: oil Courant Number mean: 3.83386e-06 max: 0.00116653
+Region: sphere Diffusion Number mean: 0.0411059 max: 9.99983
+deltaT = 8.53825e-05
+Time = 0.000426913
 
 
 Solving for fluid region oil
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-DILUPBiCGStab:  Solving for Ux, Initial residual = 0.00295707, Final residual = 4.56715e-13, No Iterations 1
-DILUPBiCGStab:  Solving for Uy, Initial residual = 0.00295692, Final residual = 4.56675e-13, No Iterations 1
-DILUPBiCGStab:  Solving for Uz, Initial residual = 0.00295674, Final residual = 4.56588e-13, No Iterations 1
-DILUPBiCGStab:  Solving for h, Initial residual = 0.999999, Final residual = 1.47296e-16, No Iterations 1
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.405278, Final residual = 3.89942e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.405277, Final residual = 3.89815e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.405278, Final residual = 3.91218e-09, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.954945, Final residual = 8.32665e-16, No Iterations 1
+Min/max T:299.993 399.97
+GAMG:  Solving for p_rgh, Initial residual = 0.906572, Final residual = 0.00584721, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0133527, Final residual = 7.52321e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 5.91488e-06, global = -5.91487e-06, cumulative = -6.00263e-06
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0209634, Final residual = 1.09667e-08, No Iterations 3
+Min/max T:399.868 400
+ExecutionTime = 3.62 s  ClockTime = 3 s
+
+Region: oil Courant Number mean: 0.000261967 max: 0.0797092
+Region: sphere Diffusion Number mean: 0.041106 max: 9.99981
+deltaT = 8.53825e-05
+Time = 0.000512295
 
 
---> FOAM FATAL ERROR: 
-Negative initial temperature T0: -7126.23
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.404047, Final residual = 4.80512e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.404047, Final residual = 4.80386e-09, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.404047, Final residual = 4.81789e-09, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999157, Final residual = 1.11059e-13, No Iterations 1
+Min/max T:299.526 399.968
+GAMG:  Solving for p_rgh, Initial residual = 0.908087, Final residual = 0.00580295, No Iterations 10
+GAMG:  Solving for p_rgh, Initial residual = 0.0133663, Final residual = 7.55382e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 0.000403976, global = -0.000403975, cumulative = -0.000409978
 
-    From function Foam::scalar Foam::species::thermo<Thermo, Type>::T(Foam::scalar, Foam::scalar, Foam::scalar, Foam::scalar (Foam::species::thermo<Thermo, Type>::*)(Foam::scalar, Foam::scalar) const, Foam::scalar (Foam::species::thermo<Thermo, Type>::*)(Foam::scalar, Foam::scalar) const, Foam::scalar (Foam::species::thermo<Thermo, Type>::*)(Foam::scalar) const) const [with Thermo = Foam::hPolynomialThermo<Foam::icoPolynomial<Foam::specie, 8>, 8>; Type = Foam::sensibleEnthalpy; Foam::scalar = double; Foam::species::thermo<Thermo, Type> = Foam::species::thermo<Foam::hPolynomialThermo<Foam::icoPolynomial<Foam::specie, 8>, 8>, Foam::sensibleEnthalpy>]
-    in file /home/pawan/OpenFOAM/OpenFOAM/OpenFOAM-v1906/src/thermophysicalModels/specie/lnInclude/thermoI.H at line 56.
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.0174824, Final residual = 9.59282e-07, No Iterations 2
+Min/max T:399.864 400
+ExecutionTime = 4.04 s  ClockTime = 4 s
 
-FOAM aborting
+Region: oil Courant Number mean: 0.0178869 max: 5.44403
+Region: sphere Diffusion Number mean: 0.041106 max: 9.99978
+deltaT = 1.5527e-05
+Time = 0.000527822
 
-#0  Foam::error::printStack(Foam::Ostream&) at ??:?
-#1  Foam::error::abort() at ??:?
-#2  Foam::species::thermo<Foam::hPolynomialThermo<Foam::icoPolynomial<Foam::specie, 8>, 8>, Foam::sensibleEnthalpy>::THs(double, double, double) const at ??:?
-#3  Foam::heRhoThermo<Foam::rhoReactionThermo, Foam::SpecieMixture<Foam::singleComponentMixture<Foam::polynomialTransport<Foam::species::thermo<Foam::hPolynomialThermo<Foam::icoPolynomial<Foam::specie, 8>, 8>, Foam::sensibleEnthalpy>, 8> > > >::calculate(Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh> const&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>&, bool) at ??:?
-#4  Foam::heRhoThermo<Foam::rhoReactionThermo, Foam::SpecieMixture<Foam::singleComponentMixture<Foam::polynomialTransport<Foam::species::thermo<Foam::hPolynomialThermo<Foam::icoPolynomial<Foam::specie, 8>, 8>, Foam::sensibleEnthalpy>, 8> > > >::correct() at ??:?
-#5  ? at ??:?
-#6  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
-#7  ? at ??:?
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.0994757, Final residual = 8.16225e-10, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.0994755, Final residual = 8.16211e-10, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.0994749, Final residual = 8.16858e-10, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999351, Final residual = 1.49898e-11, No Iterations 1
+Min/max T:293.579 399.965
+GAMG:  Solving for p_rgh, Initial residual = 0.993692, Final residual = 0.0084871, No Iterations 9
+GAMG:  Solving for p_rgh, Initial residual = 0.0154402, Final residual = 9.67872e-08, No Iterations 17
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors (oil): sum local = 0.00512149, global = -0.00512149, cumulative = -0.00553147
+
+Solving for solid region sphere
+DICPCG:  Solving for h, Initial residual = 0.00295343, Final residual = 3.38606e-10, No Iterations 2
+Min/max T:399.854 400
+ExecutionTime = 4.47 s  ClockTime = 4 s
+
+Region: oil Courant Number mean: 0.22682 max: 69.0482
+Region: sphere Diffusion Number mean: 0.00747522 max: 1.81848
+deltaT = 2.22623e-07
+Time = 0.000528045
+
+
+Solving for fluid region oil
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.00827707, Final residual = 1.63624e-12, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.0082768, Final residual = 1.63624e-12, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.00827678, Final residual = 1.63689e-12, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999531, Final residual = 2.55632e-11, No Iterations 1
+Min/max T:60.03 1389.9
