@@ -17,12 +17,12 @@ FoamFile
 
 ddtSchemes
 {
-    default         Euler;
+    default         CrankNicolson 0.9;
 }
 
 gradSchemes
 {
-    default         Gauss linear;
+    default         cellMDLimited Gauss linear 1;
 }
 
 divSchemes
@@ -33,7 +33,7 @@ divSchemes
 laplacianSchemes
 {
     default             none;
-    laplacian(alpha,h)  Gauss linear corrected;
+    laplacian(alpha,h)  Gauss cubic limited 1;
 }
 
 interpolationSchemes
@@ -43,7 +43,7 @@ interpolationSchemes
 
 snGradSchemes
 {
-    default         corrected;
+    default         limited corrected 0;
 }
 
 // ************************************************************************* //

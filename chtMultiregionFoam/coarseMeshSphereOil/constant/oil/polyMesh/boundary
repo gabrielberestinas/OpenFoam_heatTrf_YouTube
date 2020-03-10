@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/oil/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+7
+(
+    maxY
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       80688;
+    }
+
+    minX
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       81588;
+    }
+
+    maxX
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       82488;
+    }
+
+    minY
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       83388;
+    }
+
+    minZ
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       84288;
+    }
+
+    maxZ
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       85188;
+    }
+
+    oil_to_sphere
+    {
+        type            mappedWall;
+        inGroups        1 ( wall );
+        nFaces          360;
+        startFace       86088;
+        sampleMode      nearestPatchFace;
+        sampleRegion    sphere;
+        samplePatch     sphere_to_oil;
+    }
+
+)
+
+
+// ************************************************************************* //

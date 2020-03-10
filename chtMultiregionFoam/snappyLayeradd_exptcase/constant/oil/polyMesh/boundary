@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/oil/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+7
+(
+    maxY
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       267371;
+    }
+
+    minX
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          990;
+        startFace       268271;
+    }
+
+    maxX
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          990;
+        startFace       269261;
+    }
+
+    minY
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          900;
+        startFace       270251;
+    }
+
+    minZ
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          990;
+        startFace       271151;
+    }
+
+    maxZ
+    {
+        type            wall;
+        inGroups        1 ( wall );
+        nFaces          990;
+        startFace       272141;
+    }
+
+    oil_to_sphere
+    {
+        type            mappedWall;
+        inGroups        1 ( wall );
+        nFaces          24344;
+        startFace       273131;
+        sampleMode      nearestPatchFace;
+        sampleRegion    sphere;
+        samplePatch     sphere_to_oil;
+    }
+
+)
+
+
+// ************************************************************************* //
