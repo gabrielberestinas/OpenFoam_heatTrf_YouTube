@@ -10,5 +10,6 @@ mv original 0.orig
 rm -r log.chtMultiRegionFoam
 runApplication $(getApplication)
 
+echo "simulation finished!"
 
 #------------------------------------------------------------------------------

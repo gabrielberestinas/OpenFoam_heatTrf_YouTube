@@ -22,7 +22,7 @@ ddtSchemes
 
 gradSchemes
 {
-    default         Gauss linear;
+    default         cellMDLimited Gauss linear 1;
 }
 
 divSchemes
@@ -30,28 +30,28 @@ divSchemes
     default         none;
 
     div(phi,U)      Gauss upwind;
-    div(phi,K)      Gauss linear;
+    div(phi,K)      Gauss upwind;
     div(phi,h)      Gauss upwind;
     div(phi,k)      Gauss upwind;
     div(phi,epsilon) Gauss upwind;
-    div(phi,R)      Gauss upwind;
-    div(R)          Gauss linear;
+//    div(phi,R)      Gauss upwind;
+//    div(R)          Gauss linear;
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
 }
 
 laplacianSchemes
 {
-    default         Gauss linear corrected;
+    default         Gauss linear limited corrected 0;
 }
 
-interpolationSchemes
+interpolationSchemes:
 {
     default         linear;
 }
 
 snGradSchemes
 {
-    default         corrected;
+    default         limited corrected 0;
 }
 
 
