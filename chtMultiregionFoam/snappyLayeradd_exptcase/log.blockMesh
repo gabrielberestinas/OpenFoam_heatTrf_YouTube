@@ -1,19 +1,19 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1906 OPENFOAM=1906
+Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Mar 10 2020
-Time   : 14:16:50
-Host   : DESKTOP-9S60IA4
-PID    : 4035
+Date   : Mar 16 2020
+Time   : 20:47:36
+Host   : LAPTOP-FK3MEHTI
+PID    : 31302
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -40,7 +40,7 @@ Check topology
 	Checking patch -> block consistency
 
 Creating block offsets
-Creating merge list .
+Creating merge list...
 
 Creating polyMesh from blockMesh
 Creating patches

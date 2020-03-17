@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -23,7 +23,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       259451;
+        startFace       104676;
     }
 
     minX
@@ -31,7 +31,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       260351;
+        startFace       105576;
     }
 
     maxX
@@ -39,7 +39,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       261251;
+        startFace       106476;
     }
 
     minY
@@ -47,7 +47,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       262151;
+        startFace       107376;
     }
 
     minZ
@@ -55,7 +55,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       263051;
+        startFace       108276;
     }
 
     maxZ
@@ -63,15 +63,15 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       263951;
+        startFace       109176;
     }
 
     oil_to_sphere
     {
         type            mappedWall;
         inGroups        1 ( wall );
-        nFaces          24344;
-        startFace       264851;
+        nFaces          1536;
+        startFace       110076;
         sampleMode      nearestPatchFace;
         sampleRegion    sphere;
         samplePatch     sphere_to_oil;

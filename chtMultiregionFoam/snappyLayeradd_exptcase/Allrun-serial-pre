@@ -26,6 +26,6 @@ do
     runApplication -s $region changeDictionary -region $region
 done
 
-
+touch sphere.foam
 
 #------------------------------------------------------------------------------

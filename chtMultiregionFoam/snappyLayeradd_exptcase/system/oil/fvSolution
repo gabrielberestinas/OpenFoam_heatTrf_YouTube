@@ -21,14 +21,14 @@ solvers
     {
         solver          PCG;
         preconditioner  DIC;
-        tolerance       1e-9;
+        tolerance       1e-5;
         relTol          0;
     }
 
     p_rgh
     {
         solver           GAMG;
-        tolerance        1e-9;
+        tolerance        1e-5;
         relTol           0;
 
         smoother         GaussSeidel;
@@ -38,7 +38,7 @@ solvers
     p_rghFinal
     {
         $p_rgh;
-        tolerance        1e-9;
+        tolerance        1e-5;
         relTol           0;
     }
 
@@ -46,14 +46,14 @@ solvers
     {
         solver           PBiCGStab;
         preconditioner   DILU;
-        tolerance        1e-9;
+        tolerance        1e-5;
         relTol           0;
     }
 
     "(U|h|k|epsilon|R)Final"
     {
         $U;
-        tolerance        1e-09;
+        tolerance        1e-05;
         relTol           0;
     }
 }
@@ -97,13 +97,13 @@ relaxationFactors
    
     fields
     {
-        p      0.001;
-        pFinal   0.001;
+        p      0.4;
+        pFinal   0.4;
     }
     equations
     {
-        "h.*"           0.001;
-        "U.*"           0.001;
+        "h.*"           0.4;
+        "U.*"           0.4;
     }
 }
 // ************************************************************************* //

@@ -20,7 +20,7 @@ boundary
 
 T
 {
-    internalField   uniform 400;
+    internalField   uniform 500;
 
     boundaryField
     {
@@ -38,7 +38,7 @@ T
             type            compressible::turbulentTemperatureCoupledBaffleMixed;
             Tnbr            T;
             kappaMethod     solidThermo;
-            value           uniform 400;
+            value           uniform 500;
         }
     }
 

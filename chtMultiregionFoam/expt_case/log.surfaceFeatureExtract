@@ -1,17 +1,17 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1906 OPENFOAM=1906
+Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
-Date   : Mar 06 2020
-Time   : 11:48:35
+Date   : Mar 16 2020
+Time   : 15:03:05
 Host   : LAPTOP-FK3MEHTI
-PID    : 4925
+PID    : 30537
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
@@ -79,7 +79,7 @@ Writing 0 region edges to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam
 Writing 2 edge directions to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/extendedFeatureEdgeMesh/sphere_OpenFoam_edgeDirections.obj"
 
 Writing featureEdgeMesh to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case/constant/triSurface/sphere_OpenFoam.eMesh"
-ExecutionTime = 0.02 s  ClockTime = 0 s
+ExecutionTime = 0 s  ClockTime = 0 s
 
 End
 

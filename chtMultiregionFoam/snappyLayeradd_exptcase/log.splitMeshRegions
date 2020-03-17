@@ -1,19 +1,19 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1906 OPENFOAM=1906
+Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Mar 10 2020
-Time   : 14:17:36
-Host   : DESKTOP-9S60IA4
-PID    : 4040
+Date   : Mar 16 2020
+Time   : 20:47:45
+Host   : LAPTOP-FK3MEHTI
+PID    : 31307
 I/O    : uncollated
-Case   : /home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase
+Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -31,14 +31,14 @@ Trying to match regions to existing cell zones.
 
 Number of regions:2
 
-Writing region per cell file (for manual decomposition) to "/home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase/constant/cellToRegion"
+Writing region per cell file (for manual decomposition) to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase/constant/cellToRegion"
 
-Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_software/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase/0/cellToRegion"
+Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase/0/cellToRegion"
 
 Region	Cells
 ------	-----
-0	89017
-1	45851
+0	35580
+1	6600
 
 Region	Zone	Name
 ------	----	----
@@ -49,7 +49,7 @@ Sizes of interfaces between regions:
 
 Interface	Region	Region	Faces
 ---------	------	------	-----
-0		0	1	24344
+0		0	1	1536
 
 Reading volScalarField: T alphat cellToRegion epsilon k p p_rgh rho
 Reading volVectorField: U

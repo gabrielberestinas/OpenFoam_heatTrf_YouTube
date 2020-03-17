@@ -1,8 +1,8 @@
 /*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
 FoamFile
@@ -22,42 +22,42 @@ FoamFile
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       418650;
+        startFace       111708;
     }
     minX
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       419550;
+        startFace       112608;
     }
     maxX
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       420450;
+        startFace       113508;
     }
     minY
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       421350;
+        startFace       114408;
     }
     minZ
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       422250;
+        startFace       115308;
     }
     maxZ
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       423150;
+        startFace       116208;
     }
 )
 

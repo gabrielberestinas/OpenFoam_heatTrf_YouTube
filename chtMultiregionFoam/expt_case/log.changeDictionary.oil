@@ -1,17 +1,17 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1906 OPENFOAM=1906
+Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : changeDictionary -region oil
-Date   : Mar 06 2020
-Time   : 11:49:11
+Date   : Mar 16 2020
+Time   : 15:03:15
 Host   : LAPTOP-FK3MEHTI
-PID    : 4934
+PID    : 30546
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
@@ -39,49 +39,49 @@ fieldDict:
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       259451;
+        startFace       104676;
     }
     minX
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       260351;
+        startFace       105576;
     }
     maxX
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       261251;
+        startFace       106476;
     }
     minY
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       262151;
+        startFace       107376;
     }
     minZ
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       263051;
+        startFace       108276;
     }
     maxZ
     {
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       263951;
+        startFace       109176;
     }
     oil_to_sphere
     {
         type            mappedWall;
         inGroups        1 ( wall );
-        nFaces          24344;
-        startFace       264851;
+        nFaces          1536;
+        startFace       110076;
         sampleMode      nearestPatchFace;
         sampleRegion    sphere;
         samplePatch     sphere_to_oil;

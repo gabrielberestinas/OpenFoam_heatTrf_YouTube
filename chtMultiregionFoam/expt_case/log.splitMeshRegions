@@ -1,17 +1,17 @@
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  v1906                                 |
-|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
 |    \\/     M anipulation  |                                                 |
 \*---------------------------------------------------------------------------*/
-Build  : v1906 OPENFOAM=1906
+Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Mar 06 2020
-Time   : 11:49:08
+Date   : Mar 16 2020
+Time   : 15:03:13
 Host   : LAPTOP-FK3MEHTI
-PID    : 4929
+PID    : 30541
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
@@ -37,8 +37,8 @@ Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_OpenFoam
 
 Region	Cells
 ------	-----
-0	86317
-1	45851
+0	35580
+1	1992
 
 Region	Zone	Name
 ------	----	----
@@ -49,7 +49,7 @@ Sizes of interfaces between regions:
 
 Interface	Region	Region	Faces
 ---------	------	------	-----
-0		0	1	24344
+0		0	1	1536
 
 Reading volScalarField: T alphat cellToRegion epsilon k p p_rgh rho
 Reading volVectorField: U

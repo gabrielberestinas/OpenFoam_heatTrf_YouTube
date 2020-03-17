@@ -79,7 +79,7 @@ castellatedMeshControls
     (
         {
             file "sphere_OpenFoam.extendedFeatureEdgeMesh";    //"geom.eMesh";
-            level 4;
+            level 2;
         }
     );
 
@@ -99,7 +99,7 @@ castellatedMeshControls
         sphere
         {
             // Surface-wise min and max refinement level
-            level (4 4);
+            level (2 2);
         }
     }
 
@@ -189,6 +189,35 @@ addLayersControls
     layers
     {
         maxY
+        {
+            nSurfaceLayers 0;
+        }
+	minY
+        {
+            nSurfaceLayers 0;
+        }
+	minX
+        {
+            nSurfaceLayers 0;
+        }
+	maxX
+        {
+            nSurfaceLayers 0;
+        }
+	minZ
+        {
+            nSurfaceLayers 0;
+        }
+	maxZ
+        {
+            nSurfaceLayers 0;
+        }
+	sphere_to_oil
+        {
+            nSurfaceLayers 3;
+        }
+
+	oil_to_sphere
         {
             nSurfaceLayers 3;
         }
