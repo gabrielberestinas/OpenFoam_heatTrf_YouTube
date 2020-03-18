@@ -34,6 +34,14 @@ geometry
         type triSurfaceMesh;
         name sphere;
     }
+
+    refinementCylinder
+    {
+	type 	searchableCylinder;
+	point1 	(0.0 0.015 0.0);
+	point2	(0.0 0.1  0.0);
+ 	radius	0.03;	
+    }
 }
 
 
@@ -122,11 +130,11 @@ castellatedMeshControls
 
     refinementRegions
     {
-        //refinementBox
-        //{
-        //    mode inside;
-        //    levels ((1E15 4));
-        //}
+        refinementCylinder
+        {
+            mode inside;
+            levels ((1E15 2));
+        }
     }
 
 
