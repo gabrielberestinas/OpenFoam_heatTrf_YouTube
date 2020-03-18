@@ -23,7 +23,7 @@ FoamFile
         type            mappedWall;
         inGroups        1 ( wall );
         nFaces          1536;
-        startFace       5496;
+        startFace       19320;
         sampleMode      nearestPatchFace;
         sampleRegion    oil;
         samplePatch     oil_to_sphere;

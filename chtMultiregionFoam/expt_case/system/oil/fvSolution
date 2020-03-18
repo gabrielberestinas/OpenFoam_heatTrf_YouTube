@@ -28,7 +28,7 @@ solvers
     p_rgh
     {
         solver           GAMG;
-        tolerance        1e-9;
+        tolerance        1e-5;
         relTol           0;
 
         smoother         GaussSeidel;
@@ -38,7 +38,7 @@ solvers
     p_rghFinal
     {
         $p_rgh;
-        tolerance        1e-9;
+        tolerance        1e-5;
         relTol           0;
     }
 
@@ -71,18 +71,18 @@ PIMPLE
     {
         U
         {
-                tolerance  1e-9;
+                tolerance  1e-5;
                 relTol      0;
         }
         p
         {
-                tolerance  1e-9;
+                tolerance  1e-5;
                 relTol      0;
         }
 
  	h
 	{
-		tolerance 1e-9;
+		tolerance 1e-5;
 		relTol	  0;
 	}
     }
@@ -97,13 +97,13 @@ relaxationFactors
    
     fields
     {
-        p      0.1;
-        pFinal   0.1;
+        p      0.4;
+        pFinal   0.4;
     }
     equations
     {
-        "h.*"           0.1;
-        "U.*"           0.1;
+        "h.*"           0.4;
+        "U.*"           0.4;
     }
 }
 // ************************************************************************* //

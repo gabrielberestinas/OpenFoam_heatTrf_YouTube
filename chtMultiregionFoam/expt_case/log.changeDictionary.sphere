@@ -8,10 +8,10 @@
 Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : changeDictionary -region sphere
-Date   : Mar 16 2020
-Time   : 15:03:16
+Date   : Mar 17 2020
+Time   : 17:49:30
 Host   : LAPTOP-FK3MEHTI
-PID    : 30547
+PID    : 1782
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/expt_case
 nProcs : 1
@@ -39,7 +39,7 @@ fieldDict:
         type            mappedWall;
         inGroups        1 ( wall );
         nFaces          1536;
-        startFace       5496;
+        startFace       19320;
         sampleMode      nearestPatchFace;
         sampleRegion    oil;
         samplePatch     oil_to_sphere;

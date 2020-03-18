@@ -214,6 +214,13 @@ addLayersControls
         }
 	oil_to_sphere
         {
+            nSurfaceLayers 15;
+	    expansionRatio 1.1;
+	    firstLayerThickness 0.1;
+	    // finalLayerThickness 1.0;
+        }
+	sphere_to_oil
+        {
             nSurfaceLayers 3;
         }
     }

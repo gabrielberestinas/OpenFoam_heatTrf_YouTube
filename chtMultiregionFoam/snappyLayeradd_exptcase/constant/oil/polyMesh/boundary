@@ -23,7 +23,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       104676;
+        startFace       159972;
     }
 
     minX
@@ -31,7 +31,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       105576;
+        startFace       160872;
     }
 
     maxX
@@ -39,7 +39,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       106476;
+        startFace       161772;
     }
 
     minY
@@ -47,7 +47,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       107376;
+        startFace       162672;
     }
 
     minZ
@@ -55,7 +55,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       108276;
+        startFace       163572;
     }
 
     maxZ
@@ -63,7 +63,7 @@ FoamFile
         type            wall;
         inGroups        1 ( wall );
         nFaces          900;
-        startFace       109176;
+        startFace       164472;
     }
 
     oil_to_sphere
@@ -71,7 +71,7 @@ FoamFile
         type            mappedWall;
         inGroups        1 ( wall );
         nFaces          1536;
-        startFace       110076;
+        startFace       165372;
         sampleMode      nearestPatchFace;
         sampleRegion    sphere;
         samplePatch     sphere_to_oil;

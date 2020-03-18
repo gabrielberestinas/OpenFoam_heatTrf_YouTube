@@ -22,42 +22,42 @@ FoamFile
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       125532;
+        startFace       180828;
     }
     minX
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       126432;
+        startFace       181728;
     }
     maxX
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       127332;
+        startFace       182628;
     }
     minY
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       128232;
+        startFace       183528;
     }
     minZ
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       129132;
+        startFace       184428;
     }
     maxZ
     {
         type            wall;
         inGroups        1(wall);
         nFaces          900;
-        startFace       130032;
+        startFace       185328;
     }
 )
 

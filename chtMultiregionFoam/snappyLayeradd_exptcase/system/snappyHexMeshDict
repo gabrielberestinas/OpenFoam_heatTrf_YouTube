@@ -219,7 +219,8 @@ addLayersControls
 
 	oil_to_sphere
         {
-            nSurfaceLayers 3;
+            nSurfaceLayers 15;
+	    expansionRatio 1.1;
         }
     }
 

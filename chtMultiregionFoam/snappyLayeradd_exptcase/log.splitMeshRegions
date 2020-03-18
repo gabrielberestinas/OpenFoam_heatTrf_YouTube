@@ -8,10 +8,10 @@
 Build  : _f3950763fe-20191219 OPENFOAM=1912
 Arch   : "LSB;label=32;scalar=64"
 Exec   : splitMeshRegions -cellZones -overwrite
-Date   : Mar 16 2020
-Time   : 20:47:45
+Date   : Mar 17 2020
+Time   : 22:42:49
 Host   : LAPTOP-FK3MEHTI
-PID    : 31307
+PID    : 2067
 I/O    : uncollated
 Case   : /home/theodore_ong/GitHub_OpenFoam_workspace/OpenFoam_heatTrf_YouTube/chtMultiregionFoam/snappyLayeradd_exptcase
 nProcs : 1
@@ -37,7 +37,7 @@ Writing region per cell as volScalarField to "/home/theodore_ong/GitHub_OpenFoam
 
 Region	Cells
 ------	-----
-0	35580
+0	54012
 1	6600
 
 Region	Zone	Name

@@ -3,7 +3,7 @@ cd ${0%/*} || exit 1                        # Run from this directory
 . $WM_PROJECT_DIR/bin/tools/RunFunctions    # Tutorial run functions
 
 rm -rf constant/polyMesh/sets
-
+./Allclean
 runApplication blockMesh
 runApplication surfaceFeatureExtract
 
@@ -26,6 +26,6 @@ do
     runApplication -s $region changeDictionary -region $region
 done
 
-touch sphere.foam
+touch expt_sphere.foam
 
 #------------------------------------------------------------------------------
