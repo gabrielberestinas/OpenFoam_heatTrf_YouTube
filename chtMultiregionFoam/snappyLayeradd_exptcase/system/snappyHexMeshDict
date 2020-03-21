@@ -38,7 +38,7 @@ geometry
     refinementCylinder
     {
 	type 	searchableCylinder;
-	point1 	(0.0 0.015 0.0);
+	point1 	(0.0 -0.1 0.0);
 	point2	(0.0 0.1  0.0);
  	radius	0.03;	
     }
@@ -107,7 +107,7 @@ castellatedMeshControls
         sphere
         {
             // Surface-wise min and max refinement level
-            level (2 2);
+            level (3 3);
         }
     }
 
@@ -227,8 +227,8 @@ addLayersControls
 
 	oil_to_sphere
         {
-            nSurfaceLayers 15;
-	    expansionRatio 1.1;
+            nSurfaceLayers 7;
+	    expansionRatio 1.5;
         }
     }
 
@@ -244,7 +244,7 @@ addLayersControls
     // Minimum thickness of cell layer. If for any reason layer
     // cannot be above minThickness do not add layer.
     // Relative to undistorted size of cell outside layer.
-    minThickness 0.1;
+    minThickness 0.001;
 
     // If points get not extruded do nGrow layers of connected faces that are
     // also not grown. This helps convergence of the layer addition process

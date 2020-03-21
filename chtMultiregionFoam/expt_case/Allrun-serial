@@ -25,7 +25,7 @@ for region in $(foamListRegions)
 do
     runApplication -s $region changeDictionary -region $region
 done
-
+touch sphere.foam
 
 # Run on single processor
 runApplication $(getApplication)

@@ -25,7 +25,7 @@ for region in $(foamListRegions)
 do
     runApplication -s $region changeDictionary -region $region
 done
-
+touch coarseMesh.foam
 
 # Run on single processor
 runApplication $(getApplication)
@@ -33,5 +33,4 @@ runApplication $(getApplication)
 echo
 echo "Use paraFoam -touch-all to create files for paraview post-processing"
 echo
-
 #------------------------------------------------------------------------------

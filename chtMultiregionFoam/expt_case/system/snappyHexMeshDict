@@ -34,6 +34,14 @@ geometry
         type triSurfaceMesh;
         name sphere;
     }
+
+    refinementCylinder
+    {
+	type 	searchableCylinder;
+	point1 	(0.0 -0.15 0.0);
+	point2	(0.0 0.1  0.0);
+ 	radius	0.03;	
+    }
 }
 
 
@@ -122,11 +130,11 @@ castellatedMeshControls
 
     refinementRegions
     {
-        //refinementBox
-        //{
-        //    mode inside;
-        //    levels ((1E15 4));
-        //}
+        refinementCylinder
+        {
+            mode inside;
+            levels ((1E15 2));
+        }
     }
 
 
@@ -212,16 +220,15 @@ addLayersControls
         {
             nSurfaceLayers 0;
         }
-	oil_to_sphere
-        {
-            nSurfaceLayers 15;
-	    expansionRatio 1.1;
-	    firstLayerThickness 0.1;
-	    // finalLayerThickness 1.0;
-        }
 	sphere_to_oil
         {
             nSurfaceLayers 3;
+        }
+
+	oil_to_sphere
+        {
+            nSurfaceLayers 10;
+	    expansionRatio 1.3;
         }
     }
 
@@ -237,7 +244,7 @@ addLayersControls
     // Minimum thickness of cell layer. If for any reason layer
     // cannot be above minThickness do not add layer.
     // Relative to undistorted size of cell outside layer.
-    minThickness 0.1;
+    minThickness 0.01;
 
     // If points get not extruded do nGrow layers of connected faces that are
     // also not grown. This helps convergence of the layer addition process
