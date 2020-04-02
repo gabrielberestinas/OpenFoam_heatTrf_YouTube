@@ -19,17 +19,17 @@ application     chtMultiRegionFoam;
 
 startFrom       latestTime;
 
-startTime       1e-5;
+startTime       0;
 
 stopAt          endTime;
 
-endTime         10e-5;
+endTime         1;
 
-deltaT          1e-5;
+deltaT          0.01;
 
 writeControl    adjustableRunTime;
 
-writeInterval   1e-5;
+writeInterval   0.01;
 
 purgeWrite      0;
 
@@ -45,7 +45,7 @@ timePrecision   6;
 
 runTimeModifiable true;
 
-maxCo           0.02;
+maxCo           0.2;
 
 maxDi           10.0;
 
