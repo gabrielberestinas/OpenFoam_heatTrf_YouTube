@@ -24,7 +24,7 @@ LES
     printCoeffs	on;
 
     delta 	cubeRootVol;
-    Prt		0.085;
+    Prt		0.00000015;
 }
 
 
