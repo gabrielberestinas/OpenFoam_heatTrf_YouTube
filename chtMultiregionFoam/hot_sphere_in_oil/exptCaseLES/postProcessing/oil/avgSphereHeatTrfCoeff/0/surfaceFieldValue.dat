@@ -1,0 +1,9 @@
+# Region type : patch oil_to_sphere
+# Faces       : 1536
+# Area        : 2.817294e-03
+# Scale factor: 1.000000e+00
+# Time        	areaAverage(heatTransferCoeff(T))	areaAverage(T)
+1e-05         	-1.172459e+03	4.995653e+02
+2e-05         	-1.172116e+03	4.996653e+02
+3e-05         	-1.172109e+03	4.996645e+02
+4e-05         	-1.209287e+03	4.996638e+02
